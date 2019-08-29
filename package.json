@@ -1,0 +1,7 @@
+{
+  "name": "pau",
+  "private": true,
+  "dependencies": {
+    "jtree": "38.2.0"
+  }
+}

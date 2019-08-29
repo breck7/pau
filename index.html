@@ -1,0 +1,10 @@
+<script src="node_modules/jtree/products/jtree.browser.js"></script>
+<script src="pau.browser.js"></script>
+<script>
+const sampleCode = ``
+const program = new pau(sampleCode)
+const errors = program.getAllErrors()
+console.log("Sample program compiled with " + errors.length + " errors.")
+if (errors.length)
+ console.log(errors.map(error => error.getMessage()))
+</script>
