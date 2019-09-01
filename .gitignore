@@ -1,1 +1,4 @@
 ignore/
+
+paper/*.pdf
+*.aux *.log *.toc  *.blg *.bbl *.lof
