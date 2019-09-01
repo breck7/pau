@@ -1,0 +1,19 @@
+emrNode
+ root
+ todo Change pattern to postfix.
+ pattern \.emr$
+ inScope abstractPropertyNode
+ catchAllNodeType errorNode
+anyCell
+errorNode
+ baseNodeType errorNode
+urlCell
+ highlightScope constant
+keywordCell
+ highlightScope keyword
+abstractPropertyNode
+ firstCellType keywordCell
+ abstract
+wikipediaNode
+ extends abstractPropertyNode
+ cells urlCell
