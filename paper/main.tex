@@ -7,38 +7,100 @@
 %%  
 %% 
 
-
-\documentclass{IEEEtran}
+%\documentclass{IEEEtran}
+\documentclass[journal]{IEEEtran}
 %\documentclass[10pt]{article}
 \newcommand{\sansserifformat}[1]{\fontfamily{cmss}{ #1}}%
 
+%\usepackage[letterpaper]{geometry}
+\usepackage{times}
+\usepackage[none]{hyphenat}
+\usepackage{url}
+\usepackage{latexsym}
+%\usepackage{minted}
+%\usepackage{indentfirst}
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{paralist}
+\usepackage{bm}
+\usepackage{cite}
+\usepackage{multirow}
+\usepackage{todonotes}
+\usepackage{umoline}
+\usepackage{xspace}
+\usepackage{soul}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{subfigure}
+%\usepackage{subcaption}
+
 %\setlength\titlebox{5cm}
 
-% You can expand the titlebox if you need extra space
-% to show all the authors. Please do not make the titlebox
-% smaller than 5cm (the original size).
-
-
-\title{TODO: Pau Paper Title}
+\begin{document}
+\title{Pau, A tree language for electronic medical records}
 
 % TODO: change for final
 \iffalse
-\author{Lambert Leong \\
+\author{
+  Lambert Leong \\
   University of Hawaii \\
-  {\underline{ lambert3@hawaii.edu}} \\\And
-   \\
-  University of Hawaii \\
-  {\underline{@hawaii.edu }} \\}
+  {\underline{lambert3@hawaii.edu}} \\
+\and
+  Breck Yunits\\
+  University of Hawaii Cancer Center\\
+  {\underline{breckuh@gmail.com}}\\ }
 \fi
 
 
 \date{}
 
-\begin{document}
 \maketitle
 \begin{abstract}
 	TODO: abstract
 \end{abstract}
+
+\iffalse
+BASIC OUTLINE and NOTES
+
+Define the problem: There is no consistent format or template for medical records
+	- often electronic medical records (EMR) are stored in various forms and
+	  formats
+		- e.g. csv, xls, sas, etc...
+	- there was a big push to have all hospitals use the same systems
+		- has not been done and does not look like it will happen soon
+		- resistance from users, administrators, stakeholders
+
+Offer solution: Introduce Pau and Tree Notation
+	- define a grammar for your tree language with respect to each EMR system
+	- NLP tools, possibly powered by machine/deep learning, can help to
+	  quickly define grammars and languages for EMR systems
+
+Advantage of Pau:
+	- hospitals and healthcare systems can continue their current workflow
+		- charting and EMR entry can continue as usual 
+		- clinicians do not have to learn a new tool
+	- grammars, defined for each EMR system, can convert everything into a
+	  consistant tree notation format
+		- efficiently aggrigate/curate data 
+		- medical field has entered the big data era
+			- data consistency is important for big data analysis
+				- e.g. machine/deep learning model construction
+	* include code snipits and examples of Pau
+		- or include example of tree
+			- the toCSV() example in the sandbox is very practicle
+			  and applicable to EMR
+
+On going and future work
+	- grammars for particular EMR systems are being defined
+		- tools and techniques to optimize this process being worked on
+		- a person/expert is needed to QA/QC the grammars etc
+	- potential use cases and example of how it optimizes analysis pipelines
+	- how Pau fits in the grand scheme or vision of tree notation
+\fi
 
 \input{introduction}
 %\input{relatedwork}
@@ -46,7 +108,6 @@
 %\input{results}
 %\input{discussion}
 %\input{conclusion}
-
 
 %Bibliography 
 \bibliographystyle{ieeetr}
