@@ -1,0 +1,27 @@
+pauNode
+ root
+ description Extends Pau gramamr with NIST smoking status.
+ inScope smokesNode
+ example
+  smokes? yes
+   packsPerDay 1.5
+keywordCell
+floatCell
+intCell
+smokingStatusCell
+ enum yes never previousSmoker
+ highlightScope constant.numeric
+packsPerDayCell
+ description How many packs per day do they currently smoke?
+ extends floatCell
+cigarettesPerDayCell
+ description How many cigarettes per day do they currently smoke?
+ extends intCell
+packsPerDayNode
+ cells keywordCell packsPerDayCell
+cigarettesPerDayNode
+ cells keywordCell cigarettesPerDayCell
+smokesNode
+ match smokes?
+ cells keywordCell smokingStatusCell
+ inScope packsPerDayNode cigarettesPerDayNode
