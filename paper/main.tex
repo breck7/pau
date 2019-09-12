@@ -41,7 +41,8 @@
 %\setlength\titlebox{5cm}
 
 \begin{document}
-\title{Pau, A tree language for electronic medical records}
+%\title{Pau, A tree language for electronic medical records}
+\title{Pau: Electronic medical records done right}
 
 % TODO: change for final
 \iffalse
@@ -49,6 +50,10 @@
   Lambert Leong \\
   University of Hawaii \\
   {\underline{lambert3@hawaii.edu}} \\
+\and
+  Xun Zhu \\
+  University of Hawaii \\
+  {\underline{zhu2@hawaii.edu}} \\
 \and
   Breck Yunits\\
   University of Hawaii Cancer Center\\
@@ -85,8 +90,8 @@ Advantage of Pau:
 		- clinicians do not have to learn a new tool
     - Tree Notation Works with paper offline as well.
 	- grammars, defined for each EMR system, can convert everything into a
-	  consistant tree notation format
-		- efficiently aggrigate/curate data 
+	  consistent tree notation format
+		- efficiently aggregate/curate data 
 		- medical field has entered the big data era
 			- data consistency is important for big data analysis
 				- e.g. machine/deep learning model construction
@@ -95,7 +100,7 @@ Advantage of Pau:
      - multiomics systems can use all grammars at once.
 	* include code snipits and examples of Pau
 		- or include example of tree
-			- the toCSV() example in the sandbox is very practicle
+			- the toCSV() example in the sandbox is very practice
 			  and applicable to EMR
   - Omnifix notation
   - Grammars can be used to generate mock data
@@ -113,14 +118,15 @@ On going and future work
 		- a person/expert is needed to QA/QC the grammars etc
 	- potential use cases and example of how it optimizes analysis pipelines
 	- how Pau fits in the grand scheme or vision of tree notation
+	use pau, be done with emr problems, and move on
 \fi
 
 \input{introduction}
-%\input{relatedwork}
-%\input{methods}
-%\input{results}
-%\input{discussion}
-%\input{conclusion}
+\input{pau}
+\input{tree_notation}
+\input{implementation}
+\input{why_pau}
+\input{conclusion}
 
 %Bibliography 
 \bibliographystyle{ieeetr}
