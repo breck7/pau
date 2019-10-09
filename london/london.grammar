@@ -1,0 +1,36 @@
+londonNode
+ description A demonstration Tree Language that provides a grammar for the The London Mortality report of 1660 (https://ohdsi.github.io/TheBookOfOhdsi/images/StandardizedVocabularies/bill.jpg).
+ root
+ inScope mortalityReportNode
+keywordCell
+intCell
+yearCell
+ description What year is this report for?
+ extends intCell
+anyCell
+ highlightScope string
+locationCell
+ enum London
+ highlightScope string
+ description What region is this report for?
+casualtieCountCell
+ extends intCell
+diseaseCell
+ highlightScope keyword.declaration.enum
+ description Name of one the 62 diseases the Company of Parish Clerks of London had in 1660.
+ enum abortiveAndStillborn aged agueAndFever apoplexyAndSuddenly blastedAndPlanet bleedingAndBloodyTissue bloodyFluxScowringAndFlux burntAndScalded cancerGangreneAndFistula cancerSoreMouthAndThrush childbed chrisomesAndInfants coldCoughAndHiccough colickAndWind consumptionAndTissick convulsion cutOfTheStoneAndStone drpsyAndTympany drowned executed fallingSickness floxAndSmallPox foundDeadInStreetsFieldsEtc frenchPox gout grief gripingInTheGuts hangedAndMadeAwayThemselves headachAndHeadMouldShot jandies imposthume killedBySeveralAccidents kingsEvil lethargy livergrown lunatickAndFrenzy megrims measles mother murthered overlaidAndStarvedAtNurse palsy plague plurisy quinsyAndSoreThroat rickets risingOfTheLights rupture scurvy shot shingles soresUlcersBrokenAndBruisedLimbs spleen spottedFeverAndPurples starved strangury stoppingOfTheStomach surseit swinePox teethAndWorms vomiting wen
+mortalityReportNode
+ inScope yearNode locationNode descriptionNode diseasesAndCasualtiesNode
+ cells keywordCell
+yearNode
+ cells keywordCell yearCell
+locationNode
+ cells keywordCell locationCell
+descriptionNode
+ cells keywordCell
+ catchAllCellType anyCell
+diseasesAndCasualtiesNode
+ cells keywordCell
+ catchAllNodeType diseaseCountNode
+diseaseCountNode
+ cells diseaseCell casualtieCountCell
