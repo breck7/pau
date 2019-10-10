@@ -1,0 +1,98 @@
+survey_conductNode
+ root
+survey_conduct_idNode
+ description Unique identifier for each completed survey.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the Person in the PERSON table about whom the survey was completed.
+ cells keyword
+ required
+survey_concept_idNode
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the name and identity of the survey.
+ cells keyword
+ required
+survey_start_dateNode
+ description Date on which the survey was started.
+ cells keyword
+ required
+survey_start_datetimeNode
+ description Date and time the survey was started.
+ cells keyword
+ required
+survey_end_dateNode
+ description Date on which the survey was completed.
+ cells keyword
+ required
+survey_end_datetimeNode
+ description Date and time the survey was completed.
+ cells keyword
+ required
+provider_idNode
+ description A foreign key to the provider in the provider table who was associated with the survey completion.
+ cells keyword
+ required
+assisted_concept_idNode
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies indicating whether the survey was completed with assistance.
+ cells keyword
+ required
+respondent_type_concept_idNode
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the respondent type. Example: Research Associate, Patient.
+ cells keyword
+ required
+timing_concept_idNode
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies that refers to a certain timing. Example: 3 month follow-up, 6 month follow-up.
+ cells keyword
+ required
+collection_method_concept_idNode
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the data collection method (e.g. Paper, Telephone, Electronic Questionnaire).
+ cells keyword
+ required
+assisted_source_valueNode
+ description Source value representing whether patient required assistance to complete the survey. Example: “Completed without assistance”, ”Completed with assistance”.
+ cells keyword
+ required
+respondent_type_source_valueNode
+ description Source code representing role of person who completed the survey.
+ cells keyword
+ required
+timing_source_valueNode
+ description Text string representing the timing of the survey. Example: Baseline, 6-month follow-up.
+ cells keyword
+ required
+collection_method_source_valueNode
+ description The collection method as it appears in the source data.
+ cells keyword
+ required
+survey_source_valueNode
+ description The survey name/title as it appears in the source data.
+ cells keyword
+ required
+survey_source_concept_idNode
+ description A foreign key to a predefined Concept that refers to the code for the survey name/title used in the source.
+ cells keyword
+ required
+survey_source_identifierNode
+ description Unique identifier for each completed survey in source system.
+ cells keyword
+ required
+validated_survey_concept_idNode
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the validation status of the survey.
+ cells keyword
+ required
+validated_survey_source_valueNode
+ description Source value representing the validation status of the survey.
+ cells keyword
+ required
+survey_version_numberNode
+ description Version number of the questionnaire or survey used.
+ cells keyword
+ required
+visit_occurrence_idNode
+ description A foreign key to the VISIT_OCCURRENCE table during which the survey was completed
+ cells keyword
+ required
+response_visit_occurrence_idNode
+ description A foreign key to the visit in the VISIT_OCCURRENCE table during which treatment was carried out that relates to this survey.
+ cells keyword
+ required

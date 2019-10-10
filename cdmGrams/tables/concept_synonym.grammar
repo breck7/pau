@@ -1,0 +1,14 @@
+concept_synonymNode
+ root
+concept_idNode
+ description A foreign key to the Concept in the CONCEPT table.
+ cells keyword
+ required
+concept_synonym_nameNode
+ description The alternative name for the Concept.
+ cells keyword
+ required
+language_concept_idNode
+ description A foreign key to a Concept representing the language.
+ cells keyword
+ required

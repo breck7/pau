@@ -1,0 +1,58 @@
+procedure_occurrenceNode
+ root
+procedure_occurrence_idNode
+ description A system-generated unique identifier for each Procedure Occurrence.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the Person who is subjected to the Procedure. The demographic details of that Person are stored in the PERSON table.
+ cells keyword
+ required
+procedure_concept_idNode
+ description A foreign key that refers to a standard procedure Concept identifier in the Standardized Vocabularies.
+ cells keyword
+ required
+procedure_dateNode
+ description The date on which the Procedure was performed.
+ cells keyword
+ required
+procedure_datetimeNode
+ description The date and time on which the Procedure was performed.
+ cells keyword
+ required
+procedure_type_concept_idNode
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of source data from which the procedure record is derived, belonging to the 'Procedure Type' vocabulary.
+ cells keyword
+ required
+modifier_concept_idNode
+ description A foreign key to a Standard Concept identifier for a modifier to the Procedure (e.g. bilateral). These concepts are typically distinguished by 'Modifier' concept classes (e.g., 'CPT4 Modifier' as part of the 'CPT4' vocabulary).
+ cells keyword
+ required
+quantityNode
+ description The quantity of procedures ordered or administered.
+ cells keyword
+ required
+provider_idNode
+ description A foreign key to the provider in the PROVIDER table who was responsible for carrying out the procedure.
+ cells keyword
+ required
+visit_occurrence_idNode
+ description A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Procedure was carried out.
+ cells keyword
+ required
+visit_detail_idNode
+ description A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Procedure was carried out.
+ cells keyword
+ required
+procedure_source_valueNode
+ description The source code for the Procedure as it appears in the source data. This code is mapped to a standard procedure Concept in the Standardized Vocabularies and the original code is, stored here for reference. Procedure source codes are typically ICD-9-Proc, CPT-4, HCPCS or OPCS-4 codes.
+ cells keyword
+ required
+procedure_source_concept_idNode
+ description A foreign key to a Procedure Concept that refers to the code used in the source.
+ cells keyword
+ required
+modifier_source_valueNode
+ description The source code for the qualifier as it appears in the source data.
+ cells keyword
+ required

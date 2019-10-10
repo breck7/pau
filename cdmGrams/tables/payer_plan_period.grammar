@@ -1,0 +1,86 @@
+payer_plan_periodNode
+ root
+payer_plan_period_idNode
+ description A identifier for each unique combination of payer, plan, family code and time span.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the Person covered by the payer. The demographic details of that Person are stored in the PERSON table.
+ cells keyword
+ required
+contract_person_idNode
+ description A foreign key identifier to the person_id in person table, for the person who is the primary subscriber/contract owner for the record in the payer_plan_period table. Maybe the same person or different person, depending on who is the primary subscriber/contract owner.
+ cells keyword
+ required
+payer_plan_period_start_dateNode
+ description The start date of the payer plan period.
+ cells keyword
+ required
+payer_plan_period_end_dateNode
+ description The end date of the payer plan period.
+ cells keyword
+ required
+payer_concept_idNode
+ description A foreign key that refers to a standard Payer concept identifier in the Standarized Vocabularies
+ cells keyword
+ required
+payer_source_valueNode
+ description The source code for the payer as it appears in the source data.
+ cells keyword
+ required
+payer_source_concept_idNode
+ description A foreign key to a payer concept that refers to the code used in the source.
+ cells keyword
+ required
+plan_concept_idNode
+ description A foreign key that refers to a standard plan concept identifier that represents the health benefit plan in the Standardized Vocabularies.
+ cells keyword
+ required
+plan_source_valueNode
+ description The source code for the Person's health benefit plan as it appears in the source data.
+ cells keyword
+ required
+plan_source_concept_idNode
+ description A foreign key to a plan concept that refers to the plan code used in the source data.
+ cells keyword
+ required
+contract_concept_idNode
+ description A foreign key to a standard concept representing the reason justifying the contract between person_id and contract_person_id.
+ cells keyword
+ required
+contract_source_valueNode
+ description The source code representing the reason justifying the contract. Usually it is family relationship like a spouse, domestic partner, child etc.
+ cells keyword
+ required
+contract_source_concept_idNode
+ description A foreign key to a concept that refers to the code used in the source as the reason justifying the contract.
+ cells keyword
+ required
+sponsor_concept_idNode
+ description A foreign key that refers to a concept identifier that represents the sponsor in the Standardized Vocabularies.
+ cells keyword
+ required
+sponsor_source_valueNode
+ description The source code for the Person's sponsor of the health plan as it appears in the source data.
+ cells keyword
+ required
+sponsor_source_concept_idNode
+ description A foreign key to a sponsor concept that refers to the sponsor code used in the source data.
+ cells keyword
+ required
+family_source_valueNode
+ description The source code for the Person's family as it appears in the source data.
+ cells keyword
+ required
+stop_reason_concept_idNode
+ description A foreign key that refers to a standard termination reason that represents the reason for the termination in the Standardized Vocabularies.
+ cells keyword
+ required
+stop_reason_source_valueNode
+ description The reason for stop-coverage as it appears in the source data.
+ cells keyword
+ required
+stop_reason_source_concept_idNode
+ description A foreign key to a stop-coverage concept that refers to the code used in the source.
+ cells keyword
+ required

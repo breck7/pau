@@ -1,0 +1,26 @@
+concept_relationshipNode
+ root
+concept_id_1Node
+ description A foreign key to a Concept in the [CONCEPT](https://github.com/OHDSI/CommonDataModel/wiki/CONCEPT) table associated with the relationship. Relationships are directional, and this field represents the source concept designation.
+ cells keyword
+ required
+concept_id_2Node
+ description A foreign key to a Concept in the [CONCEPT](https://github.com/OHDSI/CommonDataModel/wiki/CONCEPT) table associated with the relationship. Relationships are directional, and this field represents the destination concept designation.
+ cells keyword
+ required
+relationship_idNode
+ description A unique identifier to the type or nature of the Relationship as defined in the [RELATIONSHIP](https://github.com/OHDSI/CommonDataModel/wiki/RELATIONSHIP) table.
+ cells keyword
+ required
+valid_start_dateNode
+ description The date when the instance of the Concept Relationship is first recorded.
+ cells keyword
+ required
+valid_end_dateNode
+ description The date when the Concept Relationship became invalid because it was deleted or superseded (updated) by a new relationship. Default value is 31-Dec-2099.
+ cells keyword
+ required
+invalid_reasonNode
+ description Reason the relationship was invalidated. Possible values are 'D' (deleted), 'U' (replaced with an update) or NULL when valid_end_date has the default value.
+ cells keyword
+ required

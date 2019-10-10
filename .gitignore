@@ -1,5 +1,5 @@
 ignore/
-
+node_modules/
 paper/*.pdf
 *.aux
 *.log

@@ -1,0 +1,70 @@
+visit_occurrenceNode
+ root
+visit_occurrence_idNode
+ description A unique identifier for each Person's visit or encounter at a healthcare provider.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the Person for whom the visit is recorded. The demographic details of that Person are stored in the PERSON table.
+ cells keyword
+ required
+visit_concept_idNode
+ description A foreign key that refers to a visit Concept identifier in the Standardized Vocabularies belonging to the 'Visit' Vocabulary.
+ cells keyword
+ required
+visit_start_dateNode
+ description The start date of the visit.
+ cells keyword
+ required
+visit_start_datetimeNode
+ description The date and time of the visit started.
+ cells keyword
+ required
+visit_end_dateNode
+ description The end date of the visit. If this is a one-day visit the end date should match the start date.
+ cells keyword
+ required
+visit_end_datetimeNode
+ description The date and time of the visit end.
+ cells keyword
+ required
+visit_type_concept_idNode
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of source data from which the visit record is derived belonging to the 'Visit Type' vocabulary.
+ cells keyword
+ required
+provider_idNode
+ description A foreign key to the provider in the provider table who was associated with the visit.
+ cells keyword
+ required
+care_site_idNode
+ description A foreign key to the care site in the care site table that was visited.
+ cells keyword
+ required
+visit_source_valueNode
+ description The source code for the visit as it appears in the source data.
+ cells keyword
+ required
+visit_source_concept_idNode
+ description A foreign key to a Concept that refers to the code used in the source.
+ cells keyword
+ required
+admitting_source_concept_idNode
+ description A foreign key to the predefined concept in the Place of Service Vocabulary reflecting the admitting source for a visit.
+ cells keyword
+ required
+admitting_source_valueNode
+ description The source code for the admitting source as it appears in the source data.
+ cells keyword
+ required
+discharge_to_concept_idNode
+ description A foreign key to the predefined concept in the Place of Service Vocabulary reflecting the discharge disposition for a visit.
+ cells keyword
+ required
+discharge_to_source_valueNode
+ description The source code for the discharge disposition as it appears in the source data.
+ cells keyword
+ required
+preceding_visit_occurrence_idNode
+ description A foreign key to the VISIT_OCCURRENCE table of the visit immediately preceding this visit
+ cells keyword
+ required

@@ -1,0 +1,46 @@
+locationNode
+ root
+location_idNode
+ description A unique identifier for each geographic location.
+ cells keyword
+ required
+address_1Node
+ description The address field 1, typically used for the street address, as it appears in the source data.
+ cells keyword
+ required
+address_2Node
+ description The address field 2, typically used for additional detail such as buildings, suites, floors, as it appears in the source data.
+ cells keyword
+ required
+cityNode
+ description The city field as it appears in the source data.
+ cells keyword
+ required
+stateNode
+ description The state field as it appears in the source data.
+ cells keyword
+ required
+zipNode
+ description The zip or postal code.
+ cells keyword
+ required
+countyNode
+ description The county.
+ cells keyword
+ required
+countryNode
+ description The country
+ cells keyword
+ required
+location_source_valueNode
+ description The verbatim information that is used to uniquely identify the location as it appears in the source data.
+ cells keyword
+ required
+latitudeNode
+ description The geocoded latitude
+ cells keyword
+ required
+longitudeNode
+ description The geocoded longitude
+ cells keyword
+ required

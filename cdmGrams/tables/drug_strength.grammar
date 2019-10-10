@@ -1,0 +1,50 @@
+drug_strengthNode
+ root
+drug_concept_idNode
+ description A foreign key to the Concept in the CONCEPT table representing the identifier for Branded Drug or Clinical Drug Concept.
+ cells keyword
+ required
+ingredient_concept_idNode
+ description A foreign key to the Concept in the CONCEPT table, representing the identifier for drug Ingredient Concept contained within the drug product.
+ cells keyword
+ required
+amount_valueNode
+ description The numeric value associated with the amount of active ingredient contained within the product.
+ cells keyword
+ required
+amount_unit_concept_idNode
+ description A foreign key to the Concept in the CONCEPT table representing the identifier for the Unit for the absolute amount of active ingredient.
+ cells keyword
+ required
+numerator_valueNode
+ description The numeric value associated with the concentration of the active ingredient contained in the product
+ cells keyword
+ required
+numerator_unit_concept_idNode
+ description A foreign key to the Concept in the CONCEPT table representing the identifier for the numerator Unit for the concentration of active ingredient.
+ cells keyword
+ required
+denominator_valueNode
+ description The amount of total liquid (or other divisible product, such as ointment, gel, spray, etc.).
+ cells keyword
+ required
+denominator_unit_concept_idNode
+ description A foreign key to the Concept in the CONCEPT table representing the identifier for the denominator Unit for the concentration of active ingredient.
+ cells keyword
+ required
+box_sizeNode
+ description The number of units of Clinical of Branded Drug, or Quantified Clinical or Branded Drug contained in a box as dispensed to the patient
+ cells keyword
+ required
+valid_start_dateNode
+ description The date when the Concept was first recorded. The default value is 1-Jan-1970.
+ cells keyword
+ required
+valid_end_dateNode
+ description The date when the concept became invalid because it was deleted or superseded (updated) by a new Concept. The default value is 31-Dec-2099.
+ cells keyword
+ required
+invalid_reasonNode
+ description Reason the concept was invalidated. Possible values are 'D' (deleted), 'U' (replaced with an update) or NULL when valid_end_date has the default value.
+ cells keyword
+ required

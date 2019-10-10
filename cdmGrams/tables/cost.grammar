@@ -1,0 +1,74 @@
+costNode
+ root
+cost_idNode
+ description A unique identifier for each COST record.
+ cells keyword
+ required
+person_idNode
+ description A unique identifier for each PERSON.
+ cells keyword
+ required
+cost_event_idNode
+ description A foreign key identifier to the event (e.g. Measurement, Procedure, Visit, Drug Exposure, etc) record for which cost data are recorded.
+ cells keyword
+ required
+cost_event_field_concept_idNode
+ description A foreign key identifier to a concept in the CONCEPT table representing the identity of the field represented by COST_EVENT_ID
+ cells keyword
+ required
+cost_concept_idNode
+ description A foreign key that refers to a Standard Cost Concept identifier in the Standardized Vocabularies belonging to the 'Cost' vocabulary.
+ cells keyword
+ required
+cost_type_concept_idNode
+ description A foreign key identifier to a concept in the CONCEPT table for the provenance or the source of the COST data and belonging to the 'Cost Type' vocabulary
+ cells keyword
+ required
+cost_source_concept_idNode
+ description A foreign key to a Cost Concept that refers to the code used in the source.
+ cells keyword
+ required
+cost_source_valueNode
+ description The source value for the cost as it appears in the source data
+ cells keyword
+ required
+currency_concept_idNode
+ description A foreign key identifier to the concept representing the 3-letter code used to delineate international currencies, such as USD for US Dollar. These belong to the 'Currency' vocabulary
+ cells keyword
+ required
+costNode
+ description The actual financial cost amount
+ cells keyword
+ required
+incurred_dateNode
+ description The first date of service of the clinical event corresponding to the cost as in table capturing the information (e.g. date of visit, date of procedure, date of condition, date of drug etc).
+ cells keyword
+ required
+billed_dateNode
+ description The date a bill was generated for a service or encounter
+ cells keyword
+ required
+paid_dateNode
+ description The date payment was received for a service or encounter
+ cells keyword
+ required
+revenue_code_concept_idNode
+ description A foreign key referring to a Standard Concept ID in the Standardized Vocabularies for Revenue codes belonging to the 'Revenue Code' vocabulary.
+ cells keyword
+ required
+drg_concept_idNode
+ description A foreign key referring to a Standard Concept ID in the Standardized Vocabularies for DRG codes belonging to the 'DRG' vocabulary.
+ cells keyword
+ required
+revenue_code_source_valueNode
+ description The source value for the Revenue code as it appears in the source data, stored here for reference.
+ cells keyword
+ required
+drg_source_valueNode
+ description The source value for the 3-digit DRG source code as it appears in the source data, stored here for reference.
+ cells keyword
+ required
+payer_plan_period_idNode
+ description A foreign key to the PAYER_PLAN_PERIOD table, where the details of the Payer, Plan and Family are stored. Record the payer_plan_id that relates to the payer who contributed to the paid_by_payer field.
+ cells keyword
+ required

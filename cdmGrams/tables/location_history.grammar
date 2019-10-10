@@ -1,0 +1,26 @@
+location_historyNode
+ root
+location_idNode
+ description A foreign key to the location table.
+ cells keyword
+ required
+relationship_type_concept_idNode
+ description The type of relationship between location and entity.
+ cells keyword
+ required
+domain_idNode
+ description The domain of the entity that is related to the location. Either PERSON, PROVIDER, or CARE_SITE.
+ cells keyword
+ required
+entity_idNode
+ description The unique identifier for the entity. References either person_id, provider_id, or care_site_id, depending on domain_id.
+ cells keyword
+ required
+start_dateNode
+ description The date the relationship started.
+ cells keyword
+ required
+end_dateNode
+ description The date the relationship ended.
+ cells keyword
+ required

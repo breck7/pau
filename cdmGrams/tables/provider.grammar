@@ -1,0 +1,54 @@
+providerNode
+ root
+provider_idNode
+ description A unique identifier for each Provider.
+ cells keyword
+ required
+provider_nameNode
+ description A description of the Provider.
+ cells keyword
+ required
+npiNode
+ description The National Provider Identifier (NPI) of the provider.
+ cells keyword
+ required
+deaNode
+ description The Drug Enforcement Administration (DEA) number of the provider.
+ cells keyword
+ required
+specialty_concept_idNode
+ description A foreign key to a Standard Specialty Concept ID in the Standardized Vocabularies.
+ cells keyword
+ required
+care_site_idNode
+ description A foreign key to the main Care Site where the provider is practicing.
+ cells keyword
+ required
+year_of_birthNode
+ description The year of birth of the Provider.
+ cells keyword
+ required
+gender_concept_idNode
+ description The gender of the Provider.
+ cells keyword
+ required
+provider_source_valueNode
+ description The identifier used for the Provider in the source data, stored here for reference.
+ cells keyword
+ required
+specialty_source_valueNode
+ description The source code for the Provider specialty as it appears in the source data, stored here for reference.
+ cells keyword
+ required
+specialty_source_concept_idNode
+ description A foreign key to a Concept that refers to the code used in the source.
+ cells keyword
+ required
+gender_source_valueNode
+ description The gender code for the Provider as it appears in the source data, stored here for reference.
+ cells keyword
+ required
+gender_source_concept_idNode
+ description A foreign key to a Concept that refers to the code used in the source.
+ cells keyword
+ required

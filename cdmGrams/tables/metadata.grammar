@@ -1,0 +1,30 @@
+metadataNode
+ root
+metadata_concept_idNode
+ description A foreign key that refers to a Standard Metadata Concept identifier in the Standardized Vocabularies.
+ cells keyword
+ required
+metadata_type_concept_idNode
+ description A foreign key that refers to a Standard Type Concept identifier in the Standardized Vocabularies.
+ cells keyword
+ required
+nameNode
+ description The name of the Concept stored in metadata_concept_id or a description of the data being stored.
+ cells keyword
+ required
+value_as_stringNode
+ description The metadata value stored as a string.
+ cells keyword
+ required
+value_as_concept_idNode
+ description A foreign key to a metadata value stored as a Concept ID.
+ cells keyword
+ required
+metadata dateNode
+ description The date associated with the metadata
+ cells keyword
+ required
+metadata_datetimeNode
+ description The date and time associated with the metadata
+ cells keyword
+ required

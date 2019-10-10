@@ -1,0 +1,26 @@
+care_siteNode
+ root
+care_site_idNode
+ description A unique identifier for each Care Site.
+ cells keyword
+ required
+care_site_nameNode
+ description The verbatim description or name of the Care Site as in data source
+ cells keyword
+ required
+place_of_service_concept_idNode
+ description A foreign key that refers to a Place of Service Concept ID in the Standardized Vocabularies.
+ cells keyword
+ required
+location_idNode
+ description A foreign key to the geographic Location in the LOCATION table, where the detailed address information is stored.
+ cells keyword
+ required
+care_site_source_valueNode
+ description The identifier for the Care Site in the source data, stored here for reference.
+ cells keyword
+ required
+place_of_service_source_valueNode
+ description The source code for the Place of Service as it appears in the source data, stored here for reference.
+ cells keyword
+ required

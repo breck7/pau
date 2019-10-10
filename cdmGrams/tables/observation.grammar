@@ -1,0 +1,86 @@
+observationNode
+ root
+observation_idNode
+ description A unique identifier for each observation.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the Person about whom the observation was recorded. The demographic details of that Person are stored in the PERSON table.
+ cells keyword
+ required
+observation_concept_idNode
+ description A foreign key to the standard observation concept identifier in the Standardized Vocabularies.
+ cells keyword
+ required
+observation_dateNode
+ description The date of the observation.
+ cells keyword
+ required
+observation_datetimeNode
+ description The date and time of the observation.
+ cells keyword
+ required
+observation_type_concept_idNode
+ description A foreign key to the predefined concept identifier in the Standardized Vocabularies reflecting the type of the observation.
+ cells keyword
+ required
+value_as_numberNode
+ description The observation result stored as a number. This is applicable to observations where the result is expressed as a numeric value.
+ cells keyword
+ required
+value_as_stringNode
+ description The observation result stored as a string. This is applicable to observations where the result is expressed as verbatim text.
+ cells keyword
+ required
+value_as_concept_idNode
+ description A foreign key to an observation result stored as a Concept ID. This is applicable to observations where the result can be expressed as a Standard Concept from the Standardized Vocabularies (e.g., positive/negative, present/absent, low/high, etc.).
+ cells keyword
+ required
+qualifier_concept_idNode
+ description A foreign key to a Standard Concept ID for a qualifier (e.g., severity of drug-drug interaction alert)
+ cells keyword
+ required
+unit_concept_idNode
+ description A foreign key to a Standard Concept ID of measurement units in the Standardized Vocabularies.
+ cells keyword
+ required
+provider_idNode
+ description A foreign key to the provider in the PROVIDER table who was responsible for making the observation.
+ cells keyword
+ required
+visit_occurrence_idNode
+ description A foreign key to the visit in the VISIT_OCCURRENCE table during which the observation was recorded.
+ cells keyword
+ required
+visit_detail_idNode
+ description A foreign key to the visit in the VISIT_DETAIL table during which the observation was recorded.
+ cells keyword
+ required
+observation_source_valueNode
+ description The observation code as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is, stored here for reference.
+ cells keyword
+ required
+observation_source_concept_idNode
+ description A foreign key to a Concept that refers to the code used in the source.
+ cells keyword
+ required
+unit_source_valueNode
+ description The source code for the unit as it appears in the source data. This code is mapped to a standard unit concept in the Standardized Vocabularies and the original code is, stored here for reference.
+ cells keyword
+ required
+qualifier_source_valueNode
+ description The source value associated with a qualifier to characterize the observation
+ cells keyword
+ required
+observation_event_idNode
+ description A foreign key to an event table (e.g., PROCEDURE_OCCURRENCE_ID).
+ cells keyword
+ required
+obs_event_field_concept_idNode
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies referring to the field represented in the OBSERVATION_EVENT_ID.
+ cells keyword
+ required
+value_as_datetimeNode
+ description The observation result stored as a datetime value. This is applicable to observations where the result is expressed as a point in time.
+ cells keyword
+ required

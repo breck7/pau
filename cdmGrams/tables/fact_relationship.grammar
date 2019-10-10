@@ -1,0 +1,22 @@
+fact_relationshipNode
+ root
+domain_concept_id_1Node
+ description The concept representing the domain of fact one, from which the corresponding table can be inferred.
+ cells keyword
+ required
+fact_id_1Node
+ description The unique identifier in the table corresponding to the domain of fact one.
+ cells keyword
+ required
+domain_concept_id_2Node
+ description The concept representing the domain of fact two, from which the corresponding table can be inferred.
+ cells keyword
+ required
+fact_id_2Node
+ description The unique identifier in the table corresponding to the domain of fact two.
+ cells keyword
+ required
+relationship_concept_idNode
+ description A foreign key to a Standard Concept ID of relationship in the Standardized Vocabularies.
+ cells keyword
+ required

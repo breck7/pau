@@ -1,0 +1,62 @@
+specimenNode
+ root
+specimen_idNode
+ description A unique identifier for each specimen.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the Person for whom the Specimen is recorded.
+ cells keyword
+ required
+specimen_concept_idNode
+ description A foreign key referring to a Standard Concept identifier in the Standardized Vocabularies for the Specimen.
+ cells keyword
+ required
+specimen_type_concept_idNode
+ description A foreign key referring to the Concept identifier in the Standardized Vocabularies reflecting the system of record from which the Specimen was represented in the source data.
+ cells keyword
+ required
+specimen_dateNode
+ description The date the specimen was obtained from the Person.
+ cells keyword
+ required
+specimen_datetimeNode
+ description The date and time on the date when the Specimen was obtained from the person.
+ cells keyword
+ required
+quantityNode
+ description The amount of specimen collection from the person during the sampling procedure.
+ cells keyword
+ required
+unit_concept_idNode
+ description A foreign key to a Standard Concept identifier for the Unit associated with the numeric quantity of the Specimen collection.
+ cells keyword
+ required
+anatomic_site_concept_idNode
+ description A foreign key to a Standard Concept identifier for the anatomic location of specimen collection.
+ cells keyword
+ required
+disease_status_concept_idNode
+ description A foreign key to a Standard Concept identifier for the Disease Status of specimen collection.
+ cells keyword
+ required
+specimen_source_idNode
+ description The Specimen identifier as it appears in the source data.
+ cells keyword
+ required
+specimen_source_valueNode
+ description The Specimen value as it appears in the source data. This value is mapped to a Standard Concept in the Standardized Vocabularies and the original code is, stored here for reference.
+ cells keyword
+ required
+unit_source_valueNode
+ description The information about the Unit as detailed in the source.
+ cells keyword
+ required
+anatomic_site_source_valueNode
+ description The information about the anatomic site as detailed in the source.
+ cells keyword
+ required
+disease_status_source_valueNode
+ description The information about the disease status as detailed in the source.
+ cells keyword
+ required

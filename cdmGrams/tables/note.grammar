@@ -1,0 +1,66 @@
+noteNode
+ root
+note_idNode
+ description A unique identifier for each note.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the Person about whom the Note was recorded. The demographic details of that Person are stored in the PERSON table.
+ cells keyword
+ required
+note_event_idNode
+ description A foreign key identifier to the event (e.g. Measurement, Procedure, Visit, Drug Exposure, etc) record during which the note was recorded.
+ cells keyword
+ required
+note_event_field_concept_idNode
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the field to which the note_event_id is referring.
+ cells keyword
+ required
+note_dateNode
+ description The date the note was recorded.
+ cells keyword
+ required
+note_datetimeNode
+ description The date and time the note was recorded.
+ cells keyword
+ required
+note_type_concept_idNode
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the type, origin or provenance of the Note. These belong to the 'Note Type' vocabulary
+ cells keyword
+ required
+note_class_concept_idNode
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the HL7 LOINC Document Type Vocabulary classification of the note.
+ cells keyword
+ required
+note_titleNode
+ description The title of the Note as it appears in the source.
+ cells keyword
+ required
+note_textNode
+ description The content of the Note.
+ cells keyword
+ required
+encoding_concept_idNode
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the note character encoding type
+ cells keyword
+ required
+language_concept_idNode
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the language of the note
+ cells keyword
+ required
+provider_idNode
+ description A foreign key to the Provider in the PROVIDER table who took the Note.
+ cells keyword
+ required
+visit_occurrence_idNode
+ description A foreign key to the Visit in the VISIT_OCCURRENCE table when the Note was taken.
+ cells keyword
+ required
+visit_detail_idNode
+ description A foreign key to the Visit in the VISIT_DETAIL table when the Note was taken.
+ cells keyword
+ required
+note_source_valueNode
+ description The source value associated with the origin of the Note
+ cells keyword
+ required

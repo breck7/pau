@@ -1,0 +1,42 @@
+cdm_sourceNode
+ root
+cdm_source_nameNode
+ description The full name of the source
+ cells keyword
+ required
+cdm_source_abbreviationNode
+ description An abbreviation of the name
+ cells keyword
+ required
+cdm_holderNode
+ description The name of the organization responsible for the development of the CDM instance
+ cells keyword
+ required
+source_descriptionNode
+ description A description of the source data origin and purpose for collection. The description may contain a summary of the period of time that is expected to be covered by this dataset.
+ cells keyword
+ required
+source_documentation_referenceNode
+ description URL or other external reference to location of source documentation
+ cells keyword
+ required
+cdm_etl_referenceNode
+ description URL or other external reference to location of ETL specification documentation and ETL source code
+ cells keyword
+ required
+source_release_dateNode
+ description The date for which the source data are most current, such as the last day of data capture
+ cells keyword
+ required
+cdm_release_dateNode
+ description The date when the CDM was instantiated
+ cells keyword
+ required
+cdm_versionNode
+ description The version of CDM used
+ cells keyword
+ required
+vocabulary_versionNode
+ description The version of the vocabulary used
+ cells keyword
+ required

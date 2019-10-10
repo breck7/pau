@@ -1,0 +1,94 @@
+drug_exposureNode
+ root
+drug_exposure_idNode
+ description A system-generated unique identifier for each Drug utilization event.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the Person who is subjected to the Drug. The demographic details of that Person are stored in the PERSON table.
+ cells keyword
+ required
+drug_concept_idNode
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies belonging to the 'Drug' domain.
+ cells keyword
+ required
+drug_exposure_start_dateNode
+ description The start date for the current instance of Drug utilization. Valid entries include a start date of a prescription, the date a prescription was filled, or the date on which a Drug administration procedure was recorded.
+ cells keyword
+ required
+drug_exposure_start_datetimeNode
+ description The start date and time for the current instance of Drug utilization. Valid entries include a start datetime of a prescription, the date and time a prescription was filled, or the date and time on which a Drug administration procedure was recorded.
+ cells keyword
+ required
+drug_exposure_end_dateNode
+ description The end date for the current instance of Drug utilization. Depending on different sources, it could be a known or an inferred date and denotes the last day at which the patient was still exposed to Drug.
+ cells keyword
+ required
+drug_exposure_end_datetimeNode
+ description The end date and time for the current instance of Drug utilization. Depending on different sources, it could be a known or an inferred date and time and denotes the last day at which the patient was still exposed to Drug.
+ cells keyword
+ required
+verbatim_end_dateNode
+ description The known end date of a drug_exposure as provided by the source.
+ cells keyword
+ required
+drug_type_concept_idNode
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of Drug Exposure recorded. It indicates how the Drug Exposure was represented in the source data and belongs to the 'Drug Type' vocabulary.
+ cells keyword
+ required
+stop_reasonNode
+ description The reason the Drug was stopped. Reasons include regimen completed, changed, removed, etc.
+ cells keyword
+ required
+refillsNode
+ description The number of refills after the initial prescription. The initial prescription is not counted, values start with null.
+ cells keyword
+ required
+quantityNode
+ description The quantity of drug as recorded in the original prescription or dispensing record.
+ cells keyword
+ required
+days_supplyNode
+ description The number of days of supply of the medication as prescribed. This reflects the intention of the provider for the length of exposure.
+ cells keyword
+ required
+sigNode
+ description The directions ('signetur') on the Drug prescription as recorded in the original prescription (and printed on the container) or dispensing record.
+ cells keyword
+ required
+route_concept_idNode
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies reflecting the route of administration and belonging to the 'Route' domain.
+ cells keyword
+ required
+lot_numberNode
+ description An identifier assigned to a particular quantity or lot of Drug product from the manufacturer.
+ cells keyword
+ required
+provider_idNode
+ description A foreign key to the provider in the PROVIDER table who initiated (prescribed or administered) the Drug Exposure.
+ cells keyword
+ required
+visit_occurrence_idNode
+ description A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Drug Exposure was initiated.
+ cells keyword
+ required
+visit_detail_idNode
+ description A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Drug Exposure was initiated.
+ cells keyword
+ required
+drug_source_valueNode
+ description The source code for the Drug as it appears in the source data. This code is mapped to a Standard Drug concept in the Standardized Vocabularies and the original code is, stored here for reference.
+ cells keyword
+ required
+drug_source_concept_idNode
+ description A foreign key to a Drug Concept that refers to the code used in the source.
+ cells keyword
+ required
+route_source_valueNode
+ description The information about the route of administration as detailed in the source.
+ cells keyword
+ required
+dose_unit_source_valueNode
+ description The information about the dose unit as detailed in the source.
+ cells keyword
+ required

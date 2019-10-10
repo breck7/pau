@@ -1,0 +1,30 @@
+cohort_definitionNode
+ root
+cohort_definition_idNode
+ description A unique identifier for each Cohort.
+ cells keyword
+ required
+cohort_definition_nameNode
+ description A short description of the Cohort.
+ cells keyword
+ required
+cohort_definition_descriptionNode
+ description A complete description of the Cohort definition
+ cells keyword
+ required
+definition_type_concept_idNode
+ description Type defining what kind of Cohort Definition the record represents and how the syntax may be executed
+ cells keyword
+ required
+cohort_definition_syntaxNode
+ description Syntax or code to operationalize the Cohort definition
+ cells keyword
+ required
+subject_concept_idNode
+ description A foreign key to the Concept to which defines the domain of subjects that are members of the cohort (e.g., Person, Provider, Visit).
+ cells keyword
+ required
+cohort_initiation_dateNode
+ description A date to indicate when the Cohort was initiated in the COHORT table
+ cells keyword
+ required

@@ -1,0 +1,18 @@
+concept_ancestorNode
+ root
+ancestor_concept_idNode
+ description A foreign key to the concept in the concept table for the higher-level concept that forms the ancestor in the relationship.
+ cells keyword
+ required
+descendant_concept_idNode
+ description A foreign key to the concept in the concept table for the lower-level concept that forms the descendant in the relationship.
+ cells keyword
+ required
+min_levels_of_separationNode
+ description The minimum separation in number of levels of hierarchy between ancestor and descendant concepts. This is an attribute that is used to simplify hierarchic analysis.
+ cells keyword
+ required
+max_levels_of_separationNode
+ description The maximum separation in number of levels of hierarchy between ancestor and descendant concepts. This is an attribute that is used to simplify hierarchic analysis.
+ cells keyword
+ required

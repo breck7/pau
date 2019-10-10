@@ -1,0 +1,22 @@
+observation_periodNode
+ root
+observation_period_idNode
+ description A unique identifier for each observation period.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the person for whom the observation period is defined. The demographic details of that person are stored in the person table.
+ cells keyword
+ required
+observation_period_start_dateNode
+ description The start date of the observation period for which data are available from the data source.
+ cells keyword
+ required
+observation_period_end_dateNode
+ description The end date of the observation period for which data are available from the data source.
+ cells keyword
+ required
+period_type_concept_idNode
+ description A foreign key identifier to the predefined concept in the Standardized Vocabularies reflecting the source of the observation period information, belonging to the 'Obs Period Type' vocabulary
+ cells keyword
+ required

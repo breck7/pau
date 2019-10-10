@@ -1,0 +1,26 @@
+relationshipNode
+ root
+relationship_idNode
+ description The type of relationship captured by the relationship record.
+ cells keyword
+ required
+relationship_nameNode
+ description The text that describes the relationship type.
+ cells keyword
+ required
+is_hierarchicalNode
+ description Defines whether a relationship defines concepts into classes or hierarchies. Values are 1 for hierarchical relationship or 0 if not.
+ cells keyword
+ required
+defines_ancestryNode
+ description Defines whether a hierarchical relationship contributes to the concept_ancestor table. These are subsets of the hierarchical relationships. Valid values are 1 or 0.
+ cells keyword
+ required
+reverse_relationship_idNode
+ description The identifier for the relationship used to define the reverse relationship between two concepts.
+ cells keyword
+ required
+relationship_concept_idNode
+ description A foreign key that refers to an identifier in the CONCEPT table for the unique relationship concept.
+ cells keyword
+ required

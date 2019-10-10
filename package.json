@@ -2,6 +2,7 @@
   "name": "pau",
   "private": true,
   "dependencies": {
-    "jtree": "38.2.0"
+    "@types/node": "^12.7.12",
+    "jtree": "^43.0.0"
   }
 }

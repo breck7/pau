@@ -1,0 +1,22 @@
+vocabularyNode
+ root
+vocabulary_idNode
+ description A unique identifier for each Vocabulary, such as ICD9CM, SNOMED, Visit.
+ cells keyword
+ required
+vocabulary_nameNode
+ description The name describing the vocabulary, for example "International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 1 and 2 (NCHS)" etc.
+ cells keyword
+ required
+vocabulary_referenceNode
+ description External reference to documentation or available download of the about the vocabulary.
+ cells keyword
+ required
+vocabulary_versionNode
+ description Version of the Vocabulary as indicated in the source.
+ cells keyword
+ required
+vocabulary_concept_idNode
+ description A foreign key that refers to a standard concept identifier in the CONCEPT table for the Vocabulary the VOCABULARY record belongs to.
+ cells keyword
+ required

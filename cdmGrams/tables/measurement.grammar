@@ -1,0 +1,82 @@
+measurementNode
+ root
+measurement_idNode
+ description A unique identifier for each Measurement.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the Person about whom the measurement was recorded. The demographic details of that Person are stored in the PERSON table.
+ cells keyword
+ required
+measurement_concept_idNode
+ description A foreign key to the standard measurement concept identifier in the Standardized Vocabularies. These belong to the 'Measurement' domain, but could overlap with the 'Observation' domain (see #3 below).
+ cells keyword
+ required
+measurement_dateNode
+ description The date of the Measurement.
+ cells keyword
+ required
+measurement_datetimeNode
+ description The date and time of the Measurement. Some database systems don't have a datatype of time. To accommodate all temporal analyses, datatype datetime can be used (combining measurement_date and measurement_time [forum discussion](http://forums.ohdsi.org/t/date-time-and-datetime-problem-and-the-world-of-hours-and-1day/314))
+ cells keyword
+ required
+measurement_timeNode
+ description The time of the Measurement. This is present for backwards compatibility and will be deprecated in an upcoming version
+ cells keyword
+ required
+measurement_type_concept_idNode
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the provenance from where the Measurement record was recorded. These belong to the 'Meas Type' vocabulary
+ cells keyword
+ required
+operator_concept_idNode
+ description A foreign key identifier to the predefined Concept in the Standardized Vocabularies reflecting the mathematical operator that is applied to the value_as_number. Operators are <, <=, =, >=, > and these concepts belong to the 'Meas Value Operator' domain.
+ cells keyword
+ required
+value_as_numberNode
+ description A Measurement result where the result is expressed as a numeric value.
+ cells keyword
+ required
+value_as_concept_idNode
+ description A foreign key to a Measurement result represented as a Concept from the Standardized Vocabularies (e.g., positive/negative, present/absent, low/high, etc.). These belong to the 'Meas Value' domain
+ cells keyword
+ required
+unit_concept_idNode
+ description A foreign key to a Standard Concept ID of Measurement Units in the Standardized Vocabularies that belong to the 'Unit' domain.
+ cells keyword
+ required
+range_lowNode
+ description The lower limit of the normal range of the Measurement result. The lower range is assumed to be of the same unit of measure as the Measurement value.
+ cells keyword
+ required
+range_highNode
+ description The upper limit of the normal range of the Measurement. The upper range is assumed to be of the same unit of measure as the Measurement value.
+ cells keyword
+ required
+provider_idNode
+ description A foreign key to the provider in the PROVIDER table who was responsible for initiating or obtaining the measurement.
+ cells keyword
+ required
+visit_occurrence_idNode
+ description A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Measurement was recorded.
+ cells keyword
+ required
+visit_detail_idNode
+ description A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Measurement was recorded.
+ cells keyword
+ required
+measurement_source_valueNode
+ description The Measurement name as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is stored here for reference.
+ cells keyword
+ required
+measurement_source_concept_idNode
+ description A foreign key to a Concept in the Standard Vocabularies that refers to the code used in the source.
+ cells keyword
+ required
+unit_source_valueNode
+ description The source code for the unit as it appears in the source data. This code is mapped to a standard unit concept in the Standardized Vocabularies and the original code is stored here for reference.
+ cells keyword
+ required
+value_source_valueNode
+ description The source value associated with the content of the value_as_number or value_as_concept_id as stored in the source data.
+ cells keyword
+ required

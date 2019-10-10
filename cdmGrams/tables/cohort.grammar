@@ -1,0 +1,18 @@
+cohortNode
+ root
+cohort_definition_idNode
+ description A foreign key to a record in the COHORT_DEFINITION table containing relevant Cohort Definition information.
+ cells keyword
+ required
+subject_idNode
+ description A foreign key to the subject in the cohort. These could be referring to records in the PERSON, PROVIDER, VISIT_OCCURRENCE table.
+ cells keyword
+ required
+cohort_start_dateNode
+ description The date when the Cohort Definition criteria for the Person, Provider or Visit first match.
+ cells keyword
+ required
+cohort_end_dateNode
+ description The date when the Cohort Definition criteria for the Person, Provider or Visit no longer match or the Cohort membership was terminated.
+ cells keyword
+ required

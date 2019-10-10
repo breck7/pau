@@ -1,0 +1,30 @@
+dose_eraNode
+ root
+dose_era_idNode
+ description A unique identifier for each Dose Era.
+ cells keyword
+ required
+person_idNode
+ description A foreign key identifier to the Person who is subjected to the drug during the drug era. The demographic details of that Person are stored in the PERSON table.
+ cells keyword
+ required
+drug_concept_idNode
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies for the active Ingredient Concept.
+ cells keyword
+ required
+unit_concept_idNode
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies for the unit concept.
+ cells keyword
+ required
+dose_valueNode
+ description The numeric value of the dose.
+ cells keyword
+ required
+dose_era_start_datetimeNode
+ description The start date for the drug era constructed from the individual instances of drug exposures. It is the start date of the very first chronologically recorded instance of utilization of a drug.
+ cells keyword
+ required
+dose_era_end_datetimeNode
+ description The end date for the drug era constructed from the individual instance of drug exposures. It is the end date of the final continuously recorded instance of utilization of a drug.
+ cells keyword
+ required

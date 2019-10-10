@@ -1,0 +1,2562 @@
+0
+ field cohort_definition_id
+ required Yes
+ type INTEGER
+ description A foreign key to a record in the COHORT_DEFINITION table containing relevant Cohort Definition information.
+ table cohort
+1
+ field subject_id
+ required Yes
+ type INTEGER
+ description A foreign key to the subject in the cohort. These could be referring to records in the PERSON, PROVIDER, VISIT_OCCURRENCE table.
+ table cohort
+2
+ field cohort_start_date
+ required Yes
+ type DATE
+ description The date when the Cohort Definition criteria for the Person, Provider or Visit first match.
+ table cohort
+3
+ field cohort_end_date
+ required Yes
+ type DATE
+ description The date when the Cohort Definition criteria for the Person, Provider or Visit no longer match or the Cohort membership was terminated.
+ table cohort
+4
+ field cohort_definition_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each Cohort.
+ table cohort_definition
+5
+ field cohort_definition_name
+ required Yes
+ type VARCHAR(255)
+ description A short description of the Cohort.
+ table cohort_definition
+6
+ field cohort_definition_description
+ required No
+ type VARCHAR(MAX)
+ description A complete description of the Cohort definition
+ table cohort_definition
+7
+ field definition_type_concept_id
+ required Yes
+ type INTEGER
+ description Type defining what kind of Cohort Definition the record represents and how the syntax may be executed
+ table cohort_definition
+8
+ field cohort_definition_syntax
+ required No
+ type VARCHAR(MAX)
+ description Syntax or code to operationalize the Cohort definition
+ table cohort_definition
+9
+ field subject_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the Concept to which defines the domain of subjects that are members of the cohort (e.g., Person, Provider, Visit).
+ table cohort_definition
+10
+ field cohort_initiation_date
+ required No
+ type DATE
+ description A date to indicate when the Cohort was initiated in the COHORT table
+ table cohort_definition
+11
+ field condition_occurrence_id
+ required Yes
+ type BIGINT
+ description A unique identifier for each Condition Occurrence event.
+ table condition_occurrence
+12
+ field person_id
+ required Yes
+ type BIGINT
+ description A foreign key identifier to the Person who is experiencing the condition. The demographic details of that Person are stored in the PERSON table.
+ table condition_occurrence
+13
+ field condition_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies belonging to the 'Condition' domain.
+ table condition_occurrence
+14
+ field condition_start_date
+ required No
+ type DATE
+ description The date when the instance of the Condition is recorded.
+ table condition_occurrence
+15
+ field condition_start_datetime
+ required Yes
+ type DATETIME
+ description The date and time when the instance of the Condition is recorded.
+ table condition_occurrence
+16
+ field condition_end_date
+ required No
+ type DATE
+ description The date when the instance of the Condition is considered to have ended.
+ table condition_occurrence
+17
+ field condition_end_datetime
+ required No
+ type DATETIME
+ description The date when the instance of the Condition is considered to have ended.
+ table condition_occurrence
+18
+ field condition_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the source data from which the Condition was recorded, the level of standardization, and the type of occurrence. These belong to the 'Condition Type' vocabulary
+ table condition_occurrence
+19
+ field condition_status_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies reflecting the point of care at which the Condition was diagnosed.
+ table condition_occurrence
+20
+ field stop_reason
+ required No
+ type VARCHAR(20)
+ description The reason that the Condition was no longer present, as indicated in the source data.
+ table condition_occurrence
+21
+ field provider_id
+ required No
+ type INTEGER
+ description A foreign key to the Provider in the PROVIDER table who was responsible for capturing (diagnosing) the Condition.
+ table condition_occurrence
+22
+ field visit_occurrence_id
+ required No
+ type INTEGER
+ description A foreign key to the visit in the VISIT_OCCURRENCE table during which the Condition was determined (diagnosed).
+ table condition_occurrence
+23
+ field visit_detail_id
+ required No
+ type INTEGER
+ description A foreign key to the visit in the VISIT_DETAIL table during which the Condition was determined (diagnosed).
+ table condition_occurrence
+24
+ field condition_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the Condition as it appears in the source data. This code is mapped to a Standard Condition Concept in the Standardized Vocabularies and the original code is stored here for reference.
+ table condition_occurrence
+25
+ field condition_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Condition Concept that refers to the code used in the source.
+ table condition_occurrence
+26
+ field condition_status_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the condition status as it appears in the source data.  This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is stored here for reference.
+ table condition_occurrence
+27
+ field device_exposure_id
+ required Yes
+ type BIGINT
+ description A system-generated unique identifier for each Device Exposure.
+ table device_exposure
+28
+ field person_id
+ required Yes
+ type BIGINT
+ description A foreign key identifier to the Person who is subjected to the Device. The demographic details of that Person are stored in the PERSON table.
+ table device_exposure
+29
+ field device_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies belonging to the 'Device' domain.
+ table device_exposure
+30
+ field device_exposure_start_date
+ required No
+ type DATE
+ description The date the Device or supply was applied or used.
+ table device_exposure
+31
+ field device_exposure_start_datetime
+ required Yes
+ type DATETIME
+ description The date and time the Device or supply was applied or used.
+ table device_exposure
+32
+ field device_exposure_end_date
+ required No
+ type DATE
+ description The date use of the Device or supply was ceased.
+ table device_exposure
+33
+ field device_exposure_end_datetime
+ required No
+ type DATETIME
+ description The date and time use of the Device or supply was ceased.
+ table device_exposure
+34
+ field device_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of Device Exposure recorded. It indicates how the Device Exposure was represented in the source data and belongs to the 'Device Type' domain.
+ table device_exposure
+35
+ field unique_device_id
+ required No
+ type VARCHAR(50)
+ description A UDI or equivalent identifying the instance of the Device used in the Person.
+ table device_exposure
+36
+ field quantity
+ required No
+ type INTEGER
+ description The number of individual Devices used in the exposure.
+ table device_exposure
+37
+ field provider_id
+ required No
+ type INTEGER
+ description A foreign key to the provider in the PROVIDER table who initiated or administered the Device.
+ table device_exposure
+38
+ field visit_occurrence_id
+ required No
+ type INTEGER
+ description A foreign key to the visit in the VISIT_OCCURRENCE table during which the Device was used.
+ table device_exposure
+39
+ field visit_detail_id
+ required No
+ type INTEGER
+ description A foreign key to the visit detail record in the VISIT_DETAIL table during which the Device was used.
+ table device_exposure
+40
+ field device_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the Device as it appears in the source data. This code is mapped to a Standard Device Concept in the Standardized Vocabularies and the original code is stored here for reference.
+ table device_exposure
+41
+ field device_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Device Concept that refers to the code used in the source.
+ table device_exposure
+42
+ field drug_exposure_id
+ required Yes
+ type BIGINT
+ description A system-generated unique identifier for each Drug utilization event.
+ table drug_exposure
+43
+ field person_id
+ required Yes
+ type BIGINT
+ description A foreign key identifier to the Person who is subjected to the Drug. The demographic details of that Person are stored in the PERSON table.
+ table drug_exposure
+44
+ field drug_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies belonging to the 'Drug' domain.
+ table drug_exposure
+45
+ field drug_exposure_start_date
+ required No
+ type DATE
+ description The start date for the current instance of Drug utilization. Valid entries include a start date of a prescription, the date a prescription was filled, or the date on which a Drug administration procedure was recorded.
+ table drug_exposure
+46
+ field drug_exposure_start_datetime
+ required Yes
+ type DATETIME
+ description The start date and time for the current instance of Drug utilization. Valid entries include a start datetime of a prescription, the date and time a prescription was filled, or the date and time on which a Drug administration procedure was recorded.
+ table drug_exposure
+47
+ field drug_exposure_end_date
+ required No
+ type DATE
+ description The end date for the current instance of Drug utilization. Depending on different sources, it could be a known or an inferred date and denotes the last day at which the patient was still exposed to Drug.
+ table drug_exposure
+48
+ field drug_exposure_end_datetime
+ required No
+ type DATETIME
+ description The end date and time for the current instance of Drug utilization. Depending on different sources, it could be a known or an inferred date and time and denotes the last day at which the patient was still exposed to Drug.
+ table drug_exposure
+49
+ field verbatim_end_date
+ required No
+ type DATE
+ description The known end date of a drug_exposure as provided by the source.
+ table drug_exposure
+50
+ field drug_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of Drug Exposure recorded. It indicates how the Drug Exposure was represented in the source data and belongs to the 'Drug Type' vocabulary.
+ table drug_exposure
+51
+ field stop_reason
+ required No
+ type VARCHAR(20)
+ description The reason the Drug was stopped. Reasons include regimen completed, changed, removed, etc.
+ table drug_exposure
+52
+ field refills
+ required No
+ type INTEGER
+ description The number of refills after the initial prescription. The initial prescription is not counted, values start with null.
+ table drug_exposure
+53
+ field quantity
+ required No
+ type FLOAT
+ description The quantity of drug as recorded in the original prescription or dispensing record.
+ table drug_exposure
+54
+ field days_supply
+ required No
+ type INTEGER
+ description The number of days of supply of the medication as prescribed. This reflects the intention of the provider for the length of exposure.
+ table drug_exposure
+55
+ field sig
+ required No
+ type VARCHAR(MAX)
+ description The directions ('signetur') on the Drug prescription as recorded in the original prescription (and printed on the container) or dispensing record.
+ table drug_exposure
+56
+ field route_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies reflecting the route of administration and belonging to the 'Route' domain.
+ table drug_exposure
+57
+ field lot_number
+ required No
+ type VARCHAR(50)
+ description An identifier assigned to a particular quantity or lot of Drug product from the manufacturer.
+ table drug_exposure
+58
+ field provider_id
+ required No
+ type INTEGER
+ description A foreign key to the provider in the PROVIDER table who initiated (prescribed or administered) the Drug Exposure.
+ table drug_exposure
+59
+ field visit_occurrence_id
+ required No
+ type INTEGER
+ description A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Drug Exposure was initiated.
+ table drug_exposure
+60
+ field visit_detail_id
+ required No
+ type INTEGER
+ description A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Drug Exposure was initiated.
+ table drug_exposure
+61
+ field drug_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the Drug as it appears in the source data. This code is mapped to a Standard Drug concept in the Standardized Vocabularies and the original code is, stored here for reference.
+ table drug_exposure
+62
+ field drug_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Drug Concept that refers to the code used in the source.
+ table drug_exposure
+63
+ field route_source_value
+ required No
+ type VARCHAR(50)
+ description The information about the route of administration as detailed in the source.
+ table drug_exposure
+64
+ field dose_unit_source_value
+ required No
+ type VARCHAR(50)
+ description The information about the dose unit as detailed in the source.
+ table drug_exposure
+65
+ field domain_concept_id_1
+ required Yes
+ type INTEGER
+ description The concept representing the domain of fact one, from which the corresponding table can be inferred.
+ table fact_relationship
+66
+ field fact_id_1
+ required Yes
+ type INTEGER
+ description The unique identifier in the table corresponding to the domain of fact one.
+ table fact_relationship
+67
+ field domain_concept_id_2
+ required Yes
+ type INTEGER
+ description The concept representing the domain of fact two, from which the corresponding table can be inferred.
+ table fact_relationship
+68
+ field fact_id_2
+ required Yes
+ type INTEGER
+ description The unique identifier in the table corresponding to the domain of fact two.
+ table fact_relationship
+69
+ field relationship_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Standard Concept ID of relationship in the Standardized Vocabularies.
+ table fact_relationship
+70
+ field measurement_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each Measurement.
+ table measurement
+71
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person about whom the measurement was recorded. The demographic details of that Person are stored in the PERSON table.
+ table measurement
+72
+ field measurement_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the standard measurement concept identifier in the Standardized Vocabularies. These belong to the 'Measurement' domain, but could overlap with the 'Observation' domain (see #3 below).
+ table measurement
+73
+ field measurement_date
+ required No
+ type DATE
+ description The date of the Measurement.
+ table measurement
+74
+ field measurement_datetime
+ required Yes
+ type DATETIME
+ description The date and time of the Measurement. Some database systems don't have a datatype of time. To accommodate all temporal analyses, datatype datetime can be used (combining measurement_date and measurement_time [forum discussion](http://forums.ohdsi.org/t/date-time-and-datetime-problem-and-the-world-of-hours-and-1day/314))
+ table measurement
+75
+ field measurement_time
+ required No
+ type VARCHAR(10)
+ description The time of the Measurement. This is present for backwards compatibility and will be deprecated in an upcoming version
+ table measurement
+76
+ field measurement_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the provenance from where the Measurement record was recorded. These belong to the 'Meas Type' vocabulary
+ table measurement
+77
+ field operator_concept_id
+ required No
+ type INTEGER
+ description A foreign key identifier to the predefined Concept in the Standardized Vocabularies reflecting the mathematical operator that is applied to the value_as_number. Operators are <, <=, =, >=, > and these concepts belong to the 'Meas Value Operator' domain.
+ table measurement
+78
+ field value_as_number
+ required No
+ type FLOAT
+ description A Measurement result where the result is expressed as a numeric value.
+ table measurement
+79
+ field value_as_concept_id
+ required No
+ type INTEGER
+ description A foreign key to a Measurement result represented as a Concept from the Standardized Vocabularies (e.g., positive/negative, present/absent, low/high, etc.). These belong to the 'Meas Value' domain
+ table measurement
+80
+ field unit_concept_id
+ required No
+ type INTEGER
+ description A foreign key to a Standard Concept ID of Measurement Units in the Standardized Vocabularies that belong to the 'Unit' domain.
+ table measurement
+81
+ field range_low
+ required No
+ type FLOAT
+ description The lower limit of the normal range of the Measurement result. The lower range is assumed to be of the same unit of measure as the Measurement value.
+ table measurement
+82
+ field range_high
+ required No
+ type FLOAT
+ description The upper limit of the normal range of the Measurement. The upper range is assumed to be of the same unit of measure as the Measurement value.
+ table measurement
+83
+ field provider_id
+ required No
+ type INTEGER
+ description A foreign key to the provider in the PROVIDER table who was responsible for initiating or obtaining the measurement.
+ table measurement
+84
+ field visit_occurrence_id
+ required No
+ type INTEGER
+ description A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Measurement was recorded.
+ table measurement
+85
+ field visit_detail_id
+ required No
+ type INTEGER
+ description A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Measurement was recorded.
+ table measurement
+86
+ field measurement_source_value
+ required No
+ type VARCHAR(50)
+ description The Measurement name as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is stored here for reference.
+ table measurement
+87
+ field measurement_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Concept in the Standard Vocabularies that refers to the code used in the source.
+ table measurement
+88
+ field unit_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the unit as it appears in the source data. This code is mapped to a standard unit concept in the Standardized Vocabularies and the original code is stored here for reference.
+ table measurement
+89
+ field value_source_value
+ required No
+ type VARCHAR(50)
+ description The source value associated with the content of the value_as_number or value_as_concept_id as stored in the source data.
+ table measurement
+90
+ field note_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each note.
+ table note
+91
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person about whom the Note was recorded. The demographic details of that Person are stored in the PERSON table.
+ table note
+92
+ field note_event_id
+ required No
+ type INTEGER
+ description A foreign key identifier to the event (e.g. Measurement, Procedure, Visit, Drug Exposure, etc) record during which the note was recorded.
+ table note
+93
+ field note_event_field_concept_id
+ required No
+ type INTEGER
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the field to which the note_event_id is referring.
+ table note
+94
+ field note_date
+ required No
+ type DATE
+ description The date the note was recorded.
+ table note
+95
+ field note_datetime
+ required Yes
+ type DATETIME
+ description The date and time the note was recorded.
+ table note
+96
+ field note_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the type, origin or provenance of the Note. These belong to the 'Note Type' vocabulary
+ table note
+97
+ field note_class_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the HL7 LOINC Document Type Vocabulary classification of the note.
+ table note
+98
+ field note_title
+ required No
+ type VARCHAR(250)
+ description The title of the Note as it appears in the source.
+ table note
+99
+ field note_text
+ required Yes
+ type VARCHAR(MAX)
+ description The content of the Note.
+ table note
+100
+ field encoding_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the note character encoding type
+ table note
+101
+ field language_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the language of the note
+ table note
+102
+ field provider_id
+ required No
+ type INTEGER
+ description A foreign key to the Provider in the PROVIDER table who took the Note.
+ table note
+103
+ field visit_occurrence_id
+ required No
+ type INTEGER
+ description A foreign key to the Visit in the VISIT_OCCURRENCE table when the Note was taken.
+ table note
+104
+ field visit_detail_id
+ required No
+ type INTEGER
+ description A foreign key to the Visit in the VISIT_DETAIL table when the Note was taken.
+ table note
+105
+ field note_source_value
+ required No
+ type VARCHAR(50)
+ description The source value associated with the origin of the Note
+ table note
+106
+ field note_nlp_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each term extracted from a note.
+ table note_nlp
+107
+ field note_id
+ required Yes
+ type INTEGER
+ description A foreign key to the Note table note the term was
+ table note_nlp
+108
+ field section_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept in the Standardized Vocabularies representing the section of the extracted term.
+ table note_nlp
+109
+ field snippet
+ required No
+ type VARCHAR(250)
+ description A small window of text surrounding the term.
+ table note_nlp
+110
+ field offset
+ required No
+ type VARCHAR(50)
+ description Character offset of the extracted term in the input note.
+ table note_nlp
+111
+ field lexical_variant
+ required Yes
+ type VARCHAR(250)
+ description Raw text extracted from the NLP tool.
+ table note_nlp
+112
+ field note_nlp_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept in the Standardized Vocabularies reflecting the normalized concept for the extracted term. Domain of the term is represented as part of the Concept table.
+ table note_nlp
+113
+ field note_nlp_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Concept that refers to the code in the source vocabulary used by the NLP system
+ table note_nlp
+114
+ field nlp_system
+ required No
+ type VARCHAR(250)
+ description Name and version of the NLP system that extracted the term.Useful for data provenance.
+ table note_nlp
+115
+ field nlp_date
+ required Yes
+ type DATE
+ description The date of the note processing.Useful for data provenance.
+ table note_nlp
+116
+ field nlp_datetime
+ required No
+ type DATETIME
+ description The date and time of the note processing. Useful for data provenance.
+ table note_nlp
+117
+ field term_exists
+ required No
+ type VARCHAR(1)
+ description A summary modifier that signifies presence or absence of the term for a given patient. Useful for quick querying.
+ table note_nlp
+118
+ field term_temporal
+ required No
+ type VARCHAR(50)
+ description An optional time modifier associated with the extracted term. (for now “past” or “present” only). Standardize it later.
+ table note_nlp
+119
+ field term_modifiers
+ required No
+ type VARCHAR(2000)
+ description A compact description of all the modifiers of the specific term extracted by the NLP system. (e.g. “son has rash” ? “negated=no,subject=family, certainty=undef,conditional=false,general=false”).
+ table note_nlp
+120
+ field observation_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each observation.
+ table observation
+121
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person about whom the observation was recorded. The demographic details of that Person are stored in the PERSON table.
+ table observation
+122
+ field observation_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the standard observation concept identifier in the Standardized Vocabularies.
+ table observation
+123
+ field observation_date
+ required No
+ type DATE
+ description The date of the observation.
+ table observation
+124
+ field observation_datetime
+ required Yes
+ type DATETIME
+ description The date and time of the observation.
+ table observation
+125
+ field observation_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined concept identifier in the Standardized Vocabularies reflecting the type of the observation.
+ table observation
+126
+ field value_as_number
+ required No
+ type FLOAT
+ description The observation result stored as a number. This is applicable to observations where the result is expressed as a numeric value.
+ table observation
+127
+ field value_as_string
+ required No
+ type VARCHAR(60)
+ description The observation result stored as a string. This is applicable to observations where the result is expressed as verbatim text.
+ table observation
+128
+ field value_as_concept_id
+ required No
+ type INTEGER
+ description A foreign key to an observation result stored as a Concept ID. This is applicable to observations where the result can be expressed as a Standard Concept from the Standardized Vocabularies (e.g., positive/negative, present/absent, low/high, etc.).
+ table observation
+129
+ field qualifier_concept_id
+ required No
+ type INTEGER
+ description A foreign key to a Standard Concept ID for a qualifier (e.g., severity of drug-drug interaction alert)
+ table observation
+130
+ field unit_concept_id
+ required No
+ type INTEGER
+ description A foreign key to a Standard Concept ID of measurement units in the Standardized Vocabularies.
+ table observation
+131
+ field provider_id
+ required No
+ type INTEGER
+ description A foreign key to the provider in the PROVIDER table who was responsible for making the observation.
+ table observation
+132
+ field visit_occurrence_id
+ required No
+ type INTEGER
+ description A foreign key to the visit in the VISIT_OCCURRENCE table during which the observation was recorded.
+ table observation
+133
+ field visit_detail_id
+ required No
+ type INTEGER
+ description A foreign key to the visit in the VISIT_DETAIL table during which the observation was recorded.
+ table observation
+134
+ field observation_source_value
+ required No
+ type VARCHAR(50)
+ description The observation code as it appears in the source data. This code is mapped to a Standard Concept in the Standardized Vocabularies and the original code is, stored here for reference.
+ table observation
+135
+ field observation_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Concept that refers to the code used in the source.
+ table observation
+136
+ field unit_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the unit as it appears in the source data. This code is mapped to a standard unit concept in the Standardized Vocabularies and the original code is, stored here for reference.
+ table observation
+137
+ field qualifier_source_value
+ required No
+ type VARCHAR(50)
+ description The source value associated with a qualifier to characterize the observation
+ table observation
+138
+ field observation_event_id
+ required No
+ type INTEGER
+ description A foreign key to an event table (e.g., PROCEDURE_OCCURRENCE_ID).
+ table observation
+139
+ field obs_event_field_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies referring to the field represented in the OBSERVATION_EVENT_ID.
+ table observation
+140
+ field value_as_datetime
+ required No
+ type INTEGER
+ description The observation result stored as a datetime value. This is applicable to observations where the result is expressed as a point in time.
+ table observation
+141
+ field observation_period_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each observation period.
+ table observation_period
+142
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the person for whom the observation period is defined. The demographic details of that person are stored in the person table.
+ table observation_period
+143
+ field observation_period_start_date
+ required Yes
+ type DATE
+ description The start date of the observation period for which data are available from the data source.
+ table observation_period
+144
+ field observation_period_end_date
+ required Yes
+ type DATE
+ description The end date of the observation period for which data are available from the data source.
+ table observation_period
+145
+ field period_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the predefined concept in the Standardized Vocabularies reflecting the source of the observation period information, belonging to the 'Obs Period Type' vocabulary
+ table observation_period
+146
+ field person_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each person.
+ table person
+147
+ field gender_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to an identifier in the CONCEPT table for the unique gender of the person.
+ table person
+148
+ field year_of_birth
+ required Yes
+ type INTEGER
+ description The year of birth of the person. For data sources with date of birth, the year is extracted. For data sources where the year of birth is not available, the approximate year of birth is derived based on any age group categorization available.
+ table person
+149
+ field month_of_birth
+ required No
+ type INTEGER
+ description The month of birth of the person. For data sources that provide the precise date of birth, the month is extracted and stored in this field.
+ table person
+150
+ field day_of_birth
+ required No
+ type INTEGER
+ description The day of the month of birth of the person. For data sources that provide the precise date of birth, the day is extracted and stored in this field.
+ table person
+151
+ field birth_datetime
+ required No
+ type DATETIME
+ description The date and time of birth of the person.
+ table person
+152
+ field death_datetime
+ required No
+ type DATETIME
+ description The date and time of death of the person.
+ table person
+153
+ field race_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to an identifier in the CONCEPT table for the unique race of the person, belonging to the 'Race' vocabulary.
+ table person
+154
+ field ethnicity_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to the standard concept identifier in the Standardized Vocabularies for the ethnicity of the person, belonging to the 'Ethnicity' vocabulary.
+ table person
+155
+ field location_id
+ required No
+ type INTEGER
+ description A foreign key to the place of residency for the person in the location table, where the detailed address information is stored.
+ table person
+156
+ field provider_id
+ required No
+ type INTEGER
+ description A foreign key to the primary care provider the person is seeing in the provider table.
+ table person
+157
+ field care_site_id
+ required No
+ type INTEGER
+ description A foreign key to the site of primary care in the care_site table, where the details of the care site are stored.
+ table person
+158
+ field person_source_value
+ required No
+ type VARCHAR(50)
+ description An (encrypted) key derived from the person identifier in the source data. This is necessary when a use case requires a link back to the person data at the source dataset.
+ table person
+159
+ field gender_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the gender of the person as it appears in the source data. The person’s gender is mapped to a standard gender concept in the Standardized Vocabularies; the original value is stored here for reference.
+ table person
+160
+ field gender_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the gender concept that refers to the code used in the source.
+ table person
+161
+ field race_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the race of the person as it appears in the source data. The person race is mapped to a standard race concept in the Standardized Vocabularies and the original value is stored here for reference.
+ table person
+162
+ field race_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the race concept that refers to the code used in the source.
+ table person
+163
+ field ethnicity_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the ethnicity of the person as it appears in the source data. The person ethnicity is mapped to a standard ethnicity concept in the Standardized Vocabularies and the original code is, stored here for reference.
+ table person
+164
+ field ethnicity_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the ethnicity concept that refers to the code used in the source.
+ table person
+165
+ field procedure_occurrence_id
+ required Yes
+ type INTEGER
+ description A system-generated unique identifier for each Procedure Occurrence.
+ table procedure_occurrence
+166
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person who is subjected to the Procedure. The demographic details of that Person are stored in the PERSON table.
+ table procedure_occurrence
+167
+ field procedure_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a standard procedure Concept identifier in the Standardized Vocabularies.
+ table procedure_occurrence
+168
+ field procedure_date
+ required No
+ type DATE
+ description The date on which the Procedure was performed.
+ table procedure_occurrence
+169
+ field procedure_datetime
+ required Yes
+ type DATETIME
+ description The date and time on which the Procedure was performed.
+ table procedure_occurrence
+170
+ field procedure_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of source data from which the procedure record is derived, belonging to the 'Procedure Type' vocabulary.
+ table procedure_occurrence
+171
+ field modifier_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Standard Concept identifier for a modifier to the Procedure (e.g. bilateral). These concepts are typically distinguished by 'Modifier' concept classes (e.g., 'CPT4 Modifier' as part of the 'CPT4' vocabulary).
+ table procedure_occurrence
+172
+ field quantity
+ required No
+ type INTEGER
+ description The quantity of procedures ordered or administered.
+ table procedure_occurrence
+173
+ field provider_id
+ required No
+ type INTEGER
+ description A foreign key to the provider in the PROVIDER table who was responsible for carrying out the procedure.
+ table procedure_occurrence
+174
+ field visit_occurrence_id
+ required No
+ type INTEGER
+ description A foreign key to the Visit in the VISIT_OCCURRENCE table during which the Procedure was carried out.
+ table procedure_occurrence
+175
+ field visit_detail_id
+ required No
+ type INTEGER
+ description A foreign key to the Visit Detail in the VISIT_DETAIL table during which the Procedure was carried out.
+ table procedure_occurrence
+176
+ field procedure_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the Procedure as it appears in the source data. This code is mapped to a standard procedure Concept in the Standardized Vocabularies and the original code is, stored here for reference. Procedure source codes are typically ICD-9-Proc, CPT-4, HCPCS or OPCS-4 codes.
+ table procedure_occurrence
+177
+ field procedure_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Procedure Concept that refers to the code used in the source.
+ table procedure_occurrence
+178
+ field modifier_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the qualifier as it appears in the source data.
+ table procedure_occurrence
+179
+ field specimen_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each specimen.
+ table specimen
+180
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person for whom the Specimen is recorded.
+ table specimen
+181
+ field specimen_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key referring to a Standard Concept identifier in the Standardized Vocabularies for the Specimen.
+ table specimen
+182
+ field specimen_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key referring to the Concept identifier in the Standardized Vocabularies reflecting the system of record from which the Specimen was represented in the source data.
+ table specimen
+183
+ field specimen_date
+ required No
+ type DATE
+ description The date the specimen was obtained from the Person.
+ table specimen
+184
+ field specimen_datetime
+ required Yes
+ type DATETIME
+ description The date and time on the date when the Specimen was obtained from the person.
+ table specimen
+185
+ field quantity
+ required No
+ type FLOAT
+ description The amount of specimen collection from the person during the sampling procedure.
+ table specimen
+186
+ field unit_concept_id
+ required No
+ type INTEGER
+ description A foreign key to a Standard Concept identifier for the Unit associated with the numeric quantity of the Specimen collection.
+ table specimen
+187
+ field anatomic_site_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Standard Concept identifier for the anatomic location of specimen collection.
+ table specimen
+188
+ field disease_status_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Standard Concept identifier for the Disease Status of specimen collection.
+ table specimen
+189
+ field specimen_source_id
+ required No
+ type VARCHAR(50)
+ description The Specimen identifier as it appears in the source data.
+ table specimen
+190
+ field specimen_source_value
+ required No
+ type VARCHAR(50)
+ description The Specimen value as it appears in the source data. This value is mapped to a Standard Concept in the Standardized Vocabularies and the original code is, stored here for reference.
+ table specimen
+191
+ field unit_source_value
+ required No
+ type VARCHAR(50)
+ description The information about the Unit as detailed in the source.
+ table specimen
+192
+ field anatomic_site_source_value
+ required No
+ type VARCHAR(50)
+ description The information about the anatomic site as detailed in the source.
+ table specimen
+193
+ field disease_status_source_value
+ required No
+ type VARCHAR(50)
+ description The information about the disease status as detailed in the source.
+ table specimen
+194
+ field survey_conduct_id
+ required Yes
+ type INTEGER
+ description Unique identifier for each completed survey.
+ table survey_conduct
+195
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person in the PERSON table about whom the survey was completed.
+ table survey_conduct
+196
+ field survey_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the name and identity of the survey.
+ table survey_conduct
+197
+ field survey_start_date
+ required No
+ type DATE
+ description Date on which the survey was started.
+ table survey_conduct
+198
+ field survey_start_datetime
+ required No
+ type DATETIME
+ description Date and time the survey was started.
+ table survey_conduct
+199
+ field survey_end_date
+ required Yes
+ type DATE
+ description Date on which the survey was completed.
+ table survey_conduct
+200
+ field survey_end_datetime
+ required No
+ type DATETIME
+ description Date and time the survey was completed.
+ table survey_conduct
+201
+ field provider_id
+ required No�
+ type INTEGER�
+ description A foreign key to the provider in the provider table who was associated with the survey completion.
+ table survey_conduct
+202
+ field assisted_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies indicating whether the survey was completed with assistance.
+ table survey_conduct
+203
+ field respondent_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the respondent type. Example: Research Associate, Patient.
+ table survey_conduct
+204
+ field timing_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies that refers to a certain timing. Example: 3 month follow-up, 6 month follow-up.
+ table survey_conduct
+205
+ field collection_method_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the data collection method (e.g. Paper, Telephone, Electronic Questionnaire).
+ table survey_conduct
+206
+ field assisted_source_value
+ required No
+ type VARCHAR(50)
+ description Source value representing whether patient required assistance to complete the survey. Example: “Completed without assistance”, ”Completed with assistance”.
+ table survey_conduct
+207
+ field respondent_type_source_value
+ required No
+ type VARCHAR(100)
+ description Source code representing role of person who completed the survey.
+ table survey_conduct
+208
+ field timing_source_value
+ required No
+ type VARCHAR(100)
+ description Text string representing the timing of the survey. Example: Baseline, 6-month follow-up.
+ table survey_conduct
+209
+ field collection_method_source_value
+ required No
+ type VARCHAR(100)
+ description The collection method as it appears in the source data.
+ table survey_conduct
+210
+ field survey_source_value
+ required No
+ type VARCHAR(100)
+ description The survey name/title as it appears in the source data.
+ table survey_conduct
+211
+ field survey_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a predefined Concept that refers to the code for the survey name/title used in the source.
+ table survey_conduct
+212
+ field survey_source_identifier
+ required No
+ type VARCHAR(100)
+ description Unique identifier for each completed survey in source system.
+ table survey_conduct
+213
+ field validated_survey_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the validation status of the survey.
+ table survey_conduct
+214
+ field validated_survey_source_value
+ required No
+ type INTEGER
+ description Source value representing the validation status of the survey.
+ table survey_conduct
+215
+ field survey_version_number
+ required No
+ type VARCHAR(20)
+ description Version number of the questionnaire or survey used.
+ table survey_conduct
+216
+ field visit_occurrence_id
+ required No
+ type INTEGER
+ description A foreign key to the VISIT_OCCURRENCE table during which the survey was completed
+ table survey_conduct
+217
+ field response_visit_occurrence_id
+ required No
+ type INTEGER�
+ description A foreign key to the visit in the VISIT_OCCURRENCE table during which treatment was carried out that relates to this survey.
+ table survey_conduct
+218
+ field visit_detail_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each Person's visit or encounter at a healthcare provider.
+ table visit_detail
+219
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person for whom the visit is recorded. The demographic details of that Person are stored in the PERSON table.
+ table visit_detail
+220
+ field visit_detail_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a visit Concept identifier in the Standardized Vocabularies belonging to the 'Visit' Vocabulary.
+ table visit_detail
+221
+ field visit_detail_start_date
+ required No
+ type DATE
+ description The start date of the visit.
+ table visit_detail
+222
+ field visit_detail_start_datetime
+ required Yes
+ type DATETIME
+ description The date and time of the visit started.
+ table visit_detail
+223
+ field visit_detail_end_date
+ required No
+ type DATE
+ description The end date of the visit. If this is a one-day visit the end date should match the start date.
+ table visit_detail
+224
+ field visit_detail_end_datetime
+ required Yes
+ type DATETIME
+ description The date and time of the visit end.
+ table visit_detail
+225
+ field visit_detail_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of source data from which the visit record is derived belonging to the 'Visit Type' vocabulary.
+ table visit_detail
+226
+ field provider_id
+ required No
+ type INTEGER
+ description A foreign key to the provider in the provider table who was associated with the visit.
+ table visit_detail
+227
+ field care_site_id
+ required No
+ type INTEGER
+ description A foreign key to the care site in the care site table that was visited.
+ table visit_detail
+228
+ field visit_detail_source_value
+ required No
+ type STRING(50)
+ description The source code for the visit as it appears in the source data.
+ table visit_detail
+229
+ field visit_detail_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Concept that refers to the code used in the source.
+ table visit_detail
+230
+ field admitted_from_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the admitting source as it appears in the source data.
+ table visit_detail
+231
+ field admitted_from_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined concept in the 'Place of Service' Vocabulary reflecting the admitting source for a visit.
+ table visit_detail
+232
+ field discharge_to_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the discharge disposition as it appears in the source data.
+ table visit_detail
+233
+ field discharge_to_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined concept in the 'Place of Service' Vocabulary reflecting the discharge disposition for a visit.
+ table visit_detail
+234
+ field preceding_visit_detail_id
+ required No
+ type INTEGER
+ description A foreign key to the VISIT_DETAIL table of the visit immediately preceding this visit
+ table visit_detail
+235
+ field visit_detail_parent_id
+ required No
+ type INTEGER
+ description A foreign key to the VISIT_DETAIL table record to represent the immediate parent visit-detail record.
+ table visit_detail
+236
+ field visit_occurrence_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to the record in the VISIT_OCCURRENCE table. This is a required field, because for every visit_detail is a child of visit_occurrence and cannot exist without a corresponding parent record in visit_occurrence.
+ table visit_detail
+237
+ field visit_occurrence_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each Person's visit or encounter at a healthcare provider.
+ table visit_occurrence
+238
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person for whom the visit is recorded. The demographic details of that Person are stored in the PERSON table.
+ table visit_occurrence
+239
+ field visit_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a visit Concept identifier in the Standardized Vocabularies belonging to the 'Visit' Vocabulary.
+ table visit_occurrence
+240
+ field visit_start_date
+ required No
+ type DATE
+ description The start date of the visit.
+ table visit_occurrence
+241
+ field visit_start_datetime
+ required Yes
+ type DATETIME
+ description The date and time of the visit started.
+ table visit_occurrence
+242
+ field visit_end_date
+ required No
+ type DATE
+ description The end date of the visit. If this is a one-day visit the end date should match the start date.
+ table visit_occurrence
+243
+ field visit_end_datetime
+ required Yes
+ type DATETIME
+ description The date and time of the visit end.
+ table visit_occurrence
+244
+ field visit_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined Concept identifier in the Standardized Vocabularies reflecting the type of source data from which the visit record is derived belonging to the 'Visit Type' vocabulary.
+ table visit_occurrence
+245
+ field provider_id
+ required No
+ type INTEGER
+ description A foreign key to the provider in the provider table who was associated with the visit.
+ table visit_occurrence
+246
+ field care_site_id
+ required No
+ type INTEGER
+ description A foreign key to the care site in the care site table that was visited.
+ table visit_occurrence
+247
+ field visit_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the visit as it appears in the source data.
+ table visit_occurrence
+248
+ field visit_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Concept that refers to the code used in the source.
+ table visit_occurrence
+249
+ field admitting_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined concept in the Place of Service Vocabulary reflecting the admitting source for a visit.
+ table visit_occurrence
+250
+ field admitting_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the admitting source as it appears in the source data.
+ table visit_occurrence
+251
+ field discharge_to_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the predefined concept in the Place of Service Vocabulary reflecting the discharge disposition for a visit.
+ table visit_occurrence
+252
+ field discharge_to_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the discharge disposition as it appears in the source data.
+ table visit_occurrence
+253
+ field preceding_visit_occurrence_id
+ required No
+ type INTEGER
+ description A foreign key to the VISIT_OCCURRENCE table of the visit immediately preceding this visit
+ table visit_occurrence
+254
+ field condition_era_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each Condition Era.
+ table condition_era
+255
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person who is experiencing the Condition during the Condition Era. The demographic details of that Person are stored in the PERSON table.
+ table condition_era
+256
+ field condition_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a standard Condition Concept identifier in the Standardized Vocabularies.
+ table condition_era
+257
+ field condition_era_start_datetime
+ required Yes
+ type DATE
+ description The start date for the Condition Era constructed from the individual instances of Condition Occurrences. It is the start date of the very first chronologically recorded instance of the condition.
+ table condition_era
+258
+ field condition_era_end_datetime
+ required Yes
+ type DATE
+ description The end date for the Condition Era constructed from the individual instances of Condition Occurrences. It is the end date of the final continuously recorded instance of the Condition.
+ table condition_era
+259
+ field condition_occurrence_count
+ required No
+ type INTEGER
+ description The number of individual Condition Occurrences used to construct the condition era.
+ table condition_era
+260
+ field dose_era_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each Dose Era.
+ table dose_era
+261
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person who is subjected to the drug during the drug era. The demographic details of that Person are stored in the PERSON table.
+ table dose_era
+262
+ field drug_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies for the active Ingredient Concept.
+ table dose_era
+263
+ field unit_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies for the unit concept.
+ table dose_era
+264
+ field dose_value
+ required Yes
+ type FLOAT
+ description The numeric value of the dose.
+ table dose_era
+265
+ field dose_era_start_datetime
+ required Yes
+ type DATE
+ description The start date for the drug era constructed from the individual instances of drug exposures. It is the start date of the very first chronologically recorded instance of utilization of a drug.
+ table dose_era
+266
+ field dose_era_end_datetime
+ required Yes
+ type DATE
+ description The end date for the drug era constructed from the individual instance of drug exposures. It is the end date of the final continuously recorded instance of utilization of a drug.
+ table dose_era
+267
+ field drug_era_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each Drug Era.
+ table drug_era
+268
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person who is subjected to the Drug during the fDrug Era. The demographic details of that Person are stored in the PERSON table.
+ table drug_era
+269
+ field drug_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Concept identifier in the Standardized Vocabularies for the Ingredient Concept.
+ table drug_era
+270
+ field drug_era_start_datetime
+ required Yes
+ type DATE
+ description The start date for the Drug Era constructed from the individual instances of Drug Exposures. It is the start date of the very first chronologically recorded instance of conutilization of a Drug.
+ table drug_era
+271
+ field drug_era_end_datetime
+ required Yes
+ type DATE
+ description The end date for the drug era constructed from the individual instance of drug exposures. It is the end date of the final continuously recorded instance of utilization of a drug.
+ table drug_era
+272
+ field drug_exposure_count
+ required No
+ type INTEGER
+ description The number of individual Drug Exposure occurrences used to construct the Drug Era.
+ table drug_era
+273
+ field gap_days
+ required No
+ type INTEGER
+ description The number of days that are not covered by DRUG_EXPOSURE records that were used to make up the era record.
+ table drug_era
+274
+ field cost_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each COST record.
+ table cost
+275
+ field person_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each PERSON.
+ table cost
+276
+ field cost_event_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the event (e.g. Measurement, Procedure, Visit, Drug Exposure, etc) record for which cost data are recorded.
+ table cost
+277
+ field cost_event_field_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to a concept in the CONCEPT table representing the identity of the field represented by COST_EVENT_ID
+ table cost
+278
+ field cost_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Cost Concept identifier in the Standardized Vocabularies belonging to the 'Cost' vocabulary.
+ table cost
+279
+ field cost_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to a concept in the CONCEPT table for the provenance or the source of the COST data and belonging to the 'Cost Type' vocabulary
+ table cost
+280
+ field cost_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Cost Concept that refers to the code used in the source.
+ table cost
+281
+ field cost_source_value
+ required No
+ type VARCHAR(50)
+ description The source value for the cost as it appears in the source data
+ table cost
+282
+ field currency_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the concept representing the 3-letter code used to delineate international currencies, such as USD for US Dollar. These belong to the 'Currency' vocabulary
+ table cost
+283
+ field cost
+ required Yes
+ type FLOAT
+ description The actual financial cost amount
+ table cost
+284
+ field incurred_date
+ required Yes
+ type DATE
+ description The first date of service of the clinical event corresponding to the cost as in table capturing the information (e.g. date of visit, date of procedure, date of condition, date of drug etc).
+ table cost
+285
+ field billed_date
+ required No
+ type DATE
+ description The date a bill was generated for a service or encounter
+ table cost
+286
+ field paid_date
+ required No
+ type DATE
+ description The date payment was received for a service or encounter
+ table cost
+287
+ field revenue_code_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key referring to a Standard Concept ID in the Standardized Vocabularies for Revenue codes belonging to the 'Revenue Code' vocabulary.
+ table cost
+288
+ field drg_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key referring to a Standard Concept ID in the Standardized Vocabularies for DRG codes belonging to the 'DRG' vocabulary.
+ table cost
+289
+ field revenue_code_source_value
+ required No
+ type VARCHAR(50)
+ description The source value for the Revenue code as it appears in the source data, stored here for reference.
+ table cost
+290
+ field drg_source_value
+ required No
+ type VARCHAR(50)
+ description The source value for the 3-digit DRG source code as it appears in the source data, stored here for reference.
+ table cost
+291
+ field payer_plan_period_id
+ required No
+ type INTEGER
+ description A foreign key to the PAYER_PLAN_PERIOD table, where the details of the Payer, Plan and Family are stored. Record the payer_plan_id that relates to the payer who contributed to the paid_by_payer field.
+ table cost
+292
+ field payer_plan_period_id
+ required Yes
+ type INTEGER
+ description A identifier for each unique combination of payer, plan, family code and time span.
+ table payer_plan_period
+293
+ field person_id
+ required Yes
+ type INTEGER
+ description A foreign key identifier to the Person covered by the payer. The demographic details of that Person are stored in the PERSON table.
+ table payer_plan_period
+294
+ field contract_person_id
+ required No
+ type INTEGER
+ description A foreign key identifier to the person_id in person table, for the person who is the primary subscriber/contract owner for the record in the payer_plan_period table. Maybe the same person or different person, depending on who is the primary subscriber/contract owner.
+ table payer_plan_period
+295
+ field payer_plan_period_start_date
+ required Yes
+ type DATE
+ description The start date of the payer plan period.
+ table payer_plan_period
+296
+ field payer_plan_period_end_date
+ required Yes
+ type DATE
+ description The end date of the payer plan period.
+ table payer_plan_period
+297
+ field payer_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a standard Payer concept identifier in the Standarized Vocabularies
+ table payer_plan_period
+298
+ field payer_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the payer as it appears in the source data.
+ table payer_plan_period
+299
+ field payer_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a payer concept that refers to the code used in the source.
+ table payer_plan_period
+300
+ field plan_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a standard plan concept identifier that represents the health benefit plan in the Standardized Vocabularies.
+ table payer_plan_period
+301
+ field plan_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the Person's health benefit plan as it appears in the source data.
+ table payer_plan_period
+302
+ field plan_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a plan concept that refers to the plan code used in the source data.
+ table payer_plan_period
+303
+ field contract_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a standard concept representing the reason justifying the contract between person_id and contract_person_id.
+ table payer_plan_period
+304
+ field contract_source_value
+ required No
+ type INTEGER
+ description The source code representing the reason justifying the contract. Usually it is family relationship like a spouse, domestic partner, child etc.
+ table payer_plan_period
+305
+ field contract_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a concept that refers to the code used in the source as the reason justifying the contract.
+ table payer_plan_period
+306
+ field sponsor_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a concept identifier that represents the sponsor in the Standardized Vocabularies.
+ table payer_plan_period
+307
+ field sponsor_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the Person's sponsor of the health plan as it appears in the source data.
+ table payer_plan_period
+308
+ field sponsor_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a sponsor concept that refers to the sponsor code used in the source data.
+ table payer_plan_period
+309
+ field family_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the Person's family as it appears in the source data.
+ table payer_plan_period
+310
+ field stop_reason_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a standard termination reason that represents the reason for the termination in the Standardized Vocabularies.
+ table payer_plan_period
+311
+ field stop_reason_source_value
+ required No
+ type VARCHAR(50)
+ description The reason for stop-coverage as it appears in the source data.
+ table payer_plan_period
+312
+ field stop_reason_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a stop-coverage concept that refers to the code used in the source.
+ table payer_plan_period
+313
+ field care_site_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each Care Site.
+ table care_site
+314
+ field care_site_name
+ required No
+ type VARCHAR(255)
+ description The verbatim description or name of the Care Site as in data source
+ table care_site
+315
+ field place_of_service_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Place of Service Concept ID in the Standardized Vocabularies.
+ table care_site
+316
+ field location_id
+ required No
+ type INTEGER
+ description A foreign key to the geographic Location in the LOCATION table, where the detailed address information is stored.
+ table care_site
+317
+ field care_site_source_value
+ required No
+ type VARCHAR(50)
+ description The identifier for the Care Site in the source data, stored here for reference.
+ table care_site
+318
+ field place_of_service_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the Place of Service as it appears in the source data, stored here for reference.
+ table care_site
+319
+ field location_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each geographic location.
+ table location
+320
+ field address_1
+ required No
+ type VARCHAR(50)
+ description The address field 1, typically used for the street address, as it appears in the source data.
+ table location
+321
+ field address_2
+ required No
+ type VARCHAR(50)
+ description The address field 2, typically used for additional detail such as buildings, suites, floors, as it appears in the source data.
+ table location
+322
+ field city
+ required No
+ type VARCHAR(50)
+ description The city field as it appears in the source data.
+ table location
+323
+ field state
+ required No
+ type VARCHAR(2)
+ description The state field as it appears in the source data.
+ table location
+324
+ field zip
+ required No
+ type VARCHAR(9)
+ description The zip or postal code.
+ table location
+325
+ field county
+ required No
+ type VARCHAR(20)
+ description The county.
+ table location
+326
+ field country
+ required No
+ type VARCHAR(100)
+ description The country
+ table location
+327
+ field location_source_value
+ required No
+ type VARCHAR(50)
+ description The verbatim information that is used to uniquely identify the location as it appears in the source data.
+ table location
+328
+ field latitude
+ required No
+ type FLOAT
+ description The geocoded latitude
+ table location
+329
+ field longitude
+ required No
+ type FLOAT
+ description The geocoded longitude
+ table location
+330
+ field location_id
+ required Yes
+ type INTEGER
+ description A foreign key to the location table.
+ table location_history
+331
+ field relationship_type_concept_id
+ required Yes
+ type VARCHAR(50)
+ description The type of relationship between location and entity.
+ table location_history
+332
+ field domain_id
+ required Yes
+ type VARCHAR(50)
+ description The domain of the entity that is related to the location. Either PERSON, PROVIDER, or CARE_SITE.
+ table location_history
+333
+ field entity_id
+ required Yes
+ type INTEGER
+ description The unique identifier for the entity. References either person_id, provider_id, or care_site_id, depending on domain_id.
+ table location_history
+334
+ field start_date
+ required Yes
+ type DATE
+ description The date the relationship started.
+ table location_history
+335
+ field end_date
+ required No
+ type DATE
+ description The date the relationship ended.
+ table location_history
+336
+ field provider_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each Provider.
+ table provider
+337
+ field provider_name
+ required No
+ type VARCHAR(255)
+ description A description of the Provider.
+ table provider
+338
+ field npi
+ required No
+ type VARCHAR(20)
+ description The National Provider Identifier (NPI) of the provider.
+ table provider
+339
+ field dea
+ required No
+ type VARCHAR(20)
+ description The Drug Enforcement Administration (DEA) number of the provider.
+ table provider
+340
+ field specialty_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Standard Specialty Concept ID in the Standardized Vocabularies.
+ table provider
+341
+ field care_site_id
+ required No
+ type INTEGER
+ description A foreign key to the main Care Site where the provider is practicing.
+ table provider
+342
+ field year_of_birth
+ required No
+ type INTEGER
+ description The year of birth of the Provider.
+ table provider
+343
+ field gender_concept_id
+ required Yes
+ type INTEGER
+ description The gender of the Provider.
+ table provider
+344
+ field provider_source_value
+ required No
+ type VARCHAR(50)
+ description The identifier used for the Provider in the source data, stored here for reference.
+ table provider
+345
+ field specialty_source_value
+ required No
+ type VARCHAR(50)
+ description The source code for the Provider specialty as it appears in the source data, stored here for reference.
+ table provider
+346
+ field specialty_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Concept that refers to the code used in the source.
+ table provider
+347
+ field gender_source_value
+ required No
+ type VARCHAR(50)
+ description The gender code for the Provider as it appears in the source data, stored here for reference.
+ table provider
+348
+ field gender_source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Concept that refers to the code used in the source.
+ table provider
+349
+ field cdm_source_name
+ required Yes
+ type VARCHAR(255)
+ description The full name of the source
+ table cdm_source
+350
+ field cdm_source_abbreviation
+ required No
+ type VARCHAR(25)
+ description An abbreviation of the name
+ table cdm_source
+351
+ field cdm_holder
+ required No
+ type VARCHAR(255)
+ description The name of the organization responsible for the development of the CDM instance
+ table cdm_source
+352
+ field source_description
+ required No
+ type CLOB
+ description A description of the source data origin and purpose for collection. The description may contain a summary of the period of time that is expected to be covered by this dataset.
+ table cdm_source
+353
+ field source_documentation_reference
+ required No
+ type VARCHAR(255)
+ description URL or other external reference to location of source documentation
+ table cdm_source
+354
+ field cdm_etl_reference
+ required No
+ type VARCHAR(255)
+ description URL or other external reference to location of ETL specification documentation and ETL source code
+ table cdm_source
+355
+ field source_release_date
+ required No
+ type DATE
+ description The date for which the source data are most current, such as the last day of data capture
+ table cdm_source
+356
+ field cdm_release_date
+ required No
+ type DATE
+ description The date when the CDM was instantiated
+ table cdm_source
+357
+ field cdm_version
+ required No
+ type VARCHAR(10)
+ description The version of CDM used
+ table cdm_source
+358
+ field vocabulary_version
+ required No
+ type VARCHAR(20)
+ description The version of the vocabulary used
+ table cdm_source
+359
+ field metadata_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Metadata Concept identifier in the Standardized Vocabularies.
+ table metadata
+360
+ field metadata_type_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a Standard Type Concept identifier in the Standardized Vocabularies.
+ table metadata
+361
+ field name
+ required Yes
+ type VARCHAR(250)
+ description The name of the Concept stored in metadata_concept_id or a description of the data being stored.
+ table metadata
+362
+ field value_as_string
+ required No
+ type NVARCHAR
+ description The metadata value stored as a string.
+ table metadata
+363
+ field value_as_concept_id
+ required No
+ type INTEGER
+ description A foreign key to a metadata value stored as a Concept ID.
+ table metadata
+364
+ field metadata date
+ required No
+ type DATE
+ description The date associated with the metadata
+ table metadata
+365
+ field metadata_datetime
+ required No
+ type DATETIME
+ description The date and time associated with the metadata
+ table metadata
+366
+ field concept_id
+ required Yes
+ type INTEGER
+ description A unique identifier for each Concept across all domains.
+ table concept
+367
+ field concept_name
+ required Yes
+ type VARCHAR(255)
+ description An unambiguous, meaningful and descriptive name for the Concept.
+ table concept
+368
+ field domain_id
+ required Yes
+ type VARCHAR(20)
+ description A foreign key to the [DOMAIN](https://github.com/OHDSI/CommonDataModel/wiki/DOMAIN) table the Concept belongs to.
+ table concept
+369
+ field vocabulary_id
+ required Yes
+ type VARCHAR(20)
+ description A foreign key to the [VOCABULARY](https://github.com/OHDSI/CommonDataModel/wiki/VOCABULARY) table indicating from which source the Concept has been adapted.
+ table concept
+370
+ field concept_class_id
+ required Yes
+ type VARCHAR(20)
+ description The attribute or concept class of the Concept. Examples are 'Clinical Drug', 'Ingredient', 'Clinical Finding' etc.
+ table concept
+371
+ field standard_concept
+ required No
+ type VARCHAR(1)
+ description This flag determines where a Concept is a Standard Concept, i.e. is used in the data, a Classification Concept, or a non-standard Source Concept. The allowables values are 'S' (Standard Concept) and 'C' (Classification Concept), otherwise the content is NULL.
+ table concept
+372
+ field concept_code
+ required Yes
+ type VARCHAR(50)
+ description The concept code represents the identifier of the Concept in the source vocabulary, such as SNOMED-CT concept IDs, RxNorm RXCUIs etc. Note that concept codes are not unique across vocabularies.
+ table concept
+373
+ field valid_start_date
+ required Yes
+ type DATE
+ description The date when the Concept was first recorded. The default value is 1-Jan-1970, meaning, the Concept has no (known) date of inception.
+ table concept
+374
+ field valid_end_date
+ required Yes
+ type DATE
+ description The date when the Concept became invalid because it was deleted or superseded (updated) by a new concept. The default value is 31-Dec-2099, meaning, the Concept is valid until it becomes deprecated.
+ table concept
+375
+ field invalid_reason
+ required No
+ type VARCHAR(1)
+ description Reason the Concept was invalidated. Possible values are D (deleted), U (replaced with an update) or NULL when valid_end_date has the default value.
+ table concept
+376
+ field ancestor_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the concept in the concept table for the higher-level concept that forms the ancestor in the relationship.
+ table concept_ancestor
+377
+ field descendant_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the concept in the concept table for the lower-level concept that forms the descendant in the relationship.
+ table concept_ancestor
+378
+ field min_levels_of_separation
+ required Yes
+ type INTEGER
+ description The minimum separation in number of levels of hierarchy between ancestor and descendant concepts. This is an attribute that is used to simplify hierarchic analysis.
+ table concept_ancestor
+379
+ field max_levels_of_separation
+ required Yes
+ type INTEGER
+ description The maximum separation in number of levels of hierarchy between ancestor and descendant concepts. This is an attribute that is used to simplify hierarchic analysis.
+ table concept_ancestor
+380
+ field concept_class_id
+ required Yes
+ type VARCHAR(20)
+ description A unique key for each class.
+ table concept_class
+381
+ field concept_class_name
+ required Yes
+ type VARCHAR(255)
+ description The name describing the Concept Class, e.g. "Clinical Finding", "Ingredient", etc.
+ table concept_class
+382
+ field concept_class_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to an identifier in the [CONCEPT](https://github.com/OHDSI/CommonDataModel/wiki/CONCEPT) table for the unique Concept Class the record belongs to.
+ table concept_class
+383
+ field concept_id_1
+ required Yes
+ type INTEGER
+ description A foreign key to a Concept in the [CONCEPT](https://github.com/OHDSI/CommonDataModel/wiki/CONCEPT) table associated with the relationship. Relationships are directional, and this field represents the source concept designation.
+ table concept_relationship
+384
+ field concept_id_2
+ required Yes
+ type INTEGER
+ description A foreign key to a Concept in the [CONCEPT](https://github.com/OHDSI/CommonDataModel/wiki/CONCEPT) table associated with the relationship. Relationships are directional, and this field represents the destination concept designation.
+ table concept_relationship
+385
+ field relationship_id
+ required Yes
+ type VARCHAR(20)
+ description A unique identifier to the type or nature of the Relationship as defined in the [RELATIONSHIP](https://github.com/OHDSI/CommonDataModel/wiki/RELATIONSHIP) table.
+ table concept_relationship
+386
+ field valid_start_date
+ required Yes
+ type DATE
+ description The date when the instance of the Concept Relationship is first recorded.
+ table concept_relationship
+387
+ field valid_end_date
+ required Yes
+ type DATE
+ description The date when the Concept Relationship became invalid because it was deleted or superseded (updated) by a new relationship. Default value is 31-Dec-2099.
+ table concept_relationship
+388
+ field invalid_reason
+ required No
+ type VARCHAR(1)
+ description Reason the relationship was invalidated. Possible values are 'D' (deleted), 'U' (replaced with an update) or NULL when valid_end_date has the default value.
+ table concept_relationship
+389
+ field concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the Concept in the CONCEPT table.
+ table concept_synonym
+390
+ field concept_synonym_name
+ required Yes
+ type VARCHAR(1000)
+ description The alternative name for the Concept.
+ table concept_synonym
+391
+ field language_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to a Concept representing the language.
+ table concept_synonym
+392
+ field domain_id
+ required Yes
+ type VARCHAR(20)
+ description A unique key for each domain.
+ table domain
+393
+ field domain_name
+ required Yes
+ type VARCHAR(255)
+ description The name describing the Domain, e.g. "Condition", "Procedure", "Measurement" etc.
+ table domain
+394
+ field domain_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to an identifier in the [CONCEPT](https://github.com/OHDSI/CommonDataModel/wiki/CONCEPT) table for the unique Domain Concept the Domain record belongs to.
+ table domain
+395
+ field drug_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the Concept in the CONCEPT table representing the identifier for Branded Drug or Clinical Drug Concept.
+ table drug_strength
+396
+ field ingredient_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the Concept in the CONCEPT table, representing the identifier for drug Ingredient Concept contained within the drug product.
+ table drug_strength
+397
+ field amount_value
+ required No
+ type FLOAT
+ description The numeric value associated with the amount of active ingredient contained within the product.
+ table drug_strength
+398
+ field amount_unit_concept_id
+ required No
+ type INTEGER
+ description A foreign key to the Concept in the CONCEPT table representing the identifier for the Unit for the absolute amount of active ingredient.
+ table drug_strength
+399
+ field numerator_value
+ required No
+ type FLOAT
+ description The numeric value associated with the concentration of the active ingredient contained in the product
+ table drug_strength
+400
+ field numerator_unit_concept_id
+ required No
+ type INTEGER
+ description A foreign key to the Concept in the CONCEPT table representing the identifier for the numerator Unit for the concentration of active ingredient.
+ table drug_strength
+401
+ field denominator_value
+ required No
+ type FLOAT
+ description The amount of total liquid (or other divisible product, such as ointment, gel, spray, etc.).
+ table drug_strength
+402
+ field denominator_unit_concept_id
+ required No
+ type INTEGER
+ description A foreign key to the Concept in the CONCEPT table representing the identifier for the denominator Unit for the concentration of active ingredient.
+ table drug_strength
+403
+ field box_size
+ required No
+ type INTEGER
+ description The number of units of Clinical of Branded Drug, or Quantified Clinical or Branded Drug contained in a box as dispensed to the patient
+ table drug_strength
+404
+ field valid_start_date
+ required Yes
+ type DATE
+ description The date when the Concept was first recorded. The default value is 1-Jan-1970.
+ table drug_strength
+405
+ field valid_end_date
+ required Yes
+ type DATE
+ description The date when the concept became invalid because it was deleted or superseded (updated) by a new Concept. The default value is 31-Dec-2099.
+ table drug_strength
+406
+ field invalid_reason
+ required No
+ type VARCHAR(1)
+ description Reason the concept was invalidated. Possible values are 'D' (deleted), 'U' (replaced with an update) or NULL when valid_end_date has the default value.
+ table drug_strength
+407
+ field relationship_id
+ required Yes
+ type VARCHAR(20)
+ description The type of relationship captured by the relationship record.
+ table relationship
+408
+ field relationship_name
+ required Yes
+ type VARCHAR(255)
+ description The text that describes the relationship type.
+ table relationship
+409
+ field is_hierarchical
+ required Yes
+ type VARCHAR(1)
+ description Defines whether a relationship defines concepts into classes or hierarchies. Values are 1 for hierarchical relationship or 0 if not.
+ table relationship
+410
+ field defines_ancestry
+ required Yes
+ type VARCHAR(1)
+ description Defines whether a hierarchical relationship contributes to the concept_ancestor table. These are subsets of the hierarchical relationships. Valid values are 1 or 0.
+ table relationship
+411
+ field reverse_relationship_id
+ required Yes
+ type VARCHAR(20)
+ description The identifier for the relationship used to define the reverse relationship between two concepts.
+ table relationship
+412
+ field relationship_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to an identifier in the CONCEPT table for the unique relationship concept.
+ table relationship
+413
+ field source_code
+ required Yes
+ type VARCHAR(50)
+ description The source code being translated into a Standard Concept.
+ table source_to_concept_map
+414
+ field source_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the Source Concept that is being translated into a Standard Concept.
+ table source_to_concept_map
+415
+ field source_vocabulary_id
+ required Yes
+ type VARCHAR(20)
+ description A foreign key to the VOCABULARY table defining the vocabulary of the source code that is being translated to a Standard Concept.
+ table source_to_concept_map
+416
+ field source_code_description
+ required No
+ type VARCHAR(255)
+ description An optional description for the source code. This is included as a convenience to compare the description of the source code to the name of the concept.
+ table source_to_concept_map
+417
+ field target_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key to the target Concept to which the source code is being mapped.
+ table source_to_concept_map
+418
+ field target_vocabulary_id
+ required Yes
+ type VARCHAR(20)
+ description A foreign key to the VOCABULARY table defining the vocabulary of the target Concept.
+ table source_to_concept_map
+419
+ field valid_start_date
+ required Yes
+ type DATE
+ description The date when the mapping instance was first recorded.
+ table source_to_concept_map
+420
+ field valid_end_date
+ required Yes
+ type DATE
+ description The date when the mapping instance became invalid because it was deleted or superseded (updated) by a new relationship. Default value is 31-Dec-2099.
+ table source_to_concept_map
+421
+ field invalid_reason
+ required No
+ type VARCHAR(1)
+ description Reason the mapping instance was invalidated. Possible values are D (deleted), U (replaced with an update) or NULL when valid_end_date has the default value.
+ table source_to_concept_map
+422
+ field vocabulary_id
+ required Yes
+ type VARCHAR(20)
+ description A unique identifier for each Vocabulary, such as ICD9CM, SNOMED, Visit.
+ table vocabulary
+423
+ field vocabulary_name
+ required Yes
+ type VARCHAR(255)
+ description The name describing the vocabulary, for example "International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 1 and 2 (NCHS)" etc.
+ table vocabulary
+424
+ field vocabulary_reference
+ required Yes
+ type VARCHAR(255)
+ description External reference to documentation or available download of the about the vocabulary.
+ table vocabulary
+425
+ field vocabulary_version
+ required No
+ type VARCHAR(255)
+ description Version of the Vocabulary as indicated in the source.
+ table vocabulary
+426
+ field vocabulary_concept_id
+ required Yes
+ type INTEGER
+ description A foreign key that refers to a standard concept identifier in the CONCEPT table for the Vocabulary the VOCABULARY record belongs to.
+ table vocabulary

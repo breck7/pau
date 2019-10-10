@@ -1,0 +1,42 @@
+conceptNode
+ root
+concept_idNode
+ description A unique identifier for each Concept across all domains.
+ cells keyword
+ required
+concept_nameNode
+ description An unambiguous, meaningful and descriptive name for the Concept.
+ cells keyword
+ required
+domain_idNode
+ description A foreign key to the [DOMAIN](https://github.com/OHDSI/CommonDataModel/wiki/DOMAIN) table the Concept belongs to.
+ cells keyword
+ required
+vocabulary_idNode
+ description A foreign key to the [VOCABULARY](https://github.com/OHDSI/CommonDataModel/wiki/VOCABULARY) table indicating from which source the Concept has been adapted.
+ cells keyword
+ required
+concept_class_idNode
+ description The attribute or concept class of the Concept. Examples are 'Clinical Drug', 'Ingredient', 'Clinical Finding' etc.
+ cells keyword
+ required
+standard_conceptNode
+ description This flag determines where a Concept is a Standard Concept, i.e. is used in the data, a Classification Concept, or a non-standard Source Concept. The allowables values are 'S' (Standard Concept) and 'C' (Classification Concept), otherwise the content is NULL.
+ cells keyword
+ required
+concept_codeNode
+ description The concept code represents the identifier of the Concept in the source vocabulary, such as SNOMED-CT concept IDs, RxNorm RXCUIs etc. Note that concept codes are not unique across vocabularies.
+ cells keyword
+ required
+valid_start_dateNode
+ description The date when the Concept was first recorded. The default value is 1-Jan-1970, meaning, the Concept has no (known) date of inception.
+ cells keyword
+ required
+valid_end_dateNode
+ description The date when the Concept became invalid because it was deleted or superseded (updated) by a new concept. The default value is 31-Dec-2099, meaning, the Concept is valid until it becomes deprecated.
+ cells keyword
+ required
+invalid_reasonNode
+ description Reason the Concept was invalidated. Possible values are D (deleted), U (replaced with an update) or NULL when valid_end_date has the default value.
+ cells keyword
+ required
