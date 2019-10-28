@@ -1,0 +1,3442 @@
+--------------- MY HEALTHEVET PERSONAL INFORMATION REPORT ---------------
+                    *************CONFIDENTIAL*************
+                    Produced by the VA Blue Button (v12.10)
+                               08 Aug 2017 @ 0937
+
+This summary is a copy of information from your My HealtheVet Personal
+Health Record. Your summary may include:
+- information that you entered (self reported)
+- information from your VA health record
+- your military service information from the department of defense (DoD).
+
+***Note: Your health care team may not have all of the information from
+ealthPersonal Health Record unless you share it with them. Contact your
+health care team if you have questions about your health information.***
+
+Key:  Double dashes (--) mean there is no information to display.
+
+
+Name: MHVTESTVETERAN, ONE A         Date of Birth: 01 Mar 1948
+
+------------------------ DOWNLOAD REQUEST SUMMARY -----------------------
+
+System Request Date/Time:  08 Aug 2017 @ 0937
+File Name:                 mhv_MHVTESTVETERAN_20170808_0937.txt
+
+Date Range Selected:       08 Aug 2016 to 08 Aug 2017
+Data Types Selected:
+  My HealtheVet Account Summary
+  Self Reported Demographics
+  VA Demographics
+  Self Reported Health Care Providers
+  Self Reported Treatment Facilities
+  Self Reported Health Insurance
+  VA Wellness Reminders
+  VA Appointments (Future)
+  VA Appointments (Limited to past 2 years)
+  VA Allergies
+  Self Reported Allergies
+  VA Medication History
+  Self Reported Medications and Supplements
+  VA Problem List
+  VA Admissions and Discharges
+  VA Notes
+  Self Reported Medical Events
+  VA Immunizations
+  Self Reported Immunizations
+  VA Laboratory Results: Chemistry/Hematology/Microbiology
+  VA Pathology Reports: Surgical Pathology/Cytology/Electron Microscopy
+  Self Reported Labs and Tests
+  VA Vitals and Readings
+  Self Reported Vitals and Readings
+  VA Radiology Reports
+  VA Electrocardiogram (EKG) Reports
+  Self Reported Family Health History
+  Self Reported Military Health History
+  Self Reported Activity Journal
+  Self Reported Food Journal
+  DoD Military Service Information
+  Self Reported My Goals Current
+  Self Reported My Goals Completed 
+
+--------------------- MY HEALTHEVET ACCOUNT SUMMARY ---------------------
+
+Source: VA
+
+Authentication Status:         Authenticated
+Authentication Date:           18 May 2011
+Authentication Facility ID:    648
+Authentication Facility Name:  Portland OR VAMC
+
+   VA Treating Facility                     Type
+   --------------------                     ------  
+   Spokane WA VAMC                          na
+   Portland OR VAMC                         na
+   WHITE CITY VAMC                          na
+   AUSTIN MHV                               na
+   ENROLLMENT SYSTEM REENGINEERING          na
+
+---------------------- SELF REPORTED DEMOGRAPHICS -----------------------
+
+Source:  Self-Entered
+Your self-entered information saved in My HealtheVet is not shared with 
+other sources. 
+
+First Name:          ONE
+Middle Initial:      A
+Last Name:           MHVTESTVETERAN
+Suffix:              
+Alias:               MHVVET
+Relationship to VA:  Patient, Veteran
+
+Gender:  Male        Blood Type:  AB+    Organ Donor: Yes
+
+Date of Birth:       01 Mar 1948
+Marital Status:      Married
+Current Occupation:  Truck Driver
+
+Mailing or Destination Address:          1515 Main Street
+Mailing or Destination Address2:         Apt. 123
+Mailing or Destination City:             Mc Lean
+Mailing or Destination State:            VA
+Mailing or Destination Country:          United States
+Mailing or Destination Province:         
+Mailing or Destination Zip/Postal Code:  20151
+
+Home Phone Number:  703-555-2123
+Work Phone Number:  703-555-4100
+Pager Number:       703-555-2020
+Cell Phone Number:  202-555-0303
+FAX Number:         703-555-4110
+
+Email Address:                mhvveteran@emailaddress.com
+Preferred Method of Contact:  Email
+
+EMERGENCY CONTACTS
+
+  Contact First Name:  Sam
+  Contact Last Name:   Arnold
+  Relationship:        
+  Home Phone Number:   703-555-2121
+  Work Phone Number:   703-555-1000  Extension: 
+  Cell Phone Number:   202-555-1855
+  Address Line 1:      1342 Hilldale Ave
+  Address Line 2:      
+  City:                Chantilly
+  State:               VA
+  Country:             United States
+  Province:            
+  Zip/Post Code:       20151
+  Email Address:       mhvveterantwo@emailaddress.com
+
+  Contact First Name:  Bethany
+  Contact Last Name:   Simpson
+  Relationship:        
+  Home Phone Number:   708-555-2339
+  Work Phone Number:   708-555-5000  Extension: 
+  Cell Phone Number:   312-555-1458
+  Address Line 1:      21040 95th Street
+  Address Line 2:      
+  City:                Hickory Hills
+  State:               IL
+  Country:             United States
+  Province:            
+  Zip/Post Code:       62402
+  Email Address:       mhvveteranthree@emailaddress.com
+
+---------------------------- VA DEMOGRAPHICS ----------------------------
+
+Source:        VA
+Last Updated:  01 Aug 2017 @ 1332
+Sorted By:     VA Treating Facility
+
+Your information in My HealtheVet is not transferred to your VA Health 
+Record. Also, VA Demographic information is not updated between VA 
+treating facilities. If you have any questions or updates, please contact 
+your VA health care team. 
+
+
+=========================================================================
+VA Treating Facility: WHITE CITY VAMC
+-------------------------------------------------------------------------
+
+First Name:          ONE
+Middle Name:         A
+Last Name:           MHVTESTVETERAN
+Religion:            --
+Ethnicity:           --
+Date of Birth:       01 Mar 1948
+Place of Birth:      COLUMBUS, OHIO
+Age:                 69
+Gender:              Male
+Marital Status:      DIVORCED
+
+-------------------------------------------------------------------------
+
+PERMANENT ADDRESS AND CONTACT INFORMATION
+  Street Address:     123 ANYWHERE RD
+  Street Address 2:   APT 123
+  Work Phone Number:  --
+  City:               WASHINGTON
+  State:              DISTRICT OF COLUMBIA
+  Zip Code:           20420
+  County:             001
+  Country:            USA
+
+  Home Phone Number:  --
+  Work Phone Number:  --
+  Cell Phone Number:  --
+  Email Address:      MHVVETERAN@EMAILADDRESS.COM
+
+-------------------------------------------------------------------------
+
+ELIGIBILITY
+  Primary Eligibility Code:      --
+  Service Connected Percentage:  70
+
+EMPLOYMENT
+  Employment Status: NOT EMPLOYED
+  Employer Name:     --
+
+-------------------------------------------------------------------------
+
+ACTIVE INSURANCE            
+  Insurance Company:        --
+  Effective Date:           --
+  Expiration Date:          --
+  Group Name:               --
+  Group Number:             --
+  Subscriber ID:            --
+  Subscriber Name:          --
+  Subscriber Relationship:  --
+
+-------------------------------------------------------------------------
+
+PRIMARY NEXT OF KIN  
+  Name:               ANDERSON,ORLEN
+  Street Address:     403 E. STEWART
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           43232
+
+  Home Phone Number:  614-444-1952
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+
+EMERGENCY CONTACT     
+  Name:               ANDERSON,ORLEN
+  Street Address:     403 E. STEWART
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           43232
+
+  Home Phone Number:  614-444-1952
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+
+VA GUARDIAN           
+  Name:               --                      
+  Street Address:     --
+  City:               --
+  State:              --
+  Zip Code:           --
+
+  Home Phone Number:  --
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+
+CIVIL GUARDIAN  
+  Name:               --
+  Street Address:     --
+  City:               --
+  State:              --
+  Zip Code:           --
+
+  Home Phone Number:  --
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+=========================================================================
+VA Treating Facility: Spokane WA VAMC
+-------------------------------------------------------------------------
+
+First Name:          ONE
+Middle Name:         A
+Last Name:           MHVTESTVETERAN
+Religion:            --
+Ethnicity:           --
+Date of Birth:       01 Mar 1948
+Place of Birth:      HOLLYWOOD, CALIFORNIA
+Age:                 69
+Gender:              Male
+Marital Status:      DIVORCED
+
+-------------------------------------------------------------------------
+
+PERMANENT ADDRESS AND CONTACT INFORMATION
+  Street Address:     123 ANYWHERE RD
+  Street Address 2:   APT 123
+  Work Phone Number:  --
+  City:               WASHINGTON
+  State:              DISTRICT OF COLUMBIA
+  Zip Code:           20420
+  County:             001
+  Country:            USA
+
+  Home Phone Number:  --
+  Work Phone Number:  --
+  Cell Phone Number:  --
+  Email Address:      MHVVETERAN@EMAILADDRESS.COM
+
+-------------------------------------------------------------------------
+
+ELIGIBILITY
+  Primary Eligibility Code:      --
+  Service Connected Percentage:  70
+
+EMPLOYMENT
+  Employment Status: NOT EMPLOYED
+  Employer Name:     --
+
+-------------------------------------------------------------------------
+
+ACTIVE INSURANCE            
+  Insurance Company:        --
+  Effective Date:           --
+  Expiration Date:          --
+  Group Name:               --
+  Group Number:             --
+  Subscriber ID:            --
+  Subscriber Name:          --
+  Subscriber Relationship:  --
+
+-------------------------------------------------------------------------
+
+PRIMARY NEXT OF KIN  
+  Name:               ANDERSON,ORLEN
+  Street Address:     403 E. STEWART
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           43232
+
+  Home Phone Number:  614-444-1952
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+
+EMERGENCY CONTACT     
+  Name:               ANDERSON,ORLEN
+  Street Address:     403 E. STEWART
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           43232
+
+  Home Phone Number:  614-444-1952
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+
+VA GUARDIAN           
+  Name:               --                      
+  Street Address:     --
+  City:               --
+  State:              --
+  Zip Code:           --
+
+  Home Phone Number:  --
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+
+CIVIL GUARDIAN  
+  Name:               --
+  Street Address:     --
+  City:               --
+  State:              --
+  Zip Code:           --
+
+  Home Phone Number:  --
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+=========================================================================
+VA Treating Facility: Portland OR VAMC
+-------------------------------------------------------------------------
+
+First Name:          ONE
+Middle Name:         A
+Last Name:           MHVTESTVETERAN
+Religion:            --
+Ethnicity:           --
+Date of Birth:       01 Mar 1948
+Place of Birth:      COLUMBUS, OHIO
+Age:                 69
+Gender:              Male
+Marital Status:      DIVORCED
+
+-------------------------------------------------------------------------
+
+PERMANENT ADDRESS AND CONTACT INFORMATION
+  Street Address:     123 ANYWHERE RD
+  Street Address 2:   APT 123
+  Work Phone Number:  --
+  City:               WASHINGTON
+  State:              DISTRICT OF COLUMBIA
+  Zip Code:           20420
+  County:             001
+  Country:            USA
+
+  Home Phone Number:  --
+  Work Phone Number:  --
+  Cell Phone Number:  --
+  Email Address:      MHVVETERAN@EMAILADDRESS.COM
+
+-------------------------------------------------------------------------
+
+ELIGIBILITY
+  Primary Eligibility Code:      --
+  Service Connected Percentage:  0
+
+EMPLOYMENT
+  Employment Status: NOT EMPLOYED
+  Employer Name:     --
+
+-------------------------------------------------------------------------
+
+ACTIVE INSURANCE            
+  Insurance Company:        --
+  Effective Date:           --
+  Expiration Date:          --
+  Group Name:               --
+  Group Number:             --
+  Subscriber ID:            --
+  Subscriber Name:          --
+  Subscriber Relationship:  --
+
+-------------------------------------------------------------------------
+
+PRIMARY NEXT OF KIN  
+  Name:               ANDERSON,ORLEN
+  Street Address:     403 E. STEWART
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           43232
+
+  Home Phone Number:  614-444-1952
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+
+EMERGENCY CONTACT     
+  Name:               ANDERSON,ORLEN
+  Street Address:     403 E. STEWART
+  City:               COLUMBUS
+  State:              OHIO
+  Zip Code:           43232
+
+  Home Phone Number:  614-444-1952
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+
+VA GUARDIAN           
+  Name:               --                      
+  Street Address:     --
+  City:               --
+  State:              --
+  Zip Code:           --
+
+  Home Phone Number:  --
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+
+CIVIL GUARDIAN  
+  Name:               --
+  Street Address:     --
+  City:               --
+  State:              --
+  Zip Code:           --
+
+  Home Phone Number:  --
+  Work Phone Number:  --
+
+-------------------------------------------------------------------------
+
+------------------ SELF REPORTED HEALTH CARE PROVIDERS ------------------
+
+Source: Self-Entered
+
+Provider Name: Provider One
+Type of Provider: Specialist
+Other Clinician Information:  
+Phone Number: 254-222-2525    Ext:  
+Email:  
+Comments:  
+
+Provider Name: Provider One
+Type of Provider: Primary
+Other Clinician Information:  
+Phone Number: 703-285-2220    Ext: 1485
+Email: Provider One@institution.org
+Comments: Provider one can be reached on the weekend if needed by leaving a 
+message with the clinic. 
+
+
+------------------ SELF REPORTED TREATMENT FACILITIES--------------------
+
+Source: Self-Entered
+
+Facility Name: Fredericksburg CBOC
+Facility Type: VA            VA Home Facility: Yes
+Phone Number: 540-370-4468   Ext:  
+Mailing Address: 130 Executive Center Pkwy
+Mailing Address2:  
+Mailing City: Fredericksburg
+Mailing State: VA
+Mailing Country: United States
+Mailing Province:  
+Mailing Zip/Postal Code: 22401
+Comments: Contact clinic when calling to make my appointments. 
+
+Facility Name: Northern Virginia Physicians LLC
+Facility Type: Non-VA        VA Home Facility: No
+Phone Number: 703-555-3062   Ext:  
+Mailing Address: 123 Charlotte Drive
+Mailing Address2: B-Wing
+Mailing City: Chantilly
+Mailing State: VA
+Mailing Country: United States
+Mailing Province:  
+Mailing Zip/Postal Code: 20151
+Comments: Reminder to bring My HealtheVet printouts for all visits 
+
+------------------- SELF REPORTED HEALTH INSURANCE ----------------------
+
+Source: Self-Entered
+
+Health Insurance Company: My Health Insurance Company
+Primary Insurance Provider: Yes
+ID Number: ADC-30105-1                  Group Number: 23010
+Insured: One MHVveteran
+Start Date: 01 Jan 2014                 Stop Date: 
+Pre-Approval Phone Number:              855-555-2101
+Health Insurance Company Phone Number:  800-555-3100
+Comments: Need to get pre-authorization for special services. 
+
+Health Insurance Company: Apex Dental
+Primary Insurance Provider: No
+ID Number: 030131-9942                  Group Number: ABC123456789
+Insured: One MHVveteran
+Start Date: 01 Jan 2014                 Stop Date: 
+Pre-Approval Phone Number:              800-555-8949
+Health Insurance Company Phone Number:  800-555-1502
+Comments: Dental Coverage 
+
+
+--------------------------- VA WELLNESS REMINDERS -----------------------
+
+Source: VA
+Last Updated: 01 Aug 2017 @ 1329
+
+Wellness Reminder                  Due Date    Last Completed   Location
+-------------------------------------------------------------------------
+Influenza Vaccine                  DUE NOW     UNKNOWN          Portland OR 
+Influenza Vaccine                  DUE NOW     UNKNOWN          Spokane WA V
+Pneumonia Vaccine                  DUE NOW     UNKNOWN          Spokane WA V
+Colon Cancer Screening             DUE NOW     UNKNOWN          Spokane WA V
+Pneumonia Vaccine                  DUE NOW     UNKNOWN          Portland OR 
+Colon Cancer Screening             01 Oct 2022 01 Oct 2012      Portland OR 
+Colon Cancer Screening             DUE NOW     UNKNOWN          WHITE CITY V
+Influenza Vaccine                  DUE NOW     UNKNOWN          WHITE CITY V
+Pneumonia Vaccine                  DUE NOW     UNKNOWN          WHITE CITY V
+
+Learn more about these Wellness Reminders by visiting My HealtheVet.
+Please contact your health care team with any questions about your VA
+Wellness Reminders.
+
+--------------------------- VA APPOINTMENTS -----------------------------
+
+Source: VA
+Last Updated: 08 Aug 2017 @ 0936
+
+Sort By: Date (Descending)
+
+All future VA Appointments are shown below. Past VA Appointments are 
+limited to two years from the date of your download request. To cancel, 
+change or request an appointment with your VA health care team, please 
+contact your local VA facility. 
+***Please remember to bring your insurance information with you to your appointment.
+
+
+FUTURE APPOINTMENTS:
+--------------------
+Date/Time:      21 Nov 2017 @ 0800
+Location:       PORTLAND VA MEDICAL CENTER
+Status:         CANCELLED
+Clinic:         MH1 Provider One P2 Bldg 104
+Phone Number:   503-220-8262
+
+Date/Time:      14 Nov 2017 @ 0800
+Location:       PORTLAND VA MEDICAL CENTER
+Status:         CANCELLED
+Clinic:         MH1 Provider One  P2 Bldg 104
+Phone Number:   503-220-8262
+
+Date/Time:      01 Nov 2017 @ 0800
+Location:       PORTLAND VA MEDICAL CENTER
+Status:         CANCELLED
+Clinic:         MH1 Provider One P2 Bldg 104
+Phone Number:   503-220-8262
+
+
+PAST APPOINTMENTS:
+--------------------
+Date/Time:      08 May 2017 @ 0800
+Location:       PORTLAND VA MEDICAL CENTER
+Status:         CANCELLED
+Clinic:         CARDIOLOGY STRESS OUTPT-4A103
+Phone Number:   503-273-5299
+
+Date/Time:      08 May 2017 @ 0730
+Location:       PORTLAND VA MEDICAL CENTER
+Status:         CANCELLED
+Clinic:         ECHOCARDIOGRAM 4A-103
+Phone Number:   503-273-5299
+
+Date/Time:      02 Mar 2017 @ 0800
+Location:       PORTLAND VA MEDICAL CENTER
+Status:         UPDATE IN PROGRESS
+Clinic:         JIM B S FAKE CLINIC-AREA A
+Phone Number:   503-220-8262
+
+Date/Time:      23 Feb 2017 @ 0800
+Location:       PORTLAND VA MEDICAL CENTER
+Status:         UPDATE IN PROGRESS
+Clinic:         JIM B S FAKE CLINIC-AREA A
+Phone Number:   503-220-8262
+
+Date/Time:      16 Feb 2017 @ 0800
+Location:       PORTLAND VA MEDICAL CENTER
+Status:         UPDATE IN PROGRESS
+Clinic:         JIM B S FAKE CLINIC-AREA A
+Phone Number:   503-220-8262
+
+Date/Time:      09 Jan 2017 @ 1100
+Location:       PORTLAND VA MEDICAL CENTER
+Status:         CANCELLED
+Clinic:         CARDIOLOGY STRESS OUTPT-4A103
+Phone Number:   503-273-5299
+
+Date/Time:      09 Jan 2017 @ 1000
+Location:       PORTLAND VA MEDICAL CENTER
+Status:         CANCELLED
+Clinic:         ECHOCARDIOGRAM 4A-103
+Phone Number:   503-273-5299
+
+----------------------------- VA ALLERGIES ------------------------------
+
+Source: VA
+Last Updated: 08 Aug 2017 @ 0936
+
+Remember to share all information about your allergies with your health 
+care team.  If you have any questions about your information please visit 
+the FAQs or contact your VA health care team. 
+
+
+Allergy Name:        TRIHEXYPHENIDYL
+Location:            Portland OR VAMC
+Date Entered:        05 May 2017
+Reaction:            GENERALIZED RASH
+Allergy Type:        DRUG 
+VA Drug Class:       PARASYMPATHOLYTICS
+Observed/Historical: HISTORICAL
+Comments:            --
+
+Allergy Name:        OXYCODONE
+Location:            Portland OR VAMC
+Date Entered:        04 Jan 2017
+Reaction:            --
+Allergy Type:        DRUG 
+VA Drug Class:       OPIOID ANALGESICS
+Observed/Historical: HISTORICAL
+Comments:            --
+
+Allergy Name:        PENICILLIN
+Location:            Portland OR VAMC
+Date Entered:        04 Jan 2017
+Reaction:            GENERALIZED RASH
+Allergy Type:        DRUG 
+VA Drug Class:       PENICILLIN-G RELATED PENICILLINS
+Observed/Historical: HISTORICAL
+Comments:            --
+
+Allergy Name:        TETRACYCLINE
+Location:            Portland OR VAMC
+Date Entered:        15 Jan 2016
+Reaction:            ANAPHYLAXIS
+Allergy Type:        DRUG 
+VA Drug Class:       ANTIACNE AGENTS,TOPICAL, ANTIBACTERIALS,TOPICAL
+                     OPHTHALMIC, TETRACYCLINES
+Observed/Historical: OBSERVED
+Comments:            this is only a test
+
+Allergy Name:        IMIPRAMINE
+Location:            Portland OR VAMC
+Date Entered:        07 Dec 2012
+Reaction:            ANAPHYLAXIS
+Allergy Type:        DRUG 
+VA Drug Class:       TRICYCLIC ANTIDEPRESSANTS
+Observed/Historical: OBSERVED
+Comments:            severe
+
+Allergy Name:        TRIMETHOPRIM
+Location:            Portland OR VAMC
+Date Entered:        03 Jun 2011
+Reaction:            --
+Allergy Type:        DRUG 
+VA Drug Class:       ANTI-INFECTIVES,OTHER
+Observed/Historical: HISTORICAL
+Comments:            the reaction to this allergy was MILD (NO SQUELAE
+                     )
+
+Allergy Name:        TRAMADOL
+Location:            Portland OR VAMC
+Date Entered:        03 Jun 2011
+Reaction:            RETENTION OF URINE
+Allergy Type:        DRUG 
+VA Drug Class:       OPIOID ANALGESICS
+Observed/Historical: HISTORICAL
+Comments:            gradually worsening difficulty emptying bladder --
+                     might
+                     try tramadol again cautiously because pt. reported
+                     pain
+                     relief
+
+Allergy Name:        TERAZOSIN
+Location:            Portland OR VAMC
+Date Entered:        03 Jun 2011
+Reaction:            DIZZINESS
+Allergy Type:        DRUG 
+VA Drug Class:       ALPHA BLOCKERS/RELATED
+Observed/Historical: HISTORICAL
+Comments:            --
+
+Allergy Name:        BACTRIM
+Location:            Portland OR VAMC
+Date Entered:        03 Jun 2011
+Reaction:            --
+Allergy Type:        DRUG 
+VA Drug Class:       SULFONAMIDE/RELATED ANTIMICROBIAL
+                     S
+Observed/Historical: HISTORICAL
+Comments:            Causes Swelling of the Extremitie
+                     s
+
+
+Remember to share all information about your allergies with your health 
+care team.  If you have any questions about your information please visit 
+the FAQs or contact your VA health care team. 
+Allergy information.
+
+
+-------------------------- SELF REPORTED ALLERGIES --------------------
+
+Source: Self-Entered
+No information was available that matched your selection.
+
+-------------------------- VA MEDICATION HISTORY ----------------------
+
+Source: VA
+Last Updated: 13 Jun 2017 @ 1033
+
+Sorted By: Last Filled On (Descending)
+
+Remember to share all information about your medications or updates with 
+your VA health care team. Also, check information in your VA Allergies 
+and your Self Reported Allergies. This may let you know if you had a 
+reaction to a medication you received. If you have any questions about 
+your information please visit the FAQs or contact your VA health care 
+team. 
+
+Medication: FOLIC ACID 1MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH EVERY DAY 
+Status: Active
+Refills Remaining: 3
+Last Filled On: 05 May 2017
+Initially Ordered On: 05 May 2017
+Quantity: 100
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 12788033
+
+Medication: VITAMIN A 10000 UNT CAP 
+Instructions: TAKE 10000UNT BY MOUTH EVERY DAY DOSES OVER 25,000 UNITS/DAY ARE  
+Status: Active
+Refills Remaining: 3
+Last Filled On: 05 May 2017
+Initially Ordered On: 05 May 2017
+Quantity: 90
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 12788035
+
+Medication: ALLOPURINOL 300MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH EVERY DAY TO LOWER URIC ACID LEVELS IN 
+BLOOD 
+Status: Active
+Refills Remaining: 3
+Last Filled On: 05 Jan 2017
+Initially Ordered On: 05 Jan 2017
+Quantity: 90
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 12659470
+
+Medication: FERROUS SULFATE 325MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH TWICE A DAY 
+Status: Active
+Refills Remaining: 3
+Last Filled On: 05 Jan 2017
+Initially Ordered On: 05 Jan 2017
+Quantity: 200
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 12659471
+
+Medication: ASCORBIC ACID 500MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH EVERY DAY TAKE WITH IRON (FERROUS 
+SULFATE)  
+Status: Discontinued
+Refills Remaining: 3
+Last Filled On: 05 May 2017
+Initially Ordered On: 05 May 2017
+Quantity: 100
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 12788031
+
+Medication: VITAMIN E 200 UNT CAP 
+Instructions: TAKE 200UNT BY MOUTH EVERY DAY 
+Status: Expired
+Refills Remaining: 0
+Last Filled On: 05 May 2017
+Initially Ordered On: 05 May 2017
+Quantity: 100
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 12788039
+
+Medication: GLIPIZIDE 5MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH EVERY DAY FOR DIABETES. TAKE 30 MINUTES  
+Status: Discontinued
+Refills Remaining: 3
+Last Filled On: 05 Jan 2017
+Initially Ordered On: 05 Jan 2017
+Quantity: 90
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 12659467
+
+Medication: SIMVASTATIN 20MG TAB 
+Instructions: TAKE ONE TABLET BY MOUTH EVERY EVENING TO LOWER YOUR CHOLESTEROL. 
+ 
+Status: Expired
+Refills Remaining: 3
+Last Filled On: 05 Jan 2017
+Initially Ordered On: 05 Jan 2017
+Quantity: 90
+Days Supply: 90
+Pharmacy: PORTLAND PHARMACY
+Prescription Number: 12659474
+
+----------------- SELF REPORTED MEDICATIONS AND SUPPLEMENTS -------------
+
+Source: Self-Entered
+No information was available that matched your selection.
+
+---------------------------- VA PROBLEM LIST ----------------------------
+
+Source: VA
+Last Updated: 01 Aug 2017 @ 1332
+
+Sorted By: Date/Time Entered (Descending) then alphabetically by Problem
+
+Your VA Problem List contains active health problems your VA providers 
+are helping you to manage.  This information is available 3 calendar days 
+after it has been entered.  It may not contain active problems managed by 
+non-VA health care providers.  If you have any questions about your 
+information, visit the FAQs or contact your VA health care team. 
+
+
+Problem:            Ankylosing spondylitis (SCT 9631008)
+Date/Time Entered:  05 May 2017 @ 1200
+Location:           Portland OR VAMC
+Status:             ACTIVE
+Provider:           Provider One 
+Comments:           --
+
+Problem:            Temporal lobectomy behavior syndrome (SCT 10651001)
+Date/Time Entered:  05 Jan 2017 @ 1200
+Location:           Portland OR VAMC
+Status:             ACTIVE
+Provider:           Provider One 
+Comments:           --
+
+Problem:            Ehlers-Danlos syndrome, type 8 (SCT 50869007)
+Date/Time Entered:  04 Jan 2017 @ 1200
+Location:           Portland OR VAMC
+Status:             ACTIVE
+Provider:           Provider One 
+Comments:           --
+
+Problem:            Mild cognitive impairment (SCT 386805003)
+Date/Time Entered:  20 Jan 2016 @ 1200
+Location:           Portland OR VAMC
+Status:             ACTIVE
+Provider:           Provider One 
+Comments:           INDEPENDENT IN ADLs AND IADLs
+
+                    
+
+                    this is only a test
+
+                    
+
+
+Problem:            Wolff-Parkinson-White pattern (SCT 74390002)
+Date/Time Entered:  20 Jan 2016 @ 1200
+Location:           Portland OR VAMC
+Status:             ACTIVE
+Provider:           Provider One 
+Comments:           --
+
+Problem:            Congestive heart failure (SCT 42343007)
+Date/Time Entered:  15 Jan 2016 @ 1200
+Location:           Portland OR VAMC
+Status:             ACTIVE
+Provider:           Provider One 
+Comments:           --
+
+Problem:            Posttraumatic Stress Disorder (ICD-9-CM 309.81)
+Date/Time Entered:  11 Feb 2013 @ 1200
+Location:           Portland OR VAMC
+Status:             ACTIVE
+Provider:           Provider One 
+Comments:           comment #3
+
+                    
+
+                    Comment #2
+
+                    
+
+                    comment #1
+
+                    
+
+                    AWAITING A COMP AND PEN EXAM
+
+                    
+
+
+Problem:            Diabetes with neurological Manifestations, type i [Juvenile type], not stated as (ICD-9-CM 250.61)
+Date/Time Entered:  07 Dec 2012 @ 1200
+Location:           Portland OR VAMC
+Status:             ACTIVE
+Provider:           Provider One 
+Comments:           --
+
+Problem:            Hyperlipidemia (ICD-9-CM 272.4)
+Date/Time Entered:  07 Dec 2012 @ 1200
+Location:           Portland OR VAMC
+Status:             ACTIVE
+Provider:           Provider One 
+Comments:           --
+
+Problem:            TRAUMATIC BRAIN INJURY (ICD-9-CM 799.9)
+Date/Time Entered:  07 Dec 2012 @ 1200
+Location:           Portland OR VAMC
+Status:             ACTIVE
+Provider:           Provider One 
+Comments:           --
+
+
+--------------------- VA ADMISSIONS AND DISCHARGES ----------------------
+
+Source: VA
+Last Updated: 01 Aug 2017 @ 1332
+Sorted By: Admission Date/Time (Descending)
+
+Discharge summaries are available 3 calendar days after they are 
+completed. If you have any questions about your information please visit 
+the FAQs or contact your VA health care team. 
+
+=========================================================================
+
+Admission Date:       05 May 2017 @ 1204
+Location:             Portland OR VAMC
+Admitting Physician:  Provider One 
+Discharge Date:       --
+Discharge Physician:  Provider One 
+-----------------------------------------------------------------------------
+DISCHARGE SUMMARY
+
+ LOCAL TITLE: Discharge Summary                                  
+STANDARD TITLE: DISCHARGE SUMMARY                               
+   DICT DATE: MAY 05, 2017@12:05     ENTRY DATE: MAY 05, 2017@12:06:05      
+ DICTATED BY: Provider One         ATTENDING: Provider One              
+     URGENCY: routine                    STATUS: COMPLETED                     
+
+ATTENDING PHYSICIAN: 
+ 
+PRIMARY CARE PROVIDER AND FACILIITY: 
+ 
+PRINCIPAL DIAGNOSIS: 
+ 
+OTHER DIAGNOSES TREATED OR IMPACTING TREATMENT THIS ADMISSION:
+
+
+ 
+PROCEDURES PERFORMED AT THIS HOSPITAL DURING CURRENT ADMISSION:
+ 
+SUMMARY:
+(ABBREVIATED HPI, PE, AND PERTINENT LABS)
+ 
+ 
+HOSPITAL COURSE:
+ 
+ 
+FUNCTIONAL STATUS:
+(MAY INCLUDE ACTIVITY LEVEL, WORK RESTRICTIONS, OR DIET)
+ 
+ 
+DISCHARGE MEDICATIONS: 
+(INDICATE ADDITIONS OR CHANGES WITH AN ASTERISK) 
+ 
+ 
+MEDICATIONS THAT HAVE BEEN DISCONTINUED:
+ 
+ 
+ 
+CLINICAL ISSUES REQUIRING FOLLOW UP DURING PC PHONE APT:
+1.
+2.
+3.
+ 
+ 
+ADDITIONAL FOLLOW UP APPOINTMENTS:
+SPECIALTY               EXPECTED DATE   SCHEDULED(Y/N)  POINT OF CONTACT
+1.
+2.
+3.
+ 
+ 
+FOLLOW UP LABS INCLUDING PATHOLOGY & MICROBIOLOGY:
+TEST                    ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED
+1.
+2.
+3.
+ 
+ 
+FOLLOW UP IMAGING AND PROCEDURES:
+PROCEDURE               ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED
+1.
+2.
+3.
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 05/05/2017 12:06
+
+
+Admission Date:       05 Jan 2017 @ 1237
+Location:             Portland OR VAMC
+Admitting Physician:  Provider One 
+Discharge Date:       --
+Discharge Physician:  Provider One 
+-----------------------------------------------------------------------------
+DISCHARGE SUMMARY
+
+ LOCAL TITLE: Discharge Summary                                  
+STANDARD TITLE: DISCHARGE SUMMARY                               
+   DICT DATE: JAN 05, 2017@12:39     ENTRY DATE: JAN 05, 2017@12:39:19      
+ DICTATED BY: Provider One          ATTENDING: Provider One               
+     URGENCY: routine                    STATUS: COMPLETED                     
+
+ATTENDING PHYSICIAN: 
+ 
+PRIMARY CARE PROVIDER AND FACILIITY: 
+ 
+PRINCIPAL DIAGNOSIS: 
+ 
+OTHER DIAGNOSES TREATED OR IMPACTING TREATMENT THIS ADMISSION:
+
+
+ 
+PROCEDURES PERFORMED AT THIS HOSPITAL DURING CURRENT ADMISSION:
+ 
+SUMMARY:
+(ABBREVIATED HPI, PE, AND PERTINENT LABS)
+ 
+ 
+HOSPITAL COURSE:
+ 
+ 
+FUNCTIONAL STATUS:
+(MAY INCLUDE ACTIVITY LEVEL, WORK RESTRICTIONS, OR DIET)
+ 
+ 
+DISCHARGE MEDICATIONS: 
+(INDICATE ADDITIONS OR CHANGES WITH AN ASTERISK) 
+ 
+ 
+MEDICATIONS THAT HAVE BEEN DISCONTINUED:
+ 
+ 
+ 
+CLINICAL ISSUES REQUIRING FOLLOW UP DURING PC PHONE APT:
+1.
+2.
+3.
+ 
+ 
+ADDITIONAL FOLLOW UP APPOINTMENTS:
+SPECIALTY               EXPECTED DATE   SCHEDULED(Y/N)  POINT OF CONTACT
+1.
+2.
+3.
+ 
+ 
+FOLLOW UP LABS INCLUDING PATHOLOGY & MICROBIOLOGY:
+TEST                    ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED
+1.
+2.
+3.
+ 
+ 
+FOLLOW UP IMAGING AND PROCEDURES:
+PROCEDURE               ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED
+1.
+2.
+3.
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 12:39
+
+
+Admission Date:       05 Jan 2017 @ 1235
+Location:             Portland OR VAMC
+Admitting Physician:  Provider One 
+Discharge Date:       --
+Discharge Physician:  Provider One 
+-----------------------------------------------------------------------------
+DISCHARGE SUMMARY
+
+ LOCAL TITLE: Discharge Summary                                  
+STANDARD TITLE: DISCHARGE SUMMARY                               
+   DICT DATE: JAN 05, 2017@12:36     ENTRY DATE: JAN 05, 2017@12:37:04      
+ DICTATED BY: Provider One          ATTENDING: Provider One               
+     URGENCY: routine                    STATUS: COMPLETED                     
+
+ATTENDING PHYSICIAN: 
+ 
+PRIMARY CARE PROVIDER AND FACILIITY: 
+ 
+PRINCIPAL DIAGNOSIS: 
+ 
+OTHER DIAGNOSES TREATED OR IMPACTING TREATMENT THIS ADMISSION:
+
+
+ 
+PROCEDURES PERFORMED AT THIS HOSPITAL DURING CURRENT ADMISSION:
+ 
+SUMMARY:
+(ABBREVIATED HPI, PE, AND PERTINENT LABS)
+ 
+ 
+HOSPITAL COURSE:
+ 
+ 
+FUNCTIONAL STATUS:
+(MAY INCLUDE ACTIVITY LEVEL, WORK RESTRICTIONS, OR DIET)
+ 
+ 
+DISCHARGE MEDICATIONS: 
+(INDICATE ADDITIONS OR CHANGES WITH AN ASTERISK) 
+ 
+ 
+MEDICATIONS THAT HAVE BEEN DISCONTINUED:
+ 
+ 
+ 
+CLINICAL ISSUES REQUIRING FOLLOW UP DURING PC PHONE APT:
+1.
+2.
+3.
+ 
+ 
+ADDITIONAL FOLLOW UP APPOINTMENTS:
+SPECIALTY               EXPECTED DATE   SCHEDULED(Y/N)  POINT OF CONTACT
+1.
+2.
+3.
+ 
+ 
+FOLLOW UP LABS INCLUDING PATHOLOGY & MICROBIOLOGY:
+TEST                    ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED
+1.
+2.
+3.
+ 
+ 
+FOLLOW UP IMAGING AND PROCEDURES:
+PROCEDURE               ORDERED(Y/N)    EXPECTED DATE IF NOT ORDERED
+1.
+2.
+3.
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 12:37
+
+
+------------------------------- VA NOTES --------------------------------
+
+Source: VA
+Last Updated: 01 Aug 2017 @ 1332
+
+Sorted By: Date/Time (Descending)
+
+VA Notes from January 1, 2013 forward are available 3 calendar days after 
+they have been completed and signed by all required members of your VA 
+health care team. If you have any questions about your information please 
+visit the FAQs or contact your VA health care team. 
+
+=========================================================================
+Date/Time:               08 May 2017 @ 0914
+Note Title:              FIM - WEEKLY UP DATE
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        08 May 2017 @ 0915
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: FIM - WEEKLY UP DATE                               
+STANDARD TITLE: PHYSICAL MEDICINE REHAB NOTE                    
+DATE OF NOTE: MAY 08, 2017@09:14     ENTRY DATE: MAY 08, 2017@09:14:57      
+      AUTHOR: Provider One           EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+Therapy Start Date: 3/27/2017
+Admission Class: 1-Initial Rehabilitation
+Discharge Date:  5/8/2017
+
+DIAGNOSIS
+      Impairment Group: 9 Cardiac
+         Date of Onset: 3/22/2017
+
+FUNCTIONAL INDEPENDENCE MEASURE (FIM)
+                       ADMISSION  DISCHARGE                                
+ Self-Care                                                             
+  Eating                   7         7                                
+  Grooming                 6         7                                  
+  Bathing                  5         6                                 
+  Dressing-Upper Body      6         6                                     
+  Dressing-Lower Body      4         6                                     
+  Toileting                6         6                                   
+ Sphincter Control                                                         
+  Bladder Management       6         7                                     
+  Bowel Management         6         6                                     
+ Mobility                                                             
+  Bed, Chair, Wheelchair   5         6                                     
+  Toilet                   6         6                                
+  Tub, Shower              1         6                                     
+ Locomotion                                                             
+  Walk/Wheelchair     walk 5    walk 6                                     
+  Stairs                   1         6                                
+Motor Subtotal Score:      64        81                                    
+ Communication                                                             
+  Comprehension        aud 6     aud 6                                     
+  Expression           voc 6   vocal 6                                     
+ Social Cognition                                                          
+  Social Interaction       6         6                                     
+  Problem Solving          6         6                                     
+  Memory                   7         7                                
+ Cognitive Subtotal Score: 31        31                                    
+Total Motor and
+      Cognitive Score:     95        112                                   
+ 
+* FIM MEASUREMENT DEFINITIONS
+     NO HELPER
+       7.  Complete Independence (Timely, Safely)
+       6.  Modified Independence (Device)
+     HELPER (Modified Dependence)
+       5.  Supervision
+       4.  Minimal Assistance (Subject = 75% +)
+       3.  Moderate Assistance (Subject = 50% +)
+     HELPER (Complete Dependence)
+       2.  Maximal Assistance (Subject = 25% +)
+       1.  Total Assistance (Subject = 0% +)
+ 
+/es/ Provider One MS,BSN,CRRN,CNL
+Restorative Coordinator
+Signed: 05/08/2017 09:15
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 May 2017 @ 1214
+Note Title:              GEN SURG - CONSULT REQUESTED
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 May 2017 @ 1214
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: GEN SURG - CONSULT REQUESTED                       
+STANDARD TITLE: SURGERY CONSULT                                 
+DATE OF NOTE: MAY 05, 2017@12:14     ENTRY DATE: MAY 05, 2017@12:14:16      
+      AUTHOR: Provider One           EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+I have seen and discussed the patient with my supervising 
+practitioner, Provider One, and Provider Two. 
+who is in agreement with the assesment and plan.
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 05/05/2017 12:14
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 May 2017 @ 1213
+Note Title:              MEDICATION OTC ALERT
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 May 2017 @ 1213
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: MEDICATION OTC ALERT                               
+STANDARD TITLE: NURSING NOTE                                    
+DATE OF NOTE: MAY 05, 2017@12:13     ENTRY DATE: MAY 05, 2017@12:13:45      
+      AUTHOR: Provider One       EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+Your patient MHVTESTVETERAN,ONE A had "Over the Counter" medications entered 
+into CPRS
+today.  While entering this information a "medication reaction ALERT" was
+relayed to this author.  This could have Significant or critical importance. 
+
+Please review the patient's active and OTC medications for any concerns you 
+may have.  Items marked with a * indicate potential adverse reactions.
+
+  TERAZOSIN, BACTRIM, TRAMADOL, TRIMETHOPRIM, IMIPRAMINE, TETRACYCLINE
+  PENICILLIN, OXYCODONE, TRIHEXYPHENIDYL
+Active Outpatient Medications (including Supplies):
+ 
+     Active Outpatient Medications                          Status
+=========================================================================
+1)   ALLOPURINOL 300MG TAB TAKE ONE TABLET BY MOUTH EVERY   ACTIVE
+       DAY TO LOWER URIC ACID LEVELS IN BLOOD
+2)   CHOLECALCIFEROL (VIT D3) 400UNIT TAB TAKE 400UNT BY    HOLD
+       MOUTH EVERY DAY
+3)   FERROUS SULFATE 325MG TAB TAKE ONE TABLET BY MOUTH     ACTIVE
+       TWICE A DAY
+4)   FOLIC ACID 1MG TAB TAKE ONE TABLET BY MOUTH EVERY DAY  ACTIVE
+5)   LEVOTHYROXINE NA (SYNTHROID) 0.025MG TAB TAKE ONE      HOLD
+       TABLET BY MOUTH EVERY DAY ON AN EMPTY STOMACH AND
+       AT LEAST 4 HOURS BEFORE PRODUCTS CONTAINING
+       CALCIUM, IRON OR VITAMINS
+6)   VITAMIN A 10000 UNT CAP TAKE 10000UNT BY MOUTH EVERY   ACTIVE
+       DAY DOSES OVER 25,000 UNITS/DAY ARE CONTRAINDICATED
+       IN PREGNANCY
+ 
+     Active Non-VA Medications                              Status
+=========================================================================
+1)   Non-VA FISH OIL CAP/TAB 1 CAP/TAB MOUTH EVERY DAY      ACTIVE
+2)   Non-VA GINKGO BILOBA SMALL AMOUNT MOUTH EVERY DAY      ACTIVE
+3)   Non-VA KAVA CAP/TAB 1 CAP/TAB MOUTH EVERY DAY          ACTIVE
+4)   Non-VA LISINOPRIL 5MG TAB 2.5MG MOUTH EVERY DAY        ACTIVE
+5)   Non-VA SAW PALMETTO CAP/TAB 1 TAB MOUTH AT BEDTIME     ACTIVE
+6)   Non-VA ST. JOHN'S WART CAP/TAB 1 CAP/TAB MOUTH AT      ACTIVE
+       BEDTIME
+ 
+12 Total Medications
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 05/05/2017 12:13
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 May 2017 @ 1212
+Note Title:              MHD - INDIVIDUAL NOTE
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 May 2017 @ 1213
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: MHD - INDIVIDUAL NOTE                              
+STANDARD TITLE: MENTAL HEALTH OUTPATIENT NOTE                   
+DATE OF NOTE: MAY 05, 2017@12:12     ENTRY DATE: MAY 05, 2017@12:12:37      
+      AUTHOR: Provider One       EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+this is only a test
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 05/05/2017 12:13
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 May 2017 @ 1207
+Note Title:              INPAT - MED - HIST&PHYS
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 May 2017 @ 1207
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: INPAT - MED - HIST&PHYS                            
+STANDARD TITLE: INTERNAL MEDICINE H & P NOTE                    
+DATE OF NOTE: MAY 05, 2017@12:07     ENTRY DATE: MAY 05, 2017@12:07:16      
+      AUTHOR: Provider One          EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+ID: ONE A MHVTESTVETERAN is a 69 year old MALE 
+
+ PRIMARY CARE PROVIDER: Provider One 
+ ASSOCIATE PROVIDERS: Provider One 
+
+ _______________________________________________________ 
+ CC: MHVTESTVETERAN,ONE A presented with a chief complaint of 
+
+ HISTORY OF PRESENT ILLNESS: 
+
+
+
+ PERTINENT ED COURSE: 
+
+
+
+ PAST MEDICAL HISTORY: 
+ 1. 
+ 2. 
+ 3. 
+
+
+ REVIEW OF SYSTEMS: 
+
+ SOCIAL HISTORY: 
+
+ NEXT OF KIN/FAMILY CONTACTS: 
+
+ HABITS: 
+
+ FAMILY HISTORY: 
+
+ _______________________________________________________
+MEDICATION HISTORY
+
+   Active Outpatient Medications 
+ 
+  Active Outpatient Medications (including Supplies):
+ 
+       Outpatient Medications                                 Status
+  ========================================================================
+  =
+  1)   ALLOPURINOL 300MG TAB TAKE ONE TABLET BY MOUTH EVERY   ACTIVE
+         DAY TO LOWER URIC ACID LEVELS IN BLOOD
+  2)   CHOLECALCIFEROL (VIT D3) 400UNIT TAB TAKE 400UNT BY    HOLD
+         MOUTH EVERY DAY
+  3)   FERROUS SULFATE 325MG TAB TAKE ONE TABLET BY MOUTH     ACTIVE
+         TWICE A DAY
+  4)   FOLIC ACID 1MG TAB TAKE ONE TABLET BY MOUTH EVERY DAY  ACTIVE
+  5)   LEVOTHYROXINE NA (SYNTHROID) 0.025MG TAB TAKE ONE      HOLD
+         TABLET BY MOUTH EVERY DAY ON AN EMPTY STOMACH AND
+         AT LEAST 4 HOURS BEFORE PRODUCTS CONTAINING
+         CALCIUM, IRON OR VITAMINS
+  6)   VITAMIN A 10000 UNT CAP TAKE 10000UNT BY MOUTH EVERY   ACTIVE
+         DAY DOSES OVER 25,000 UNITS/DAY ARE CONTRAINDICATED
+         IN PREGNANCY
+ 
+       Non-VA Medications                                     Status
+  ========================================================================
+  =
+  1)   Non-VA FISH OIL CAP/TAB 1 CAP/TAB MOUTH EVERY DAY      ACTIVE
+  2)   Non-VA GINKGO BILOBA SMALL AMOUNT MOUTH EVERY DAY      ACTIVE
+  3)   Non-VA KAVA CAP/TAB 1 CAP/TAB MOUTH EVERY DAY          ACTIVE
+  4)   Non-VA LISINOPRIL 5MG TAB 2.5MG MOUTH EVERY DAY        ACTIVE
+  5)   Non-VA SAW PALMETTO CAP/TAB 1 TAB MOUTH AT BEDTIME     ACTIVE
+  6)   Non-VA ST. JOHN'S WART CAP/TAB 1 CAP/TAB MOUTH AT      ACTIVE
+         BEDTIME
+ 
+  12 Total Medications 
+   --------------------------------------
+
+   Active/Pending/Expired Medications: 
+ 
+  Active and Recently Expired Outpatient Medications (excluding Supplies):
+ 
+       Active Outpatient Medications                          Status
+  ========================================================================
+  =
+  1)   ALLOPURINOL 300MG TAB TAKE ONE TABLET BY MOUTH EVERY   ACTIVE
+         DAY TO LOWER URIC ACID LEVELS IN BLOOD
+  2)   CHOLECALCIFEROL (VIT D3) 400UNIT TAB TAKE 400UNT BY    HOLD
+         MOUTH EVERY DAY
+  3)   FERROUS SULFATE 325MG TAB TAKE ONE TABLET BY MOUTH     ACTIVE
+         TWICE A DAY
+  4)   FOLIC ACID 1MG TAB TAKE ONE TABLET BY MOUTH EVERY DAY  ACTIVE
+  5)   LEVOTHYROXINE NA (SYNTHROID) 0.025MG TAB TAKE ONE      HOLD
+         TABLET BY MOUTH EVERY DAY ON AN EMPTY STOMACH AND
+         AT LEAST 4 HOURS BEFORE PRODUCTS CONTAINING
+         CALCIUM, IRON OR VITAMINS
+  6)   VITAMIN A 10000 UNT CAP TAKE 10000UNT BY MOUTH EVERY   ACTIVE
+         DAY DOSES OVER 25,000 UNITS/DAY ARE CONTRAINDICATED
+         IN PREGNANCY
+ 
+       Inactive Outpatient Medications                        Status
+  ========================================================================
+  =
+  1)   ACETAMINOPHEN 325MG TAB TAKE 325-650MG BY MOUTH EVERY  EXPIRED
+         4 TO 6 HOURS AS NEEDED *PATIENTS WITHOUT LIVER
+         DISEASE, MAXIMUM DOSE IS 4 GM/DAY OF ACETAMINOPHEN.
+         FOR PAIN. THIS IS ONLY A TEST
+  2)   FUROSEMIDE 20MG TAB TAKE ONE-HALF TABLET BY MOUTH      EXPIRED
+         EVERY DAY FOR HEART FAILURE  THIS IS ONLY A TEST
+  3)   SIMVASTATIN 20MG TAB TAKE ONE TABLET BY MOUTH EVERY    EXPIRED
+         EVENING TO LOWER YOUR CHOLESTEROL. AVOID CONSUMING
+         GRAPEFRUIT PRODUCTS.
+  4)   VITAMIN E 200 UNT CAP TAKE 200UNT BY MOUTH EVERY DAY   EXPIRED
+ 
+       Active Non-VA Medications                              Status
+  ========================================================================
+  =
+  1)   Non-VA FISH OIL CAP/TAB 1 CAP/TAB MOUTH EVERY DAY      ACTIVE
+  2)   Non-VA GINKGO BILOBA SMALL AMOUNT MOUTH EVERY DAY      ACTIVE
+  3)   Non-VA KAVA CAP/TAB 1 CAP/TAB MOUTH EVERY DAY          ACTIVE
+  4)   Non-VA LISINOPRIL 5MG TAB 2.5MG MOUTH EVERY DAY        ACTIVE
+  5)   Non-VA SAW PALMETTO CAP/TAB 1 TAB MOUTH AT BEDTIME     ACTIVE
+  6)   Non-VA ST. JOHN'S WART CAP/TAB 1 CAP/TAB MOUTH AT      ACTIVE
+         BEDTIME
+ 
+  16 Total Medications 
+
+   Remote Medications 
+ 
+  HDRM - Remote Active Meds
+
+  No Active Remote Medications for this patient
+
+  RART - Remote ADR
+
+  No Remote Allergy/ADR Data available for this patient 
+   --------------------------------------
+  Medication Reconciliation:
+    Medications were reviewed with the patient and/or caregiver, and the
+    above list is accurate, with any exceptions noted.
+
+ ALLERGIES: 
+  TERAZOSIN, BACTRIM, TRAMADOL, TRIMETHOPRIM, IMIPRAMINE, TETRACYCLINE
+  PENICILLIN, OXYCODONE, TRIHEXYPHENIDYL 
+
+ _______________________________________________________ 
+ PHYSICAL: 
+ VITALS SIGNS 
+ Blood pressure:         82/40 (01/05/2017 06:46) 
+ Pulse:          120 (01/05/2017 06:46) 
+ Temperature:            102.2 F [39.0 C] (01/05/2017 06:46) 
+ Respirations:           22 (01/05/2017 06:46) 
+ Weight:         180 lb [81.8 kg] (01/05/2017 06:43) 
+ Height:                 72 in [182.9 cm] (01/05/2017 06:43) 
+
+ EXAM: 
+ General: 
+ HEENT: 
+ Neck: 
+ Chest: 
+ Cardiac: 
+ Abdomen: 
+ Back/Extrem: 
+ GU/Rectal: 
+ Neuro: 
+ Skin: 
+
+  _________________________________________________ 
+ LABORATORY DATA: 
+ WBC               canc    01/05/2017 10:00 
+ HCT               canc    01/05/2017 10:00 
+ MCV               canc    01/05/2017 10:00 
+ 
+
+AUTO DIFF   01/05/2017 10:00
+     LY%               29.6 
+     LY#               2.5 
+     NE#               5.0 
+     NE%               59.7 
+     MO#               0.7 
+     MO%               7.8 
+     EO#               0.1 
+     BA#               0.1 
+     EO%               1.8 
+     BA%               1.1 
+
+ SODIUM             145 H  01/05/2017 10:00 
+ POTASSIUM          3.9    01/05/2017 10:00 
+ CHLORIDE           121 H  01/05/2017 10:00 
+ CO2                32 
+ UREA NITROGEN       20    01/05/2017 10:00 
+ CREATININE         2.0 H  01/05/2017 10:00 
+
+ 
+Cardiac Enzymes last 72 hours:
+  No Results last 72 hours 
+
+ _______________________________________________________ 
+ IMAGING: 
+
+ OTHER DATA: 
+
+  ______________________________________________ 
+ IMPRESSION: 
+
+
+ _______________________________________________________ 
+ ASSESMENT AND PLAN: 
+ PROBLEM 1: 
+
+ PLAN: 
+
+ PROBLEM 2: 
+
+ PLAN: 
+
+ PROBLEM 3: 
+
+ PLAN: 
+
+ PROPHYLAXIS ISSUES: 
+
+ _______________________________________________________ 
+ CODE STATUS: 
+
+ The patient will be staffed with Dr.       within 24 hours.
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 05/05/2017 12:07
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 1238
+Note Title:              ORTHOPEDICS - HISTORY & PHYSICAL
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 1238
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: ORTHOPEDICS - HISTORY & PHYSICAL                   
+STANDARD TITLE: ORTHOPEDIC SURGERY H & P NOTE                   
+DATE OF NOTE: JAN 05, 2017@12:38     ENTRY DATE: JAN 05, 2017@12:38:38      
+      AUTHOR: Provider One       EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+HISTORY AND PHYSICAL
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 12:38
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 1236
+Note Title:              MHD - HISTORY & PHYSICAL EXAM
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 1236
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: MHD - HISTORY & PHYSICAL EXAM                      
+STANDARD TITLE: MENTAL HEALTH OUTPATIENT NOTE                   
+DATE OF NOTE: JAN 05, 2017@12:36     ENTRY DATE: JAN 05, 2017@12:36:30      
+      AUTHOR: Provider One      EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+HISTORY AND PHYSICAL
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 12:36
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0931
+Note Title:              C&P MENTAL DISORDERS
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0933
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: C&P MENTAL DISORDERS                               
+STANDARD TITLE: C & P EXAMINATION NOTE                          
+DATE OF NOTE: JAN 05, 2017@09:31     ENTRY DATE: JAN 05, 2017@09:32:01      
+      AUTHOR: Provider One      EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+this is a test
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 09:33
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0930
+Note Title:              CARDIOLOGY - CONSULT
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0930
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: CARDIOLOGY - CONSULT                               
+STANDARD TITLE: CARDIOLOGY CONSULT                              
+DATE OF NOTE: JAN 05, 2017@09:30     ENTRY DATE: JAN 05, 2017@09:30:30      
+      AUTHOR: Provider One       EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+this is a test
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 09:30
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0929
+Note Title:              C&P MENTAL DISORDERS
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0929
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: C&P MENTAL DISORDERS                               
+STANDARD TITLE: C & P EXAMINATION NOTE                          
+DATE OF NOTE: JAN 05, 2017@09:29     ENTRY DATE: JAN 05, 2017@09:29:17      
+      AUTHOR: Provider One      EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+this is a test
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 09:29
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0928
+Note Title:              C&P EXAMINATION
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0928
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: C&P EXAMINATION                                    
+STANDARD TITLE: C & P EXAMINATION NOTE                          
+DATE OF NOTE: JAN 05, 2017@09:28     ENTRY DATE: JAN 05, 2017@09:28:21      
+      AUTHOR: Provider One       EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+this is a test
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 09:28
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0718
+Note Title:              CLC - CLINICAL PHARMACY F/U
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0719
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: CLC - CLINICAL PHARMACY F/U                        
+STANDARD TITLE: PHARMACY INPATIENT NOTE                         
+DATE OF NOTE: JAN 05, 2017@07:18     ENTRY DATE: JAN 05, 2017@07:18:55      
+      AUTHOR: Provider One       EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+Note #7
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 07:19
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0717
+Note Title:              PHYSICAL THERAPY - DAILY NOTE
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0718
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: PHYSICAL THERAPY - DAILY NOTE                      
+STANDARD TITLE: PHYSICAL THERAPY NOTE                           
+DATE OF NOTE: JAN 05, 2017@07:17     ENTRY DATE: JAN 05, 2017@07:18:19      
+      AUTHOR: Provider One      EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+Note #6
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 07:18
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0717
+Note Title:              ED NURSING OBS - PROGRESS NOTE
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0717
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: ED NURSING OBS - PROGRESS NOTE                     
+STANDARD TITLE: EMERGENCY DEPT NOTE                             
+DATE OF NOTE: JAN 05, 2017@07:17     ENTRY DATE: JAN 05, 2017@07:17:36      
+      AUTHOR: Provider One      EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+Note #5
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 07:17
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0716
+Note Title:              GEN SURG - ATTENDING
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0717
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: GEN SURG - ATTENDING                               
+STANDARD TITLE: SURGERY ATTENDING NOTE                          
+DATE OF NOTE: JAN 05, 2017@07:16     ENTRY DATE: JAN 05, 2017@07:16:37      
+      AUTHOR: Provider One       EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+Note #4
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 07:17
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0715
+Note Title:              MHD - PRIMARY CARE - NEW
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0716
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: MHD - PRIMARY CARE - NEW                           
+STANDARD TITLE: MENTAL HEALTH OUTPATIENT NOTE                   
+DATE OF NOTE: JAN 05, 2017@07:15     ENTRY DATE: JAN 05, 2017@07:16:05      
+      AUTHOR: Provider One       EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+Note #3
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 07:16
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0715
+Note Title:              DEMENTIA CLINIC - FOLLOW-UP
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0715
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: DEMENTIA CLINIC - FOLLOW-UP                        
+STANDARD TITLE: NEUROLOGY OUTPATIENT NOTE                       
+DATE OF NOTE: JAN 05, 2017@07:15     ENTRY DATE: JAN 05, 2017@07:15:21      
+      AUTHOR: Provider One      EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+Note #2
+ 
+/es/ Provider One
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 07:15
+-------------------------------------------------------------------------
+
+=========================================================================
+Date/Time:               05 Jan 2017 @ 0655
+Note Title:              MHD - INDIVIDUAL NOTE
+Location:                Portland OR VAMC
+Signed By:               Provider One 
+Co-signed By:            Provider One 
+Date/Time Signed:        05 Jan 2017 @ 0657
+-------------------------------------------------------------------------
+
+ LOCAL TITLE: MHD - INDIVIDUAL NOTE                              
+STANDARD TITLE: MENTAL HEALTH OUTPATIENT NOTE                   
+DATE OF NOTE: JAN 05, 2017@06:55     ENTRY DATE: JAN 05, 2017@06:55:53      
+      AUTHOR: Provider One       EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+Here are NEW AND/OR CHANGED MEDICATIONS that your provider has prescribed:
+1) Allopurinol 300Mg Tab
+   Take One Tablet By Mouth Every Day
+2) Ferrous Sulfate 325Mg Tab
+   Take One Tablet By Mouth Twice A Day
+3) Glipizide 5Mg Tab
+   Take One Tablet By Mouth Every Day For Diabetes. Take 30 Minutes Before A 
+Meal.
+4) Levothyroxine Na (Synthroid) 0.025Mg Tab
+   Take One Tablet By Mouth Every Day On An Empty Stomach And At Least 4 Hours 
+Before Products Containing Calcium, Iron Or Vitamins
+5) Simvastatin 20Mg Tab
+   Take One Tablet By Mouth Every Evening
+ 
+_______________________________________________________________________
+ 
+Your provider has NOT discontinued any of your medications today.
+ 
+/es/ Provider One 
+CHIEF HEALTH INFORMATICS OFFICER/ATTENDING PSYCHIATRIST
+Signed: 01/05/2017 06:57
+-------------------------------------------------------------------------
+
+
+--------------------- SELF REPORTED MEDICAL EVENTS ----------------------
+Source: Self-Entered
+No information was available that matched your selection.
+
+----------------------------- VA IMMUNIZATIONS --------------------------
+
+Source: VA
+Last Updated: 01 Aug 2017 @ 1332
+
+Your VA Immunizations list may not be complete.  If you have any questions 
+about your information, visit the FAQs or contact your VA health care team. 
+
+=========================================================================
+This section shows your five most recent immunization records.
+
+Sorted By: Date Received(Descending)
+
+Immunization                                           Date Received
+-------------------------------------------------------------------------
+VARICELLA                                              05 May 2017 @ 1207
+JAPANESE ENCEPHALITIS IM                               05 Jan 2017 @ 0650
+TD (ADULT)                                             05 Jan 2017 @ 0650
+TD (ADULT)                                             15 Jan 2016 @ 1000
+PNEUMOCOCCAL POLYSACCHARIDE PPV23                      06 Mar 2011 @ 0900
+
+=========================================================================
+This section shows all of the immunizations listed in your VA health record, 
+grouped by immunization. 
+
+Sorted By: Immunization Name, then Date (Descending)
+-------------------------------------------------------------------------
+
+Immunization:   JAPANESE ENCEPHALITIS IM
+Date Received:  05 Jan 2017 @ 0650
+Location:       ACCESS CENTER-X
+Reaction:*      None Reported
+Comments:       -- 
+
+-------------------------------------------------------------------------
+
+Immunization:   NOVEL INFLUENZA-H1N1-09, ALL FORMULATIONS
+Date Received:  07 Dec 2012 @ 1155
+Location:       111A TEST NOTE LOCATION
+Reaction:*      None Reported
+Comments:       Novartis;#10127605;Feb 2010 
+
+
+Immunization:   NOVEL INFLUENZA-H1N1-09, ALL FORMULATIONS
+Date Received:  01 Oct 2012 @ 1200
+Location:       PORTLAND VA MEDICAL CENTER
+Reaction:*      None Reported
+Comments:       -- 
+
+-------------------------------------------------------------------------
+
+Immunization:   PNEUMOCOCCAL POLYSACCHARIDE PPV23
+Date Received:  06 Mar 2011 @ 0900
+Location:       111A TEST NOTE LOCATION
+Reaction:*      None Reported
+Comments:       Inj type: IM, Site:Lt Deltoid 
+
+-------------------------------------------------------------------------
+
+Immunization:   PNEUMOCOCCAL, UNSPECIFIED FORMULATION
+Date Received:  06 Mar 2011 @ 0900
+Location:       111A TEST NOTE LOCATION
+Reaction:*      None Reported
+Comments:       Inj type: IM, Site:Lt Deltoid 
+
+-------------------------------------------------------------------------
+
+Immunization:   TD (ADULT)
+Date Received:  05 Jan 2017 @ 0650
+Location:       ACCESS CENTER-X
+Reaction:*      None Reported
+Comments:       -- 
+
+
+Immunization:   TD (ADULT)
+Date Received:  15 Jan 2016 @ 1000
+Location:       FAKE CLINIC AREA 1475
+Reaction:*      NONE
+Comments:       this is a test 
+
+-------------------------------------------------------------------------
+
+Immunization:   TD(ADULT) UNSPECIFIED FORMULATION
+Date Received:  07 Dec 2012 @ 1155
+Location:       111A TEST NOTE LOCATION
+Reaction:*      None Reported
+Comments:       1234567 
+
+-------------------------------------------------------------------------
+
+Immunization:   VARICELLA
+Date Received:  05 May 2017 @ 1207
+Location:       9CANS-O
+Reaction:*      None Reported
+Comments:       -- 
+
+========================================================================
+Reaction Key: * = Check information in your VA Allergies and Adverse Reactions 
+as well as your Self Reported Allergies. This may let you know if you had a 
+reaction to an immunization you received. 
+
+
+-------------------- SELF REPORTED IMMUNIZATIONS ------------------------
+Source: Self-Entered
+No information was available that matched your selection.
+
+
+------------------------- VA LABORATORY RESULTS -------------------------
+
+Source: VA
+Last Updated: 08 Aug 2017 @ 0936
+
+Sorted By: Date Specimen Collected (Descending) Lab Test(Alphabetical 
+Order), then Time Specimen Collected 
+
+VA Laboratory Results are available 3 calendar days after they have been 
+verified. For some tests, results slightly outside the reference range 
+are not unusual. In addition, not all results are clinically significant. 
+If you have any questions about your information please visit the FAQs or 
+contact your VA health care team. 
+
+=========================================================================
+Lab Test: Hemogram+PLT+Diff
+Lab Type: Chemistry/Hematology
+Ordering Provider: Provider One 
+Ordering Location: PORTLAND VA MEDICAL CENTER
+Specimen: Blood (substance)
+Date/Time Collected: 05 May 2017 @ 1242
+Collected Location: PORTLAND VA MEDICAL CENTER
+-------------------------------------------------------------------------
+Test Name: BA#
+Result: 2 High
+Units: 10*3/uL
+Reference Range: (0-0.2)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: BA%
+Result: 2 
+Units: %
+Reference Range: (0-2)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: EO#
+Result: 3 High
+Units: 10*3/uL
+Reference Range: (0-0.5)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: EO%
+Result: 3 
+Units: %
+Reference Range: (0-6)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: HCT
+Result: 45 
+Units: %
+Reference Range: (41-51)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: HGB
+Result: 14.6 
+Units: g/dL
+Reference Range: (13-17.4)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: LY#
+Result: 25 High
+Units: 10*3/uL
+Reference Range: (1.0-4.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: LY%
+Result: 25 
+Units: %
+Reference Range: (15-42)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: MCH
+Result: 25 Low
+Units: pg
+Reference Range: (28-34.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: MCHC
+Result: 33 
+Units: g/dL
+Reference Range: (33-37)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: MCV
+Result: 90 
+Units: fl
+Reference Range: (82.0-98.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: MO#
+Result: 14 High
+Units: 10*3/uL
+Reference Range: (0.2-1.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: MO%
+Result: 14 High
+Units: %
+Reference Range: (3-12)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: MPV
+Result: 8 
+Units: fl
+Reference Range: (7.4-10.4)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: NE#
+Result: 55 High
+Units: 10*3/uL
+Reference Range: (2.5-7.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: NE%
+Result: 55 
+Units: %
+Reference Range: (44-78)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: PLT
+Result: 568 High
+Units: 10*3/uL
+Reference Range: (150-400)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: RBC
+Result: 4.0 Low
+Units: 10*6/uL
+Reference Range: (4.3-5.6)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: RDW
+Result: 14 
+Units: %
+Reference Range: (11.5-14.5)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: WBC
+Result: 45 High
+Units: 10*3/uL
+Reference Range: (4.4-10.8)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+=========================================================================
+
+Lab Test: Chemistry Analysis Profile
+Lab Type: Chemistry/Hematology
+Ordering Provider: Provider One
+Ordering Location: PORTLAND VA MEDICAL CENTER
+Specimen: Plasma (substance)
+Date/Time Collected: 05 May 2017 @ 1242
+Collected Location: PORTLAND VA MEDICAL CENTER
+-------------------------------------------------------------------------
+Test Name: ALBUMIN
+Result: 6.0 High
+Units: g/dL
+Reference Range: (3.4-5.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: ALKALINE PHOSPHATASE
+Result: 249 High
+Units: IU/L
+Reference Range: (45-129)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: ANION GAP
+Result: 5 Low
+Units: mmol/L
+Reference Range: (10-22)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: BILIRUBIN, TOTAL
+Result: 2.3 High
+Units: mg/dL
+Reference Range: (0.2-1.1)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: CALCIUM
+Result: 8.8 
+Units: mg/dL
+Reference Range: (8.4-10.4)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: CHLORIDE
+Result: 118 High
+Units: mmol/L
+Reference Range: (95-108)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: CHOLESTEROL
+Result: 600 High
+Units: mg/dL
+Reference Range: (1-240)
+Interpretation: DESIRABLE VALUE:     <200
+BORDERLINE VALUE: 201-239
+ELEVATED VALUE:      >240 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: CO2
+Result: 45 Critical High
+Units: mmol/L
+Reference Range: (21-32)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: CREATININE
+Result: 3.4 High
+Units: mg/dL
+Reference Range: (0.8-1.5)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: EGFR
+Result: 18 Low
+Units: --
+Reference Range: (>60)
+Interpretation: An eGFR <60 is abnormal.
+Estimated glomerular filtration rate (eGFR) results >60 are imprecise.
+Many variables affect the calculated result.
+Interpretation of eGFR results >60 must be monitored over time.
+Units are mL/min/1.73m^2.
+The following is the IDMS traceable MDRD Study equation (for creatinine
+methods calibrated to an IDMS reference method)
+EGFR (Ml/min/1.73m^2) = 175 x S^-1.154 x (AGE^-.203) x (0.742 if female)
+x (1.212 if African American)
+The equation does not require weight or height variables because the
+results are reported normalized to 1.73 m^2 body surface area, which is
+an accepted average adult surface area. 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: GLUCOSE
+Result: 397 High
+Units: mg/dL
+Reference Range: (71-109)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: PHOSPHATE
+Result: 3.4 
+Units: mg/dL
+Reference Range: (2.5-4.5)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: POTASSIUM
+Result: 4.0 
+Units: mmol/L
+Reference Range: (3.5-5.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: PROTEIN,TOTAL
+Result: 4.5 Low
+Units: g/dL
+Reference Range: (6.5-8.2)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: SGOT (AST)
+Result: 500 High
+Units: IU/L
+Reference Range: (14-44)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: SODIUM
+Result: 140 
+Units: mmol/L
+Reference Range: (131-142)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: UREA NITROGEN
+Result: 50 High
+Units: mg/dL
+Reference Range: (7-23)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+-------------------------------------------------------------------------
+
+Comments: Called Critical CO2 
+
+=========================================================================
+
+Lab Test: Chemistry Analysis Profile
+Lab Type: Chemistry/Hematology
+Ordering Provider: Provider One
+Ordering Location: PORTLAND VA MEDICAL CENTER
+Specimen: Plasma (substance)
+Date/Time Collected: 05 Jan 2017 @ 1200
+Collected Location: PORTLAND VA MEDICAL CENTER
+-------------------------------------------------------------------------
+Test Name: ALBUMIN
+Result: 3.2 Low
+Units: g/dL
+Reference Range: (3.4-5.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: ALKALINE PHOSPHATASE
+Result: 125 
+Units: IU/L
+Reference Range: (45-129)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: ANION GAP
+Result: 11 
+Units: mmol/L
+Reference Range: (10-22)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: BILIRUBIN, TOTAL
+Result: 1.0 
+Units: mg/dL
+Reference Range: (0.2-1.1)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: CALCIUM
+Result: 10.0 
+Units: mg/dL
+Reference Range: (8.4-10.4)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: CHLORIDE
+Result: 121 High
+Units: mmol/L
+Reference Range: (95-108)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: CHOLESTEROL
+Result: 189 
+Units: mg/dL
+Reference Range: (1-240)
+Interpretation: DESIRABLE VALUE:     <200
+BORDERLINE VALUE: 201-239
+ELEVATED VALUE:      >240 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: CO2
+Result: 32 
+Units: mmol/L
+Reference Range: (21-32)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: CREATININE
+Result: 2.0 High
+Units: mg/dL
+Reference Range: (0.8-1.5)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: EGFR
+Result: 33 Low
+Units: --
+Reference Range: (>60)
+Interpretation: An eGFR <60 is abnormal.
+Estimated glomerular filtration rate (eGFR) results >60 are imprecise.
+Many variables affect the calculated result.
+Interpretation of eGFR results >60 must be monitored over time.
+Units are mL/min/1.73m^2.
+The following is the IDMS traceable MDRD Study equation (for creatinine
+methods calibrated to an IDMS reference method)
+EGFR (Ml/min/1.73m^2) = 175 x S^-1.154 x (AGE^-.203) x (0.742 if female)
+x (1.212 if African American)
+The equation does not require weight or height variables because the
+results are reported normalized to 1.73 m^2 body surface area, which is
+an accepted average adult surface area. 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: GLUCOSE
+Result: 156 High
+Units: mg/dL
+Reference Range: (71-109)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: PHOSPHATE
+Result: 6.0 High
+Units: mg/dL
+Reference Range: (2.5-4.5)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: POTASSIUM
+Result: 3.9 
+Units: mmol/L
+Reference Range: (3.5-5.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: PROTEIN,TOTAL
+Result: 5.6 Low
+Units: g/dL
+Reference Range: (6.5-8.2)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: SGOT (AST)
+Result: 56 High
+Units: IU/L
+Reference Range: (14-44)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: SODIUM
+Result: 145 High
+Units: mmol/L
+Reference Range: (131-142)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: UREA NITROGEN
+Result: 20 
+Units: mg/dL
+Reference Range: (7-23)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+-------------------------------------------------------------------------
+
+Comments: Test patient for Provider One. 
+
+=========================================================================
+
+Lab Test: Hemogram+PLT+Diff
+Lab Type: Chemistry/Hematology
+Ordering Provider: Provider One
+Ordering Location: PORTLAND VA MEDICAL CENTER
+Specimen: Blood (substance)
+Date/Time Collected: 05 Jan 2017 @ 1200
+Collected Location: PORTLAND VA MEDICAL CENTER
+-------------------------------------------------------------------------
+Test Name: BA#
+Result: 0.1 
+Units: 10*3/uL
+Reference Range: (0-0.2)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: BA%
+Result: 1.1 
+Units: %
+Reference Range: (0-2)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: EO#
+Result: 0.1 
+Units: 10*3/uL
+Reference Range: (0-0.5)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: EO%
+Result: 1.8 
+Units: %
+Reference Range: (0-6)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: HCT
+Result: canc 
+Units: %
+Reference Range: (41-51)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Amended
+----------------------
+Test Name: HGB
+Result: canc 
+Units: g/dL
+Reference Range: (13-17.4)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Amended
+----------------------
+Test Name: LY#
+Result: 2.5 
+Units: 10*3/uL
+Reference Range: (1.0-4.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: LY%
+Result: 29.6 
+Units: %
+Reference Range: (15-42)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: MCH
+Result: canc 
+Units: pg
+Reference Range: (28-34.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Amended
+----------------------
+Test Name: MCHC
+Result: canc 
+Units: g/dL
+Reference Range: (33-37)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Amended
+----------------------
+Test Name: MCV
+Result: canc 
+Units: fl
+Reference Range: (82.0-98.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Amended
+----------------------
+Test Name: MO#
+Result: 0.7 
+Units: 10*3/uL
+Reference Range: (0.2-1.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: MO%
+Result: 7.8 
+Units: %
+Reference Range: (3-12)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: MPV
+Result: canc 
+Units: fl
+Reference Range: (7.4-10.4)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Amended
+----------------------
+Test Name: NE#
+Result: 5.0 
+Units: 10*3/uL
+Reference Range: (2.5-7.0)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: NE%
+Result: 59.7 
+Units: %
+Reference Range: (44-78)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Final
+----------------------
+Test Name: PLT
+Result: canc 
+Units: 10*3/uL
+Reference Range: (150-400)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Amended
+----------------------
+Test Name: RBC
+Result: canc 
+Units: 10*6/uL
+Reference Range: (4.3-5.6)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Amended
+----------------------
+Test Name: RDW
+Result: canc 
+Units: %
+Reference Range: (11.5-14.5)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Amended
+----------------------
+Test Name: WBC
+Result: canc 
+Units: 10*3/uL
+Reference Range: (4.4-10.8)
+Interpretation: -- 
+Performing Location: PORTLAND VA MEDICAL CENTER 3710 SW US VETERANS HOSPTL RD , 
+PORTLAND, OR 97239-2964 
+Status: Amended
+-------------------------------------------------------------------------
+
+Comments: Test patient for Provider One.
+WBC reported incorrectly as 8.4 by [197557-VA648].
+Changed to canc on Jan 09, 2017@08:04 by [256510-VA648].
+RBC reported incorrectly as 3.59 by [197557-VA648].
+Changed to canc on Jan 09, 2017@08:04 by [256510-VA648].
+RBC flagged incorrectly as L by [197557-VA648].
+Abnormal flag removed on Jan 09, 2017@08:04 by [256510-VA648].
+HGB reported incorrectly as 11.1 by [197557-VA648].
+Changed to canc on Jan 09, 2017@08:04 by [256510-VA648].
+HGB flagged incorrectly as L by [197557-VA648].
+Abnormal flag removed on Jan 09, 2017@08:04 by [256510-VA648].
+HCT reported incorrectly as 33.8 by [197557-VA648].
+Changed to canc on Jan 09, 2017@08:04 by [256510-VA648].
+HCT flagged incorrectly as L by [197557-VA648].
+Abnormal flag removed on Jan 09, 2017@08:04 by [256510-VA648].
+MCV reported incorrectly as 94.0 by [197557-VA648].
+Changed to canc on Jan 09, 2017@08:04 by [256510-VA648].
+MCH reported incorrectly as 31.0 by [197557-VA648].
+Changed to canc on Jan 09, 2017@08:04 by [256510-VA648].
+MCHC reported incorrectly as 33.0 by [197557-VA648].
+Changed to canc on Jan 09, 2017@08:04 by [256510-VA648].
+RDW reported incorrectly as 13.3 by [197557-VA648].
+Changed to canc on Jan 09, 2017@08:04 by [256510-VA648].
+PLT reported incorrectly as 186 by [197557-VA648].
+Changed to canc on Jan 09, 2017@08:04 by [256510-VA648].
+MPV reported incorrectly as 9.5 by [197557-VA648].
+Changed to canc on Jan 09, 2017@08:04 by [256510-VA648]. 
+
+=========================================================================
+
+
+
+------------------------- VA PATHOLOGY REPORTS --------------------------
+
+Source: VA
+Last Updated: 01 Aug 2017 @ 1332
+
+Sorted By: Date Obtained (Descending), Type of Report
+
+VA Pathology Reports are available 14 calendar days after they have been 
+completed. Some studies done at a non-VA facility may not be available or they 
+may not necessarily include an interpretation. If you have any questions about 
+your information please visit the FAQs or contact your VA health care team. 
+
+=========================================================================
+Type of Report:       Surgical Pathology
+Specimen:             TONSIL
+Date Obtained:        05 May 2017
+Performing Location:  Portland OR VAMCPO BOX 1034, PORTLAND 97207
+Date Completed:       05 May 2017
+-------------------------------------------------------------------------
+SURGICAL PATHOLOGY REPORT
+
+
+ LOCAL TITLE: LR SURGICAL PATHOLOGY REPORT                       
+DATE OF NOTE: MAY 05, 2017@12:05:55  ENTRY DATE: MAY 05, 2017@12:05:55      
+      AUTHOR: Provider One     EXP COSIGNER:                           
+     URGENCY:                            STATUS: COMPLETED                     
+
+$APHDR
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+-
+     MEDICAL RECORD |                   SURGICAL PATHOLOGY
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                              PATHOLOGY REPORT        Accession No. SP 17 17000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+$TEXT
+Submitted by:                               Date obtained: May 05, 2017 11:57
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Specimen (Received May 05, 2017 11:57):
+TONSIL
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+BRIEF CLINICAL HISTORY:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+PREOPERATIVE DIAGNOSIS:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+OPERATIVE FINDINGS:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+POSTOPERATIVE DIAGNOSIS:
+
+                           Surgeon/physician: Provider One
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                              PATHOLOGY REPORT        Accession No. SP 17 17000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+GROSS DESCRIPTION:
+     Received labled with the patient name, medical record number and "left 
+     tonsil" is a 2.5 x 1.5 x 1.0 cm piece of brown-tan soft tissue.  On cut 
+     section there is an ill-defined white-tan 0.7 cm nodule noted.  
+     Representative samples are submitted in one block.
+      
+     BC 5/5/17
+     
+
+MICROSCOPIC EXAM:
+     DIAGNOSIS AFTER MICROSCOPIC EXAMINATION: 
+      
+     TONSIL, LEFT, TONSILLECTOMY, TEST CASE:
+      - MODERATELY DIFFERENTIATED SQUAMOUS CELL CARCINOMA.
+      - NEOPLASTIC CELLS DIFFUSELY POSITIVE FOR P16.
+      
+     Comment: The hypothetical H&E stain sections demonstrate an invasive 
+     moderately differentiated nonkeratinizing squamous cell carcinoma.  
+     Immunohistochemical stain p16 shows diffuse strong staining within the 
+     hypothetical malignant cells.  This case received intradepartmental 
+     consultation by Provider One who concurs with the above diagnosis.
+      
+     NOTE:  "The Immunohistochemical staining test was developed and its 
+     performance characteristics determined by Pathology & Laboratory 
+     Medicine, PVAMC.  It has not been cleared or approved by the U.S. Food 
+     and Drug Administration.  The FDA has determined that such clearance or 
+     approval is not necessary.  This test is used for clinical purposes.  It 
+     should not be regarded as investigational or for research.  This 
+     laboratory is certified under the Clinical Laboratory Improvement 
+     Amendments of 1988 (CLIA) as qualified to perform high complexity 
+     clinical laboratory testing."
+      
+      
+     Slide(s) reviewed and diagnosis rendered by: 
+     
+
+/es/ Provider One
+MD
+Signed May 05, 2017@12:05
+
+
+Performing Laboratory:
+Surgical Pathology Report Performed By: 
+PORTLAND VA MEDICAL CENTER [CLIA# 38D0988131]
+3710 SW US VETERANS HOSPTL RD PORTLAND, OR 97239-2964
+
+$FTR
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                                                         (End of report)
+Provier One                      bgc| Date May 05, 2017
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+MHVTESTVETERAN,ONE A                              STANDARD FORM 515
+ID:666-66-1948  SEX:M DOB:03/01/1948  AGE: 69 LOC:AAALAB
+ADM:MAY 5,2017   DX:PTSD                      PCP: 
+ 
+/es/ Provider One
+MD
+Signed: 05/05/2017 12:05
+ 
+=========================================================================
+
+Type of Report:       Surgical Pathology
+Specimen:             POLYPS
+Date Obtained:        05 Jan 2017
+Performing Location:  Portland OR VAMCPO BOX 1034, PORTLAND 97207
+Date Completed:       05 Jan 2017
+-------------------------------------------------------------------------
+SURGICAL PATHOLOGY REPORT
+
+
+Date Spec taken: Jan 05, 2017 11:15  Pathologist:Provider One
+Date Spec rec'd: Jan 05, 2017 11:15  Resident: 
+Date  completed: Jan 05, 2017        Accession #: SP 17 113
+Submitted by: Provider One           Practitioner:0
+-------------------------------------------------------------------------------
+Specimen: 
+POLYPS
+GROSS DESCRIPTION:
+No specimen received.  Report only for test patient.
+MICROSCOPIC EXAM: (Date Spec taken: Jan 05, 2017 11:15)
+DIAGNOSIS AFTER MICROSCOPIC EXAMINATION:
+ 
+POLYPS:
+- NO DIAGNOSIS.
+- TEST PATIENT REPORT ONLY.
+ 
+ 
+Diagnosis rendered by:
+ Provider One
+STAFF PATHOLOGIST
+PATHOLOGY AND LAB MED
+=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--
+Performing Laboratory:
+Surgical Pathology Report Performed By: 
+PORTLAND VA MEDICAL CENTER [CLIA# 38D0988131]
+3710 SW US VETERANS HOSPTL RD PORTLAND, OR 97239-2964
+
+ 
+
+=========================================================================
+
+-------------------- SELF REPORTED LABS AND TESTS -----------------------
+
+Source: Self-Entered
+No information was available that matched your selection.
+
+------------------------ VA VITALS AND READINGS -------------------------
+
+Source: VA
+Last Updated: 01 Aug 2017 @ 1332
+
+
+VA Vitals and Readings displays your vital signs and other health 
+readings. If you have any questions about your information please visit 
+the FAQs or contact your VA health care team. 
+
+=========================================================================
+This section shows your most recent record for each vital sign and health 
+reading. 
+
+
+Vital Sign or Health Reading   Measurement            Date/Time Collected
+-------------------------------------------------------------------------
+
+Blood Pressure                 90/60 mm[Hg]           05 May 2017 @ 1208
+Pulse Rate                     120 /min               05 May 2017 @ 1208
+Respiration                    23 /min                05 May 2017 @ 1208
+Temperature                    101.5 F                05 May 2017 @ 1208
+Pain Level                     10                     05 May 2017 @ 1208
+Height                         76 in                  05 May 2017 @ 1208
+Weight                         180 lb                 05 May 2017 @ 1208
+
+=========================================================================
+This section shows all of the vital signs and health readings listed in 
+your VA health record based on the dates you selected when you requested 
+your VA Blue Button. They are grouped by the type of vital sign or health 
+reading. 
+
+Sorted By: Type of Vital Sign or Health Reading, then Date/Time 
+(Descending) 
+
+-----------------------------------------------------------
+Vital Sign:           Blood Pressure
+Measurement:          90/60 mm[Hg]
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Blood Pressure
+Measurement:          120/80 mm[Hg]
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Blood Pressure
+Measurement:          82/40 mm[Hg]
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0646
+
+Vital Sign:           Blood Pressure
+Measurement:          153/95 mm[Hg]
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0643
+-----------------------------------------------------------
+Vital Sign:           Temperature
+Measurement:          101.5 F
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Temperature
+Measurement:          98.1 F
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Temperature
+Measurement:          102.2 F
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0646
+
+Vital Sign:           Temperature
+Measurement:          97.9 F
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0643
+-----------------------------------------------------------
+Vital Sign:           Height
+Measurement:          76 in
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Height
+Measurement:          72 in
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Height
+Measurement:          72 in
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0643
+-----------------------------------------------------------
+Vital Sign:           Pain Level
+Measurement:          10
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Pain Level
+Measurement:          1
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Pain Level
+Measurement:          10
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0646
+
+Vital Sign:           Pain Level
+Measurement:          1
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0643
+-----------------------------------------------------------
+Vital Sign:           Pulse Oximetry
+Measurement:          98 %
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Pulse Oximetry
+Measurement:          99 %
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Pulse Oximetry
+Measurement:          75 %
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0646
+
+Vital Sign:           Pulse Oximetry
+Measurement:          98 %
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0643
+-----------------------------------------------------------
+Vital Sign:           Pulse Rate
+Measurement:          120 /min
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Pulse Rate
+Measurement:          100 /min
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Pulse Rate
+Measurement:          120 /min
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0646
+
+Vital Sign:           Pulse Rate
+Measurement:          62 /min
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0643
+-----------------------------------------------------------
+Vital Sign:           Respiration
+Measurement:          23 /min
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Respiration
+Measurement:          16 /min
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Respiration
+Measurement:          22 /min
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0646
+
+Vital Sign:           Respiration
+Measurement:          14 /min
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0643
+-----------------------------------------------------------
+Vital Sign:           Weight
+Measurement:          180 lb
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Weight
+Measurement:          177 lb
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 May 2017 @ 1208
+
+Vital Sign:           Weight
+Measurement:          180 lb
+Comments:             -- 
+Location:             Portland OR VAMC
+Date/Time Collected:  05 Jan 2017 @ 0643
+
+
+-------------------- SELF REPORTED VITALS AND READINGS ------------------
+
+Source: Self-Entered
+No information was available that matched your selection.
+
+-------------------------- VA RADIOLOGY REPORTS -------------------------
+
+Source: VA
+Last Updated: 01 Aug 2017 @ 1332
+
+Sorted By: Date/Time Exam Performed (Descending)
+
+VA Radiology Reports are available 3 calendar days after they have been 
+completed. Some studies done at a non-VA facility may not be available or 
+they may not necessarily include an interpretation. If you have any 
+questions about your information please visit the FAQs or contact the 
+provider who ordered the study or your primary care provider. 
+
+=========================================================================
+Procedure/Test Name:          CHEST 2 VIEWS PA&LAT
+Date/Time Exam Performed:     05 May 2017 @ 1200
+Ordering Location:            Portland OR VAMC
+Requesting Provider:          Provider One
+Reasons for Study:            Rule out pneumonia
+Clinical History:             
+please result this test radiology order for VACO
+
+
+Performing Location:          Portland OR VAMC PO BOX 1034, PORTLAND 97207
+Radiologist:                  Provider One
+--------------------------------------------------------------------------
+RADIOLOGY REPORT
+
+Report:  
+
+
+
+Impression:  
+Test patient; no report necessary for dictation; ADMIN complete.
+
+Primary Diagnostic Code:
+
+
+
+=========================================================================
+Procedure/Test Name:          UL ABDOMINAL LIMITED (BILE DUCTS/GB/LIVER/PANCREAS/SPLEEN)
+Date/Time Exam Performed:     05 Jan 2017 @ 0927
+Ordering Location:            Portland OR VAMC
+Requesting Provider:          Provider One
+Reasons for Study:            this is a test
+Clinical History:             
+this is only a test
+
+
+Performing Location:          Portland OR VAMC PO BOX 1034, PORTLAND 97207
+Radiologist:                  Provider One
+--------------------------------------------------------------------------
+RADIOLOGY REPORT
+
+Report:  
+
+
+
+Impression:  
+Test patient; no report necessary for dictation; ADMIN complete.
+
+Primary Diagnostic Code:
+
+
+
+=========================================================================
+Procedure/Test Name:          ABDOMEN 3 OR MORE VIEWS
+Date/Time Exam Performed:     05 Jan 2017 @ 0926
+Ordering Location:            Portland OR VAMC
+Requesting Provider:          Provider One
+Reasons for Study:            abdominal pain
+Clinical History:             
+r/o obstruction
+
+
+Performing Location:          Portland OR VAMC PO BOX 1034, PORTLAND 97207
+Radiologist:                  Provider One
+--------------------------------------------------------------------------
+RADIOLOGY REPORT
+
+Report:  
+
+
+
+Impression:  
+Test patient; no report necessary for dictation; ADMIN complete.
+
+Primary Diagnostic Code:
+
+
+
+=========================================================================
+
+------------------ VA ELECTROCARDIOGRAM (EKG) REPORTS -------------------
+
+Source: VA
+Last Updated: 01 Aug 2017 @ 1332
+
+No information was available that matched your selection.
+
+
+------------------ SELF REPORTED FAMILY HEALTH HISTORY ------------------
+
+Source: Self-Entered
+
+Relationship: Self
+First Name: ONE
+Last Name: MHVTESTVETERAN
+Living or Deceased: Living
+Health Issues: 
+-----------------------------
+Back Pain
+Insomnia
+>1 beer/wine a day
+Hearing Loss
+Pneumonia
+Allergies
+Chicken Pox
+Current Smoker
+Diabetics Type 2
+Overweight
+High Blood Pressure
+Depression
+High Blood Cholesterol
+Stomach/Bowel Other
+Smoking >20 Years
+
+Other Health Issues: 
+-----------------------------
+trouble sleeping
+
+Comments: I sometimes have trouble sleeping when stress is high at work 
+
+Relationship: Mother
+First Name: Four
+Last Name: MHVVeteranMother
+Living or Deceased: Deceased
+Health Issues: 
+-----------------------------
+Cancer Other
+Diabetics Type 2
+Overweight
+Joint Pain
+Stroke
+
+Other Health Issues: 
+-----------------------------
+Chronic joint pain
+
+Comments: Mother died of cancer at age 40 
+
+
+
+------------------ SELF REPORTED MILITARY HEALTH HISTORY ----------------
+
+Source: Self-Entered
+
+Event Title:                     Overseas Deployment
+Event Date:                      07 Apr 2002
+Service Branch:                  Army                        Rank: COL
+Exposures:                       Yes
+Location of Service:             Overseas            Onboard Ship: No
+Military Occupational Specialty: Infantry
+Assignment:                      1st Recon 
+
+Exposures:                       In Iraq, exposed to burning chemicals 
+
+Military Service Description:    Unit was in charge of security 
+
+
+-------------------- SELF REPORTED ACTIVITY JOURNAL ---------------------
+
+Source: Self-Entered
+No information was available that matched your selection.
+
+----------------------- SELF REPORTED FOOD JOURNAL ----------------------
+
+Source: Self-Entered
+No information was available that matched your selection.
+-------------------- DoD Military Service Information -------------------
+
+Source: DoD
+No information was available that matched your selection.
+
+
+-------------------- SELF REPORTED MY GOALS: CURRENT GOALS ---------------
+
+Source:               Self-Entered
+Sorted By:            Priority, then by Goal Start Date (Descending)
+
+Remember to share your self-entered information with your VA health care 
+team. 
+
+This section contains your My Goals: Current Goals information included in 
+the date range selected when you requested your VA Blue Button. 
+
+==========================================================================
+ALL CURRENT GOALS - SUMMARY LIST (BY PRIORITY)
+--------------------------------------------------------------------------
+
+None Entered
+
+
+
+---------------- SELF REPORTED MY GOALS: COMPLETED GOALS --------------
+
+Source:               Self-Entered
+Sorted By:            Date Goal Completed (Descending)
+
+Remember to share your self-entered information with your VA health care 
+team. 
+
+This section contains your My Goals: Completed Goals information included 
+in the date range selected when you requested your VA Blue Button. 
+
+==========================================================================
+COMPLETED GOALS - SUMMARY LIST (BY DATE GOAL COMPLETED)
+--------------------------------------------------------------------------
+
+None Entered
+
+----------- END OF MY HEALTHEVET PERSONAL INFORMATION REPORT ----------
