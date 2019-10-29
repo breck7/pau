@@ -1,0 +1,149 @@
+Section Self Reported Data
+firstName Joseph
+middleName Adam
+lastName Veteran
+suffix
+alias Joe
+gender Male
+bloodType AB+
+organDonor Yes
+born
+ date March 1st 1948
+ place Columbus, Ohio
+maritalStatus Married
+currentOccupation Truck Driver
+address
+ current Yes
+ mailing Yes
+ street 1515 Main Street
+ unit Apartment 123
+ city McLean
+ state Virginia
+ zipCode 20151
+ country United States
+address
+ current No
+ street 222 South Street
+ unit Apartment 4
+ city Durham
+ state North Carolina
+ zipCode 94110
+ country United States
+phone
+ number 703-555-2123
+ current Yes
+ type Mobile
+email
+ address mhvveteran@emailaddress.com
+ current Yes
+preferredContactMethod email
+emergencyContact
+ firstName Lisa
+ lastName Arnold
+ relationship Mother
+ homePhone 703-555-2121
+emergencyContact
+ firstName Bethany
+ lastName Simpson
+ relationship Wife
+ homePhone 223-555-2123
+Visit
+ date 2/12/2005
+ facility WHITE CITY VAMC
+ employmentStatus notEmployed
+ service
+  type Colon Cancer Screening
+ service
+  type Influenza Vaccine
+ vaEligibility
+  primaryEligibilityCode -
+  serviceConnectedPercentage 70
+Visit
+ date 2/12/2012
+ facility Spokane WA VAMC
+ employmentStatus notEmployed
+ service
+  type ECHOCARDIOGRAM
+ vaEligibility
+  primaryEligibilityCode -
+  serviceConnectedPercentage 70
+Appointment
+ date 11/21/2017
+ time 0800
+ location PORTLAND VA MEDICAL CENTER
+Allergy
+ name TRIHEXYPHENIDYL
+ reaction GENERALIZED RASH
+ type DRUG
+ vaDrugClass PARASYMPATHOLYTICS
+ dateAdded 5/5/2017
+Allergy
+ name PENICILLIN
+ reaction GENERALIZED RASH
+ dateAdded 5/5/2017
+ vaDrugClass PENICILLIN-G RELATED PENICILLINS
+Medication
+ name FOLIC ACID 1MG TAB
+ instructions TAKE ONE TABLET BY MOUTH EVERY DAY 
+ status Active
+ refillsRemaining 3
+ lastFilledOn 05 May 2017
+ initiallyOrderedOn 05 May 2017
+ quantity 100
+ daysSupply 90
+ pharmacy PORTLAND PHARMACY
+ prescriptionNumber 12788033
+Problem
+ name Ankylosing spondylitis (SCT 9631008)
+ dateEntered  05 May 2017 @ 1200
+ location Portland OR VAMC
+ status ACTIVE
+ provider Provider One 
+Problem
+ name Congestive heart failure (SCT 42343007)
+ dateTimeEntered 15 Jan 2016 @ 1200
+ location Portland OR VAMC
+ status ACTIVE
+ provider Provider One
+Problem
+ name TRAUMATIC BRAIN INJURY (ICD-9-CM 799.9)
+ dateTimeEntered  07 Dec 2012 @ 1200
+ location Portland OR VAMC
+ status ACTIVE
+ provider Provider One
+ comments Patient was experiencing problems from service.
+Discharge
+ admissionDate 05 Jan 2017 @ 1235
+ location Portland OR VAMC
+ admittingPhysician Joe Schmoe
+ dischargeDate 2/2/2018
+ dischargeSummary
+  urgency routine
+  principalDiagnosis Concussion
+  otherDiagnoses
+  procedurePerformed
+  dischargeMedication
+  clinicalIssuesRequiringFollwup
+  followUpLabs
+Physical
+ date 01 Aug 2017 @ 1332
+ functionalIndependenceMeasure
+  what admission discharge
+  Eating 7 7
+  Grooming 6 7
+  Bathing 5 6
+  Dressing-Upper Body 6 6
+  Dressing-Lower Body 4 6
+  Toileting 6 6
+  Bladder Management 6 7
+  Bowel Management 6 6
+  Bed, Chair, Wheelchair 5 6
+  Toilet 6 6
+  Tub, Shower 1 6
+  Walk/Wheelchair 5 6
+  Stairs 1 6
+  Comprehension 6 6
+  Expression 6 6
+  Social Interaction 6 6
+  Problem Solving 6 6
+  Memory 7 7
