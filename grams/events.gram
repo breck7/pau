@@ -1,0 +1,12 @@
+tooling onsave jtree build producePauGrammar
+abstractEventNode
+ abstract
+ inScope dateNode timeNode locationNode
+birthNode
+ extends abstractEventNode
+ cells keywordCell
+ crux birth
+deathNode
+ extends abstractEventNode
+ cells keywordCell
+ crux death

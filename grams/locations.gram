@@ -1,0 +1,43 @@
+tooling onsave jtree build producePauGrammar
+locationCell
+ extends stringCell
+locationKeywordCell
+ enum location
+cityCell
+ extends locationCell
+ examples Tokyo Boston London Beijing Seattle
+zipCell
+ extends locationCell
+ examples 90210 94110 02301
+stateCell
+ extends locationCell
+ examples Hawaii Maine Montana California Florida Georgia
+streetAddressCell
+ extends locationCell
+countryCell
+ enum Canada USA China India Bolivia Egypt Japan Lebanon
+abstractLocationNode
+ abstract
+abstractAddressNode
+ abstract
+ inScope abstractNameNode emailNode phoneNode
+streetNode
+ cells keywordCell
+ extends abstractLocationNode
+ catchAllCellType streetAddressCell
+cityNode
+ extends abstractLocationNode
+ cells keywordCell cityCell
+countryNode
+ extends abstractLocationNode
+ cells keywordCell countryCell
+stateNode
+ extends abstractLocationNode
+ cells keywordCell stateCell
+zipCodeNode
+ extends abstractLocationNode
+ cells keywordCell zipCell
+locationNode
+ inScope abstractLocationNode
+ crux location
+ cells locationKeywordCell

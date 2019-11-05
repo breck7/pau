@@ -1,13 +1,4 @@
-pauNode
- root
- description Extends Pau gramamr with NIST smoking status.
- inScope smokesNode
- example
-  smokes? yes
-   packsPerDay 1.5
-keywordCell
-floatCell
-intCell
+tooling onsave jtree build producePauGrammar
 smokingStatusCell
  enum yes never previousSmoker
  highlightScope constant.numeric
@@ -19,9 +10,15 @@ cigarettesPerDayCell
  extends intCell
 packsPerDayNode
  cells keywordCell packsPerDayCell
+ crux packsPerDay
 cigarettesPerDayNode
  cells keywordCell cigarettesPerDayCell
-smokesNode
- match smokes?
+ crux cigarettesPerDay
+smokingStatusNode
+ extends abstractSelfReportedObservationNode
+ crux smokingStatus
  cells keywordCell smokingStatusCell
  inScope packsPerDayNode cigarettesPerDayNode
+ example
+  smokingStatus yes
+   packsPerDay 1.5

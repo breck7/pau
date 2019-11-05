@@ -1,0 +1,38 @@
+tooling onsave jtree build producePauGrammar
+emergencyContactNode
+ extends abstractAddressNode
+ crux emergencyContact
+contactInfoNode
+ extends abstractAddressNode
+ crux contactInfo
+emailCell
+phoneTypeCell
+ enum mobile home office
+emailNode
+ cells keywordCell emailCell
+phoneNode
+ crux phone
+ inScope phoneNumberNode phoneTypeNode
+phoneNumberNode
+ crux number
+phoneTypeNode
+ cells keywordCell phoneTypeCell
+ crux type
+nameCell
+ extends locationCell
+ examples Thomas John Earl Kai Lorne Ashley Kasey Sam Joe
+abstractNameNode
+ abstract
+ cells keywordCell nameCell
+firstNameNode
+ extends abstractNameNode
+ crux firstName
+lastNameNode
+ extends abstractNameNode
+ crux lastName
+middleNameNode
+ extends abstractNameNode
+ crux middleName
+nickNameNode
+ extends abstractNameNode
+ crux nickName

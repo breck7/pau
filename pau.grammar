@@ -1,13 +1,34 @@
-pauNode
- root
- description Demonstration Pau Grammar.
- inScope smokesNode
- example
-  smokes? yes
-   packsPerDay 1.5
-keywordCell
-floatCell
-intCell
+emailCell
+phoneTypeCell
+ enum mobile home office
+nameCell
+ extends locationCell
+ examples Thomas John Earl Kai Lorne Ashley Kasey Sam Joe
+sexCell
+ enum Male Female
+ethnicityCell
+ highlightScope string
+ enum Hawaiian Chinese Filipino Mexican Caucasian Portuguese Japanese Spanish Filipino Unknown Okinawan Marshallese PuertoRican Irish AmericanIndian Albanian Venezuela TrinidadandTobago German Scottish English Samoan
+raceCell
+ highlightScope keyword
+ enum PacificIslander Asian Filipino Caucasian African NativeAmerican Unknown
+locationCell
+ extends stringCell
+locationKeywordCell
+ enum location
+cityCell
+ extends locationCell
+ examples Tokyo Boston London Beijing Seattle
+zipCell
+ extends locationCell
+ examples 90210 94110 02301
+stateCell
+ extends locationCell
+ examples Hawaii Maine Montana California Florida Georgia
+streetAddressCell
+ extends locationCell
+countryCell
+ enum Canada USA China India Bolivia Egypt Japan Lebanon
 smokingStatusCell
  enum yes never previousSmoker
  highlightScope constant.numeric
@@ -17,11 +38,143 @@ packsPerDayCell
 cigarettesPerDayCell
  description How many cigarettes per day do they currently smoke?
  extends intCell
-packsPerDayNode
- cells keywordCell packsPerDayCell
-cigarettesPerDayNode
- cells keywordCell cigarettesPerDayCell
-smokesNode
- match smokes?
+keywordCell
+floatCell
+intCell
+stringCell
+ highlightScope string
+yearCell
+ extends intCell
+dayCell
+ extends intCell
+monthCell
+ extends intCell
+timeCell
+ highlightScope constant.numeric
+ examples 2:41am 12:19pm 8:42pm 3:33am
+abstractAddressNode
+ abstract
+ inScope abstractNameNode emailNode phoneNode
+emergencyContactNode
+ extends abstractAddressNode
+ crux emergencyContact
+contactInfoNode
+ extends abstractAddressNode
+ crux contactInfo
+emailNode
+ cells keywordCell emailCell
+phoneNode
+ crux phone
+ inScope phoneNumberNode phoneTypeNode
+phoneNumberNode
+ crux number
+phoneTypeNode
+ cells keywordCell phoneTypeCell
+ crux type
+abstractNameNode
+ abstract
+ cells keywordCell nameCell
+firstNameNode
+ extends abstractNameNode
+ crux firstName
+lastNameNode
+ extends abstractNameNode
+ crux lastName
+middleNameNode
+ extends abstractNameNode
+ crux middleName
+nickNameNode
+ extends abstractNameNode
+ crux nickName
+patientIdNode
+ cells keywordCell
+ crux patientId
+abstractDemographicConceptNode
+ cells keywordCell
+ethnicityNode
+ crux ethnicity
+ description A foreign key that refers to the standard concept identifier in the Standardized Vocabularies for the ethnicity of the person, belonging to the 'Ethnicity' vocabulary.
+ extends abstractDemographicConceptNode
+ catchAllCellType ethnicityCell
+raceNode
+ crux race
+ extends abstractDemographicConceptNode
+ catchAllCellType raceCell
+ description A foreign key that refers to an identifier in the CONCEPT table for the unique race of the person, belonging to the 'Race' vocabulary.
+sexNode
+ crux sex
+ extends abstractDemographicConceptNode
+ cells keywordCell sexCell
+abstractEventNode
+ abstract
+ inScope dateNode timeNode locationNode
+birthNode
+ extends abstractEventNode
+ cells keywordCell
+ crux birth
+deathNode
+ extends abstractEventNode
+ cells keywordCell
+ crux death
+abstractLocationNode
+ abstract
+streetNode
+ cells keywordCell
+ extends abstractLocationNode
+ catchAllCellType streetAddressCell
+cityNode
+ extends abstractLocationNode
+ cells keywordCell cityCell
+countryNode
+ extends abstractLocationNode
+ cells keywordCell countryCell
+stateNode
+ extends abstractLocationNode
+ cells keywordCell stateCell
+zipCodeNode
+ extends abstractLocationNode
+ cells keywordCell zipCell
+locationNode
+ inScope abstractLocationNode
+ crux location
+ cells locationKeywordCell
+dateNode
+ cells keywordCell monthCell dayCell yearCell
+ crux date
+observationDateNode
+ extends dateNode
+ crux date
+timeNode
+ cells keywordCell timeCell
+ crux time
+observationTimeNode
+ extends timeNode
+ crux time
+abstractProviderNode
+ abstract
+observationProviderNode
+ extends abstractProviderNode
+ crux provider
+abstractObservationNode
+ abstract
+ inScope observationDateNode observationTimeNode observationProviderNode locationNode
+abstractSelfReportedObservationNode
+ extends abstractObservationNode
+smokingStatusNode
+ extends abstractSelfReportedObservationNode
+ crux smokingStatus
  cells keywordCell smokingStatusCell
  inScope packsPerDayNode cigarettesPerDayNode
+ example
+  smokingStatus yes
+   packsPerDay 1.5
+packsPerDayNode
+ cells keywordCell packsPerDayCell
+ crux packsPerDay
+cigarettesPerDayNode
+ cells keywordCell cigarettesPerDayCell
+ crux cigarettesPerDay
+pauNode
+ root
+ description Medical Records for Planet Earth.
+ inScope abstractEventNode abstractDemographicConceptNode abstractObservationNode abstractNameNode

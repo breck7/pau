@@ -1,0 +1,28 @@
+tooling onsave jtree build producePauGrammar
+sexCell
+ enum Male Female
+ethnicityCell
+ highlightScope string
+ enum Hawaiian Chinese Filipino Mexican Caucasian Portuguese Japanese Spanish Filipino Unknown Okinawan Marshallese PuertoRican Irish AmericanIndian Albanian Venezuela TrinidadandTobago German Scottish English Samoan
+raceCell
+ highlightScope keyword
+ enum PacificIslander Asian Filipino Caucasian African NativeAmerican Unknown
+patientIdNode
+ cells keywordCell
+ crux patientId
+abstractDemographicConceptNode
+ cells keywordCell
+ethnicityNode
+ crux ethnicity
+ description A foreign key that refers to the standard concept identifier in the Standardized Vocabularies for the ethnicity of the person, belonging to the 'Ethnicity' vocabulary.
+ extends abstractDemographicConceptNode
+ catchAllCellType ethnicityCell
+raceNode
+ crux race
+ extends abstractDemographicConceptNode
+ catchAllCellType raceCell
+ description A foreign key that refers to an identifier in the CONCEPT table for the unique race of the person, belonging to the 'Race' vocabulary.
+sexNode
+ crux sex
+ extends abstractDemographicConceptNode
+ cells keywordCell sexCell

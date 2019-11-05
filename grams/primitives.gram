@@ -1,0 +1,6 @@
+tooling onsave jtree build producePauGrammar
+keywordCell
+floatCell
+intCell
+stringCell
+ highlightScope string

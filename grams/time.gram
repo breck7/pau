@@ -1,0 +1,16 @@
+tooling onsave jtree build producePauGrammar
+yearCell
+ extends intCell
+dayCell
+ extends intCell
+monthCell
+ extends intCell
+timeCell
+ highlightScope constant.numeric
+ examples 2:41am 12:19pm 8:42pm 3:33am
+timeNode
+ cells keywordCell timeCell
+ crux time
+dateNode
+ cells keywordCell monthCell dayCell yearCell
+ crux date

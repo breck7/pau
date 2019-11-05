@@ -2,6 +2,7 @@
 
 const { AbstractTreeComponent, AbstractCommander, WillowConstants, TreeComponentFrameworkDebuggerComponent, AbstractGithubTriangleComponent } = require("jtree/products/TreeComponentFramework.node.js")
 const { jtree } = require("jtree")
+const pauNode = require("../pau.nodejs.js")
 
 class SynthCommander extends AbstractCommander {
   constructor(app: SynthApp) {
@@ -11,7 +12,10 @@ class SynthCommander extends AbstractCommander {
 
   private _app: SynthApp
   synthesizeCommand() {
-    document.getElementById("output").value = "hello world"
+    document.getElementById("output").value = new pauNode()
+      .getGrammarProgram()
+      .synthesizeNode()
+      .join("\n")
   }
 }
 

@@ -17,9 +17,47 @@ class Builder extends AbstractBuilder {
     )
   }
 
+  _combineFiles(globPatterns: string[]) {
+    // todo: remove
+    const glob = require("glob")
+    const files = jtree.Utils.flatten(globPatterns.map(pattern => glob.sync(pattern)))
+    return files.map((path: string) => Disk.read(path)).join("\n")
+  }
+
+  produceTcfBundle() {
+    const combined = this._combineFiles([
+      __dirname + "/node_modules/jtree/sandbox/lib/jquery.min.js",
+      __dirname + "/node_modules/jtree/products/jtree.browser.js",
+      __dirname + "/node_modules/jtree/products/stump.browser.js",
+      __dirname + "/node_modules/jtree/products/hakon.browser.js",
+      __dirname + "/node_modules/jtree/products/TreeComponentFramework.browser.js"
+    ])
+    Disk.write(__dirname + `/synth/tcfBundle.browser.js`, combined)
+  }
+
   _getOutputFilePath(outputFileName: string) {
     // todo: fix
     return __dirname + "/synth/" + outputFileName
+  }
+
+  _buildGrammar(files: string[], combinedGrammarFilePath: string, compiledOutputFolder: string) {
+    // todo: move to abstractbuilder
+    const combined = jtree.combineFiles(files)
+
+    combined.delete("tooling")
+    combined.toDisk(combinedGrammarFilePath)
+    // todo: for now we need to sort grammar files otherwise things will be used before defined.
+    jtree.formatFile(combinedGrammarFilePath, __dirname + "/node_modules/jtree/langs/grammar/grammar.grammar")
+    jtree.TreeNode.fromDisk(combinedGrammarFilePath)
+      .trim()
+      .toDisk(combinedGrammarFilePath)
+
+    console.log(jtree.compileGrammarForBrowser(combinedGrammarFilePath, compiledOutputFolder, true))
+    console.log(jtree.compileGrammarForNodeJs(combinedGrammarFilePath, compiledOutputFolder, true))
+  }
+
+  producePauGrammar() {
+    return this._buildGrammar(["grams/*.gram"], "pau.grammar", __dirname + "/")
   }
 
   private _produceProductFromInstructionsTree(productNode: any) {

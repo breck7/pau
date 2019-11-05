@@ -5,7 +5,10 @@ class SynthCommander extends AbstractCommander {
     this._app = app
   }
   synthesizeCommand() {
-    document.getElementById("output").value = "hello world"
+    document.getElementById("output").value = new pauNode()
+      .getGrammarProgram()
+      .synthesizeNode()
+      .join("\n")
   }
 }
 class SynthApp extends AbstractTreeComponent {
