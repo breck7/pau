@@ -5,10 +5,20 @@ class SynthCommander extends AbstractCommander {
     this._app = app
   }
   synthesizeCommand() {
-    document.getElementById("output").value = new pauNode()
-      .getGrammarProgram()
-      .synthesizeNode()
-      .join("\n")
+    const limit = parseInt(document.getElementById("populationSize").value || 1)
+    const tree = new jtree.TreeNode()
+    for (let count = 1; count <= limit; count++) {
+      tree.appendLineAndChildren(
+        `person${count}`,
+        new pauNode()
+          .getGrammarProgram()
+          .synthesizeNode()
+          .join("\n")
+      )
+    }
+    if (typeof window !== "undefined") window.tree = tree
+    const formatOption = document.getElementById("formatDropdown").value
+    document.getElementById("output").value = tree[formatOption]()
   }
 }
 class SynthApp extends AbstractTreeComponent {
@@ -64,25 +74,29 @@ class navBarComponent extends AbstractTreeComponent {
 }
 class controlsComponent extends AbstractTreeComponent {
   toStumpCode() {
-    return `div
- label Sex
- select
-  option Female
-  option Male
- label BirthYear
+    return `label Population Size
  input
+  id populationSize
   type number
-  value 1919
-  min 1900
-  max 2019
- label BirthCountry
+  value 1
+  min 1
+  max 10000000
+ label Format
  select
-  option Canada
-  option China
-  option India
-  option United States
+  id formatDropdown
+  option TreeNotation
+   selected
+   value toString
+  option CSV
+   value toCsv
+  option TSV
+   value toTsv
+  option JSON
+   value toJsonSubset
+  option XML
+   value toXml
  button Synthesize
- ${WillowConstants.DataShadowEvents.onClickCommand} synthesizeCommand`
+  ${WillowConstants.DataShadowEvents.onClickCommand} synthesizeCommand`
   }
 }
 class advancedControlsComponent extends AbstractTreeComponent {

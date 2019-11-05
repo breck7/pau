@@ -10,10 +10,11 @@ class Builder extends AbstractBuilder {
   }
 
   produceSynth(outputFileName: string) {
-    return this._produceProductFromInstructionsTree(
+    return this.produceProductFromInstructionsTree(
       new jtree.TreeNode(`browserProduct
  outputFileName SynthApp.browser.js
- files synth/SynthApp.ts`).nodeAt(0)
+ files synth/SynthApp.ts`).nodeAt(0),
+      __dirname
     )
   }
 
