@@ -1,8 +1,14 @@
 {
   "name": "pau",
-  "private": true,
+  "prettier": {
+    "useTabs": false,
+    "tabWidth": 2,
+    "semi": false,
+    "printWidth": 240
+  },
   "dependencies": {
     "@types/node": "^12.7.12",
-    "jtree": "^43.0.0"
+    "jtree": "^44.0.0",
+    "typescript": "^3.6.4"
   }
 }
