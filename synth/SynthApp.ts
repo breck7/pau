@@ -56,11 +56,14 @@ class navBarComponent extends AbstractTreeComponent {
   toHakonCode() {
     return `.logo
  padding-right 10px
+ color black
+ text-decoration none
  font-weight 500`
   }
   toStumpCode() {
     return `div
- span PAU
+ a PAU
+  href https://pau.treenotation.org/
   class logo
  span medical records you can copy & paste`
   }
