@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@types/node": "^12.7.12",
-    "jtree": "^44.0.0",
+    "jtree": "^44.1.0",
     "typescript": "^3.6.4"
   }
 }

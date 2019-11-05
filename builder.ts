@@ -17,21 +17,16 @@ class Builder extends AbstractBuilder {
     )
   }
 
-  _combineFiles(globPatterns: string[]) {
-    // todo: remove
-    const glob = require("glob")
-    const files = jtree.Utils.flatten(globPatterns.map(pattern => glob.sync(pattern)))
-    return files.map((path: string) => Disk.read(path)).join("\n")
-  }
-
   produceTcfBundle() {
-    const combined = this._combineFiles([
-      __dirname + "/node_modules/jtree/sandbox/lib/jquery.min.js",
-      __dirname + "/node_modules/jtree/products/jtree.browser.js",
-      __dirname + "/node_modules/jtree/products/stump.browser.js",
-      __dirname + "/node_modules/jtree/products/hakon.browser.js",
-      __dirname + "/node_modules/jtree/products/TreeComponentFramework.browser.js"
-    ])
+    const combined = jtree
+      .combineFiles([
+        __dirname + "/node_modules/jtree/sandbox/lib/jquery.min.js",
+        __dirname + "/node_modules/jtree/products/jtree.browser.js",
+        __dirname + "/node_modules/jtree/products/stump.browser.js",
+        __dirname + "/node_modules/jtree/products/hakon.browser.js",
+        __dirname + "/node_modules/jtree/products/TreeComponentFramework.browser.js"
+      ])
+      .toString()
     Disk.write(__dirname + `/synth/tcfBundle.browser.js`, combined)
   }
 
@@ -58,27 +53,6 @@ class Builder extends AbstractBuilder {
 
   producePauGrammar() {
     return this._buildGrammar(["grams/*.gram"], "pau.grammar", __dirname + "/")
-  }
-
-  private _produceProductFromInstructionsTree(productNode: any) {
-    // todo: remove! this is copied from abstractbuilder
-    const outputFileName = productNode.get("outputFileName")
-    const inputFiles = productNode
-      .getNode("files")
-      .getWordsFrom(1)
-      .map((path: string) => __dirname + "/" + path)
-    const firstLine = productNode.get("firstLine") ? productNode.get("firstLine") + "\n" : ""
-    const lastLine = productNode.get("lastLine") ? productNode.get("lastLine") : ""
-    const removeAll = productNode.getNodesByGlobPath("removeAll")
-    const transformFn = (code: string) => {
-      removeAll.forEach((node: any) => {
-        code = jtree.Utils.removeAll(code, node.getContent())
-      })
-      return firstLine + code + "\n" + lastLine
-    }
-    console.log(productNode.getLine())
-    if (productNode.getLine() === "browserProduct") this._produceBrowserProductFromTypeScript(inputFiles, outputFileName, transformFn)
-    else this._produceNodeProductFromTypeScript(inputFiles, outputFileName, transformFn)
   }
 }
 
