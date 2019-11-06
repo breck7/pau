@@ -12,7 +12,7 @@ A Tree Language for Electronic Medical Records.
 
 Pau is **P**atient **A**ccessible and **U**nderstandable Medical Records.
 
-Imagine if you could copy/paste your medical records in a simple email to change doctors. Imagine if you could copy/paste your relevant medical records to participate in a new medical research study you care deeply about. Imagine if you could audit and dive into explanations of every line in your medical records. These are the types of things that Pau will allow.
+Imagine if you could copy/paste your complete medical records in a single email to change doctors. Imagine if you could copy/paste your relevant medical records to participate in an important new medical research study. Imagine if you could audit and dive into explanations of every line in your medical records. These are the types of things that Pau will allow.
 
 ## Quick Example
 
