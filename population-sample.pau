@@ -1,0 +1,190 @@
+person1
+ birth
+  date 17 59 31
+  time 8:42pm
+  location
+    Boston
+    India
+    Montana
+    94110
+ death
+  date 75 47 21
+  time 3:33am
+ smokingStatus previousSmoker
+  packsPerDay 17.67
+  cigarettesPerDay 24
+ firstName Sam
+ lastName Joe
+ middleName Lorne
+ nickName Joe
+person2
+ birth
+  date 89 97 44
+  time 12:19pm
+  location
+    Seattle
+    Lebanon
+    Maine
+    02301
+ death
+  date 46 44 99
+  time 8:42pm
+ smokingStatus previousSmoker
+  packsPerDay 66.32
+  cigarettesPerDay 48
+ firstName Sam
+ lastName Ashley
+ middleName Lorne
+ nickName Sam
+person3
+ birth
+  date 76 98 98
+  time 8:42pm
+  location
+    Seattle
+    China
+    Florida
+    02301
+ death
+  date 75 65 38
+  time 12:19pm
+ smokingStatus never
+  packsPerDay 35.27
+  cigarettesPerDay 29
+ firstName Kasey
+ lastName Joe
+ middleName Joe
+ nickName Sam
+person4
+ birth
+  date 94 26 28
+  time 3:33am
+  location
+    London
+    Japan
+    Montana
+    02301
+ death
+  date 99 41 82
+  time 3:33am
+ smokingStatus yes
+  packsPerDay 53.59
+  cigarettesPerDay 62
+ firstName Lorne
+ lastName Lorne
+ middleName Earl
+ nickName Kai
+person5
+ birth
+  date 36 58 18
+  time 3:33am
+  location
+    Tokyo
+    Egypt
+    Maine
+    94110
+ death
+  date 59 53 93
+  time 12:19pm
+ smokingStatus never
+  packsPerDay 74.36
+  cigarettesPerDay 88
+ firstName Kasey
+ lastName Earl
+ middleName Ashley
+ nickName Kasey
+person6
+ birth
+  date 74 35 29
+  time 3:33am
+  location
+    Tokyo
+    China
+    Montana
+    94110
+ death
+  date 77 96 99
+  time 2:41am
+ smokingStatus never
+  packsPerDay 92.12
+  cigarettesPerDay 94
+ firstName Sam
+ lastName Sam
+ middleName Kai
+ nickName Sam
+person7
+ birth
+  date 89 14 32
+  time 8:42pm
+  location
+    London
+    China
+    Montana
+    02301
+ death
+  date 33 42 59
+  time 8:42pm
+ smokingStatus yes
+  packsPerDay 79.68
+  cigarettesPerDay 72
+ firstName Kasey
+ lastName Earl
+ middleName Joe
+ nickName Kasey
+person8
+ birth
+  date 88 89 81
+  time 8:42pm
+  location
+    Boston
+    Lebanon
+    Florida
+    02301
+ death
+  date 92 39 92
+  time 8:42pm
+ smokingStatus previousSmoker
+  packsPerDay 66.28
+  cigarettesPerDay 56
+ firstName John
+ lastName Joe
+ middleName Thomas
+ nickName Earl
+person9
+ birth
+  date 45 63 38
+  time 3:33am
+  location
+    Seattle
+    Bolivia
+    Montana
+    94110
+ death
+  date 42 15 54
+  time 3:33am
+ smokingStatus never
+  packsPerDay 89.22
+  cigarettesPerDay 59
+ firstName Lorne
+ lastName Earl
+ middleName Joe
+ nickName Joe
+person10
+ birth
+  date 72 55 47
+  time 3:33am
+  location
+    London
+    Bolivia
+    California
+    90210
+ death
+  date 59 36 78
+  time 8:42pm
+ smokingStatus previousSmoker
+  packsPerDay 76.60
+  cigarettesPerDay 97
+ firstName Kai
+ lastName Thomas
+ middleName Lorne
+ nickName Sam
