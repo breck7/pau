@@ -8,17 +8,21 @@ packsPerDayCell
 cigarettesPerDayCell
  description How many cigarettes per day do they currently smoke?
  extends intCell
+smokingSurveyNode
+ extends abstractObservationNode
+ crux smokingSurvey
+ cells keywordCell
+ inScope smokesNode packsPerDayNode cigarettesPerDayNode
+ example
+  smokingSurvey
+   smokes yes
+   packsPerDay 1.5
+smokesNode
+ cells keywordCell smokingStatusCell
+ crux smokes
 packsPerDayNode
  cells keywordCell packsPerDayCell
  crux packsPerDay
 cigarettesPerDayNode
  cells keywordCell cigarettesPerDayCell
  crux cigarettesPerDay
-smokingStatusNode
- extends abstractSelfReportedObservationNode
- crux smokingStatus
- cells keywordCell smokingStatusCell
- inScope packsPerDayNode cigarettesPerDayNode
- example
-  smokingStatus yes
-   packsPerDay 1.5

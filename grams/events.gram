@@ -2,11 +2,40 @@ tooling onsave jtree build producePauGrammar
 abstractEventNode
  abstract
  inScope dateNode timeNode locationNode
-birthNode
+patientBornNode
  extends abstractEventNode
  cells keywordCell
- crux birth
-deathNode
+ crux patientBorn
+ inScope abstractDemographicConceptNode abstractNameNode
+patientDiedNode
  extends abstractEventNode
  cells keywordCell
- crux death
+ crux patientDied
+allergyTestedNode
+ extends abstractEventNode
+ crux allergyTested
+conditionDiagnosedNode
+ extends abstractEventNode
+ crux conditionDiagnosed
+drugPrescribedNode
+ extends abstractEventNode
+ crux drugPrescribed
+observationDateNode
+ extends dateNode
+ crux date
+observationTimeNode
+ extends timeNode
+ crux time
+observationProviderNode
+ extends abstractProviderNode
+ crux provider
+abstractObservationNode
+ abstract 
+ extends abstractEventNode
+ inScope observationDateNode observationTimeNode observationProviderNode locationNode
+procedurePerformedNode
+ extends abstractEventNode
+ crux procedurePerformed
+nameChangedNode
+ extends abstractEventNode
+ crux nameChanged

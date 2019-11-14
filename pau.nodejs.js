@@ -6,7 +6,7 @@
     createParser() {
       return new jtree.TreeNode.Parser(
         undefined,
-        Object.assign(Object.assign({}, super.createParser()._getFirstWordMap()), {
+        Object.assign(Object.assign({}, super.createParser()._getFirstWordMapAsObject()), {
           phone: phoneNode,
           firstName: firstNameNode,
           lastName: lastNameNode,
@@ -35,7 +35,7 @@
     createParser() {
       return new jtree.TreeNode.Parser(
         undefined,
-        Object.assign(Object.assign({}, super.createParser()._getFirstWordMap()), { number: phoneNumberNode, type: phoneTypeNode }),
+        Object.assign(Object.assign({}, super.createParser()._getFirstWordMapAsObject()), { number: phoneNumberNode, type: phoneTypeNode }),
         undefined
       )
     }
@@ -69,12 +69,6 @@
 
   class nickNameNode extends abstractNameNode {}
 
-  class patientIdNode extends jtree.GrammarBackedNode {
-    get keywordCell() {
-      return this.getWord(0)
-    }
-  }
-
   class abstractDemographicConceptNode extends jtree.GrammarBackedNode {
     get keywordCell() {
       return this.getWord(0)
@@ -106,27 +100,116 @@
     createParser() {
       return new jtree.TreeNode.Parser(
         undefined,
-        Object.assign(Object.assign({}, super.createParser()._getFirstWordMap()), {
-          location: locationNode,
+        Object.assign(Object.assign({}, super.createParser()._getFirstWordMapAsObject()), {
           date: observationDateNode,
-          time: observationTimeNode
+          time: observationTimeNode,
+          location: locationNode
         }),
         undefined
       )
     }
   }
 
-  class birthNode extends abstractEventNode {
+  class patientBornNode extends abstractEventNode {
+    createParser() {
+      return new jtree.TreeNode.Parser(
+        undefined,
+        Object.assign(Object.assign({}, super.createParser()._getFirstWordMapAsObject()), {
+          firstName: firstNameNode,
+          lastName: lastNameNode,
+          middleName: middleNameNode,
+          nickName: nickNameNode,
+          ethnicity: ethnicityNode,
+          race: raceNode,
+          sex: sexNode
+        }),
+        undefined
+      )
+    }
     get keywordCell() {
       return this.getWord(0)
     }
   }
 
-  class deathNode extends abstractEventNode {
+  class patientDiedNode extends abstractEventNode {
     get keywordCell() {
       return this.getWord(0)
     }
   }
+
+  class allergyTestedNode extends abstractEventNode {}
+
+  class conditionDiagnosedNode extends abstractEventNode {}
+
+  class drugPrescribedNode extends abstractEventNode {}
+
+  class abstractObservationNode extends abstractEventNode {
+    createParser() {
+      return new jtree.TreeNode.Parser(
+        undefined,
+        Object.assign(Object.assign({}, super.createParser()._getFirstWordMapAsObject()), {
+          date: observationDateNode,
+          time: observationTimeNode,
+          provider: observationProviderNode,
+          location: locationNode
+        }),
+        undefined
+      )
+    }
+  }
+
+  class smokingSurveyNode extends abstractObservationNode {
+    createParser() {
+      return new jtree.TreeNode.Parser(
+        undefined,
+        Object.assign(Object.assign({}, super.createParser()._getFirstWordMapAsObject()), {
+          smokes: smokesNode,
+          packsPerDay: packsPerDayNode,
+          cigarettesPerDay: cigarettesPerDayNode
+        }),
+        undefined
+      )
+    }
+    get keywordCell() {
+      return this.getWord(0)
+    }
+  }
+
+  class procedurePerformedNode extends abstractEventNode {}
+
+  class nameChangedNode extends abstractEventNode {}
+
+  class dateNode extends jtree.GrammarBackedNode {
+    get keywordCell() {
+      return this.getWord(0)
+    }
+    get monthCell() {
+      return parseInt(this.getWord(1))
+    }
+    get dayCell() {
+      return parseInt(this.getWord(2))
+    }
+    get yearCell() {
+      return parseInt(this.getWord(3))
+    }
+  }
+
+  class observationDateNode extends dateNode {}
+
+  class timeNode extends jtree.GrammarBackedNode {
+    get keywordCell() {
+      return this.getWord(0)
+    }
+    get timeCell() {
+      return this.getWord(1)
+    }
+  }
+
+  class observationTimeNode extends timeNode {}
+
+  class abstractProviderNode extends jtree.GrammarBackedNode {}
+
+  class observationProviderNode extends abstractProviderNode {}
 
   class abstractLocationNode extends jtree.GrammarBackedNode {}
 
@@ -181,104 +264,19 @@
     }
   }
 
-  class dateNode extends jtree.GrammarBackedNode {
-    get keywordCell() {
-      return this.getWord(0)
-    }
-    get monthCell() {
-      return parseInt(this.getWord(1))
-    }
-    get dayCell() {
-      return parseInt(this.getWord(2))
-    }
-    get yearCell() {
-      return parseInt(this.getWord(3))
-    }
-  }
-
-  class observationDateNode extends dateNode {}
-
-  class timeNode extends jtree.GrammarBackedNode {
-    get keywordCell() {
-      return this.getWord(0)
-    }
-    get timeCell() {
-      return this.getWord(1)
-    }
-  }
-
-  class observationTimeNode extends timeNode {}
-
-  class abstractProviderNode extends jtree.GrammarBackedNode {}
-
-  class observationProviderNode extends abstractProviderNode {}
-
-  class abstractObservationNode extends jtree.GrammarBackedNode {
-    createParser() {
-      return new jtree.TreeNode.Parser(
-        undefined,
-        Object.assign(Object.assign({}, super.createParser()._getFirstWordMap()), {
-          location: locationNode,
-          date: observationDateNode,
-          time: observationTimeNode,
-          provider: observationProviderNode
-        }),
-        undefined
-      )
-    }
-  }
-
-  class abstractSelfReportedObservationNode extends abstractObservationNode {}
-
-  class smokingStatusNode extends abstractSelfReportedObservationNode {
-    createParser() {
-      return new jtree.TreeNode.Parser(
-        undefined,
-        Object.assign(Object.assign({}, super.createParser()._getFirstWordMap()), { packsPerDay: packsPerDayNode, cigarettesPerDay: cigarettesPerDayNode }),
-        undefined
-      )
-    }
-    get keywordCell() {
-      return this.getWord(0)
-    }
-    get smokingStatusCell() {
-      return this.getWord(1)
-    }
-  }
-
-  class packsPerDayNode extends jtree.GrammarBackedNode {
-    get keywordCell() {
-      return this.getWord(0)
-    }
-    get packsPerDayCell() {
-      return parseFloat(this.getWord(1))
-    }
-  }
-
-  class cigarettesPerDayNode extends jtree.GrammarBackedNode {
-    get keywordCell() {
-      return this.getWord(0)
-    }
-    get cigarettesPerDayCell() {
-      return parseInt(this.getWord(1))
-    }
-  }
-
   class pauNode extends jtree.GrammarBackedNode {
     createParser() {
       return new jtree.TreeNode.Parser(
         this._getBlobNodeCatchAllNodeType(),
-        Object.assign(Object.assign({}, super.createParser()._getFirstWordMap()), {
-          firstName: firstNameNode,
-          lastName: lastNameNode,
-          middleName: middleNameNode,
-          nickName: nickNameNode,
-          ethnicity: ethnicityNode,
-          race: raceNode,
-          sex: sexNode,
-          birth: birthNode,
-          death: deathNode,
-          smokingStatus: smokingStatusNode
+        Object.assign(Object.assign({}, super.createParser()._getFirstWordMapAsObject()), {
+          patientBorn: patientBornNode,
+          patientDied: patientDiedNode,
+          allergyTested: allergyTestedNode,
+          conditionDiagnosed: conditionDiagnosedNode,
+          drugPrescribed: drugPrescribedNode,
+          smokingSurvey: smokingSurveyNode,
+          procedurePerformed: procedurePerformedNode,
+          nameChanged: nameChangedNode
         }),
         undefined
       )
@@ -316,6 +314,11 @@ streetAddressCell
  extends locationCell
 countryCell
  enum Canada USA China India Bolivia Egypt Japan Lebanon
+keywordCell
+floatCell
+intCell
+stringCell
+ highlightScope string
 smokingStatusCell
  enum yes never previousSmoker
  highlightScope constant.numeric
@@ -325,11 +328,6 @@ packsPerDayCell
 cigarettesPerDayCell
  description How many cigarettes per day do they currently smoke?
  extends intCell
-keywordCell
-floatCell
-intCell
-stringCell
- highlightScope string
 yearCell
  extends intCell
 dayCell
@@ -373,9 +371,6 @@ middleNameNode
 nickNameNode
  extends abstractNameNode
  crux nickName
-patientIdNode
- cells keywordCell
- crux patientId
 abstractDemographicConceptNode
  cells keywordCell
 ethnicityNode
@@ -395,14 +390,60 @@ sexNode
 abstractEventNode
  abstract
  inScope dateNode timeNode locationNode
-birthNode
+patientBornNode
  extends abstractEventNode
  cells keywordCell
- crux birth
-deathNode
+ crux patientBorn
+ inScope abstractDemographicConceptNode abstractNameNode
+patientDiedNode
  extends abstractEventNode
  cells keywordCell
- crux death
+ crux patientDied
+allergyTestedNode
+ extends abstractEventNode
+ crux allergyTested
+conditionDiagnosedNode
+ extends abstractEventNode
+ crux conditionDiagnosed
+drugPrescribedNode
+ extends abstractEventNode
+ crux drugPrescribed
+abstractObservationNode
+ abstract 
+ extends abstractEventNode
+ inScope observationDateNode observationTimeNode observationProviderNode locationNode
+smokingSurveyNode
+ extends abstractObservationNode
+ crux smokingSurvey
+ cells keywordCell
+ inScope smokesNode packsPerDayNode cigarettesPerDayNode
+ example
+  smokingSurvey
+   smokes yes
+   packsPerDay 1.5
+procedurePerformedNode
+ extends abstractEventNode
+ crux procedurePerformed
+nameChangedNode
+ extends abstractEventNode
+ crux nameChanged
+dateNode
+ cells keywordCell monthCell dayCell yearCell
+ crux date
+observationDateNode
+ extends dateNode
+ crux date
+timeNode
+ cells keywordCell timeCell
+ crux time
+observationTimeNode
+ extends timeNode
+ crux time
+abstractProviderNode
+ abstract
+observationProviderNode
+ extends abstractProviderNode
+ crux provider
 abstractLocationNode
  abstract
 streetNode
@@ -425,46 +466,19 @@ locationNode
  inScope abstractLocationNode
  crux location
  cells locationKeywordCell
-dateNode
- cells keywordCell monthCell dayCell yearCell
- crux date
-observationDateNode
- extends dateNode
- crux date
-timeNode
- cells keywordCell timeCell
- crux time
-observationTimeNode
- extends timeNode
- crux time
-abstractProviderNode
- abstract
-observationProviderNode
- extends abstractProviderNode
- crux provider
-abstractObservationNode
- abstract
- inScope observationDateNode observationTimeNode observationProviderNode locationNode
-abstractSelfReportedObservationNode
- extends abstractObservationNode
-smokingStatusNode
- extends abstractSelfReportedObservationNode
- crux smokingStatus
+pauNode
+ root
+ description Medical Records for Planet Earth.
+ inScope abstractEventNode
+smokesNode
  cells keywordCell smokingStatusCell
- inScope packsPerDayNode cigarettesPerDayNode
- example
-  smokingStatus yes
-   packsPerDay 1.5
+ crux smokes
 packsPerDayNode
  cells keywordCell packsPerDayCell
  crux packsPerDay
 cigarettesPerDayNode
  cells keywordCell cigarettesPerDayCell
- crux cigarettesPerDay
-pauNode
- root
- description Medical Records for Planet Earth.
- inScope abstractEventNode abstractDemographicConceptNode abstractObservationNode abstractNameNode`)
+ crux cigarettesPerDay`)
       return this._cachedGrammarProgramRoot
     }
     static getNodeTypeMap() {
@@ -481,14 +495,26 @@ pauNode
         lastNameNode: lastNameNode,
         middleNameNode: middleNameNode,
         nickNameNode: nickNameNode,
-        patientIdNode: patientIdNode,
         abstractDemographicConceptNode: abstractDemographicConceptNode,
         ethnicityNode: ethnicityNode,
         raceNode: raceNode,
         sexNode: sexNode,
         abstractEventNode: abstractEventNode,
-        birthNode: birthNode,
-        deathNode: deathNode,
+        patientBornNode: patientBornNode,
+        patientDiedNode: patientDiedNode,
+        allergyTestedNode: allergyTestedNode,
+        conditionDiagnosedNode: conditionDiagnosedNode,
+        drugPrescribedNode: drugPrescribedNode,
+        abstractObservationNode: abstractObservationNode,
+        smokingSurveyNode: smokingSurveyNode,
+        procedurePerformedNode: procedurePerformedNode,
+        nameChangedNode: nameChangedNode,
+        dateNode: dateNode,
+        observationDateNode: observationDateNode,
+        timeNode: timeNode,
+        observationTimeNode: observationTimeNode,
+        abstractProviderNode: abstractProviderNode,
+        observationProviderNode: observationProviderNode,
         abstractLocationNode: abstractLocationNode,
         streetNode: streetNode,
         cityNode: cityNode,
@@ -496,19 +522,38 @@ pauNode
         stateNode: stateNode,
         zipCodeNode: zipCodeNode,
         locationNode: locationNode,
-        dateNode: dateNode,
-        observationDateNode: observationDateNode,
-        timeNode: timeNode,
-        observationTimeNode: observationTimeNode,
-        abstractProviderNode: abstractProviderNode,
-        observationProviderNode: observationProviderNode,
-        abstractObservationNode: abstractObservationNode,
-        abstractSelfReportedObservationNode: abstractSelfReportedObservationNode,
-        smokingStatusNode: smokingStatusNode,
+        pauNode: pauNode,
+        smokesNode: smokesNode,
         packsPerDayNode: packsPerDayNode,
-        cigarettesPerDayNode: cigarettesPerDayNode,
-        pauNode: pauNode
+        cigarettesPerDayNode: cigarettesPerDayNode
       }
+    }
+  }
+
+  class smokesNode extends jtree.GrammarBackedNode {
+    get keywordCell() {
+      return this.getWord(0)
+    }
+    get smokingStatusCell() {
+      return this.getWord(1)
+    }
+  }
+
+  class packsPerDayNode extends jtree.GrammarBackedNode {
+    get keywordCell() {
+      return this.getWord(0)
+    }
+    get packsPerDayCell() {
+      return parseFloat(this.getWord(1))
+    }
+  }
+
+  class cigarettesPerDayNode extends jtree.GrammarBackedNode {
+    get keywordCell() {
+      return this.getWord(0)
+    }
+    get cigarettesPerDayCell() {
+      return parseInt(this.getWord(1))
     }
   }
 

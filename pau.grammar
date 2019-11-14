@@ -29,6 +29,11 @@ streetAddressCell
  extends locationCell
 countryCell
  enum Canada USA China India Bolivia Egypt Japan Lebanon
+keywordCell
+floatCell
+intCell
+stringCell
+ highlightScope string
 smokingStatusCell
  enum yes never previousSmoker
  highlightScope constant.numeric
@@ -38,11 +43,6 @@ packsPerDayCell
 cigarettesPerDayCell
  description How many cigarettes per day do they currently smoke?
  extends intCell
-keywordCell
-floatCell
-intCell
-stringCell
- highlightScope string
 yearCell
  extends intCell
 dayCell
@@ -86,9 +86,6 @@ middleNameNode
 nickNameNode
  extends abstractNameNode
  crux nickName
-patientIdNode
- cells keywordCell
- crux patientId
 abstractDemographicConceptNode
  cells keywordCell
 ethnicityNode
@@ -108,14 +105,60 @@ sexNode
 abstractEventNode
  abstract
  inScope dateNode timeNode locationNode
-birthNode
+patientBornNode
  extends abstractEventNode
  cells keywordCell
- crux birth
-deathNode
+ crux patientBorn
+ inScope abstractDemographicConceptNode abstractNameNode
+patientDiedNode
  extends abstractEventNode
  cells keywordCell
- crux death
+ crux patientDied
+allergyTestedNode
+ extends abstractEventNode
+ crux allergyTested
+conditionDiagnosedNode
+ extends abstractEventNode
+ crux conditionDiagnosed
+drugPrescribedNode
+ extends abstractEventNode
+ crux drugPrescribed
+abstractObservationNode
+ abstract 
+ extends abstractEventNode
+ inScope observationDateNode observationTimeNode observationProviderNode locationNode
+smokingSurveyNode
+ extends abstractObservationNode
+ crux smokingSurvey
+ cells keywordCell
+ inScope smokesNode packsPerDayNode cigarettesPerDayNode
+ example
+  smokingSurvey
+   smokes yes
+   packsPerDay 1.5
+procedurePerformedNode
+ extends abstractEventNode
+ crux procedurePerformed
+nameChangedNode
+ extends abstractEventNode
+ crux nameChanged
+dateNode
+ cells keywordCell monthCell dayCell yearCell
+ crux date
+observationDateNode
+ extends dateNode
+ crux date
+timeNode
+ cells keywordCell timeCell
+ crux time
+observationTimeNode
+ extends timeNode
+ crux time
+abstractProviderNode
+ abstract
+observationProviderNode
+ extends abstractProviderNode
+ crux provider
 abstractLocationNode
  abstract
 streetNode
@@ -138,43 +181,16 @@ locationNode
  inScope abstractLocationNode
  crux location
  cells locationKeywordCell
-dateNode
- cells keywordCell monthCell dayCell yearCell
- crux date
-observationDateNode
- extends dateNode
- crux date
-timeNode
- cells keywordCell timeCell
- crux time
-observationTimeNode
- extends timeNode
- crux time
-abstractProviderNode
- abstract
-observationProviderNode
- extends abstractProviderNode
- crux provider
-abstractObservationNode
- abstract
- inScope observationDateNode observationTimeNode observationProviderNode locationNode
-abstractSelfReportedObservationNode
- extends abstractObservationNode
-smokingStatusNode
- extends abstractSelfReportedObservationNode
- crux smokingStatus
+pauNode
+ root
+ description Medical Records for Planet Earth.
+ inScope abstractEventNode
+smokesNode
  cells keywordCell smokingStatusCell
- inScope packsPerDayNode cigarettesPerDayNode
- example
-  smokingStatus yes
-   packsPerDay 1.5
+ crux smokes
 packsPerDayNode
  cells keywordCell packsPerDayCell
  crux packsPerDay
 cigarettesPerDayNode
  cells keywordCell cigarettesPerDayCell
  crux cigarettesPerDay
-pauNode
- root
- description Medical Records for Planet Earth.
- inScope abstractEventNode abstractDemographicConceptNode abstractObservationNode abstractNameNode

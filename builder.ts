@@ -19,6 +19,7 @@ class Builder extends AbstractBuilder {
   }
 
   produceTcfBundle() {
+    // todo: move this to jtree
     const combined = jtree
       .combineFiles([
         __dirname + "/node_modules/jtree/sandbox/lib/jquery.min.js",

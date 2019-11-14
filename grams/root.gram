@@ -2,4 +2,4 @@ tooling onsave jtree build producePauGrammar
 pauNode
  root
  description Medical Records for Planet Earth.
- inScope abstractEventNode abstractDemographicConceptNode abstractObservationNode abstractNameNode
+ inScope abstractEventNode

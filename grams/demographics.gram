@@ -7,9 +7,6 @@ ethnicityCell
 raceCell
  highlightScope keyword
  enum PacificIslander Asian Filipino Caucasian African NativeAmerican Unknown
-patientIdNode
- cells keywordCell
- crux patientId
 abstractDemographicConceptNode
  cells keywordCell
 ethnicityNode
