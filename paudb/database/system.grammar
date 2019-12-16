@@ -1,0 +1,39 @@
+systemNode
+ root
+ pattern \.system$
+ catchAllNodeType errorNode
+ cells fileNameCell
+ inScope abstractPropertyNode
+keywordCell
+anyCell
+intCell
+fileNameCell
+urlCell
+ extends anyCell
+wikipediaPermalinkCell
+ extends anyCell
+abstractPropertyNode
+ abstract
+errorNode
+ baseNodeType errorNode
+nameNode
+ extends abstractPropertyNode
+ crux name
+ cells keywordCell
+ catchAllCellType anyCell
+websiteNode
+ extends abstractPropertyNode
+ crux website
+ cells keywordCell urlCell
+githubNode
+ extends abstractPropertyNode
+ crux github
+ cells keywordCell urlCell
+appearedNode
+ extends abstractPropertyNode
+ crux appeared
+ cells keywordCell intCell
+wikipediaNode
+ extends abstractPropertyNode
+ crux wikipedia
+ cells keywordCell wikipediaPermalinkCell
