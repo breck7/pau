@@ -1,0 +1,4 @@
+name Arden Syntax
+created 1992
+wikipedia Arden_syntax
+description Arden syntax is a markup language used for representing and sharing medical knowledge.[1] This clinical and scientific knowledge language is used in an executable format by clinical decision support systems[2] to generate alerts, interpretations, and to screen and manage messages to clinicians. This syntax is used to share medical knowledge within and across many health service institutions.[2] Rule sets, called Medical Logic Modules, comprise enough logic to make a single medical decision.[1] Medical logic modules are written in Arden syntax, and are called by a program - an event monitor - when the condition they are written to help with occurs. Arden syntax was formerly a standard under ASTM, published in 1992, and is now part of Health Level Seven International.[2] Arden syntax version 2.0 was published by HL7 in 1999. Arden syntax version 2.10 is the current version.

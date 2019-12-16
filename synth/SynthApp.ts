@@ -39,7 +39,6 @@ class SynthApp extends AbstractTreeComponent {
       navBarComponent: navBarComponent,
       headerComponent: headerComponent,
       controlsComponent: controlsComponent,
-      advancedControlsComponent: advancedControlsComponent,
       outputComponent: outputComponent,
       TreeComponentFrameworkDebuggerComponent: TreeComponentFrameworkDebuggerComponent
     })
@@ -48,7 +47,6 @@ class SynthApp extends AbstractTreeComponent {
     return `navBarComponent
 headerComponent
 controlsComponent
-advancedControlsComponent
 outputComponent
 githubTriangleComponent`
   }
@@ -89,6 +87,11 @@ class controlsComponent extends AbstractTreeComponent {
   value 1
   min 1
   max 10000000
+ label Type
+ select
+  id typeDropdown
+  option Timeline
+  option Summary
  label Format
  select
   id formatDropdown
@@ -105,16 +108,6 @@ class controlsComponent extends AbstractTreeComponent {
    value toXml
  button Synthesize
   ${WillowConstants.DataShadowEvents.onClickCommand} synthesizeCommand`
-  }
-}
-class advancedControlsComponent extends AbstractTreeComponent {
-  toStumpCode() {
-    return "div"
-    return `div
- input
-  type number
-  value 1
- label Number of records`
   }
 }
 class outputComponent extends AbstractTreeComponent {

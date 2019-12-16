@@ -21,17 +21,35 @@ nameNode
  crux name
  cells keywordCell
  catchAllCellType anyCell
+descriptionNode
+ description A brief description of the project.
+ extends abstractPropertyNode
+ crux description
+ cells keywordCell
+ catchAllCellType anyCell
 websiteNode
+ description The official website of the project.
  extends abstractPropertyNode
  crux website
  cells keywordCell urlCell
+referenceNode
+ description An additional web reference.
+ crux reference
+ extends websiteNode
 githubNode
+ description The official GitHub repo of the project.
  extends abstractPropertyNode
  crux github
  cells keywordCell urlCell
-appearedNode
+healthSystemsNode
+ crux healthSystems
  extends abstractPropertyNode
- crux appeared
+ description How many health systems are using this?
+ cells keywordCell intCell
+createdNode
+ description Year the project was founded.
+ extends abstractPropertyNode
+ crux created
  cells keywordCell intCell
 wikipediaNode
  extends abstractPropertyNode

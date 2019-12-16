@@ -11,11 +11,13 @@ To add an entity, create a new file in the `database` folder. The available fiel
 
 ## Further Reading
 
+- https://en.wikipedia.org/wiki/Electronic_health_record
 - https://www.cdisc.org/
 - https://ohdsi.github.io/TheBookOfOhdsi/
 - https://en.wikipedia.org/wiki/Clinical_Data_Interchange_Standards_Consortium
 - https://en.wikipedia.org/wiki/Standard_for_Exchange_of_Non-clinical_Data
 - https://www.cdisc.org/standards/foundational/adam
+- http://www.openclinical.org/home.html
 
 ## Further Reading on Open Notes/Build/Bring Your Own Medical Records
 
