@@ -1,0 +1,78 @@
+itemNode
+ root
+ description An item to keep information on.
+ pattern \.item$
+ catchAllNodeType errorNode
+ cells fileNameCell
+ inScope abstractPropertyNode
+keywordCell
+countryIdCell
+ description List of countries derived from https://github.com/umpirsky/country-list/blob/master/data/en/country.txt.
+ enum Afghanistan ÅlandIslands Albania Algeria AmericanSamoa Andorra Angola Anguilla Antarctica Antigua&Barbuda Argentina Armenia Aruba AscensionIsland Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia&Herzegovina Botswana Brazil BritishIndianOceanTerritory BritishVirginIslands Brunei Bulgaria BurkinaFaso Burundi Cambodia Cameroon Canada CanaryIslands CapeVerde CaribbeanNetherlands CaymanIslands CentralAfricanRepublic Ceuta&Melilla Chad Chile China ChristmasIsland Cocos(Keeling)Islands Colombia Comoros Congo-Brazzaville Congo-Kinshasa CookIslands CostaRica Côted’Ivoire Croatia Cuba Curaçao Cyprus Czechia Denmark DiegoGarcia Djibouti Dominica DominicanRepublic Ecuador Egypt ElSalvador EquatorialGuinea Eritrea Estonia Eswatini Ethiopia FalklandIslands FaroeIslands Fiji Finland France FrenchGuiana FrenchPolynesia FrenchSouthernTerritories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea Guinea-Bissau Guyana Haiti Honduras HongKongSARChina Hungary Iceland India Indonesia Iran Iraq Ireland IsleofMan Israel Italy Jamaica Japan Jersey Jordan Kazakhstan Kenya Kiribati Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia Libya Liechtenstein Lithuania Luxembourg MacaoSARChina Madagascar Malawi Malaysia Maldives Mali Malta MarshallIslands Martinique Mauritania Mauritius Mayotte Mexico Micronesia Moldova Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar(Burma) Namibia Nauru Nepal Netherlands NewCaledonia NewZealand Nicaragua Niger Nigeria Niue NorfolkIsland NorthKorea NorthMacedonia NorthernMarianaIslands Norway Oman Pakistan Palau PalestinianTerritories Panama PapuaNewGuinea Paraguay Peru Philippines PitcairnIslands Poland Portugal Pseudo-Accents Pseudo-Bidi PuertoRico Qatar Réunion Romania Russia Rwanda Samoa SanMarino SãoTomé&Príncipe SaudiArabia Senegal Serbia Seychelles SierraLeone Singapore SintMaarten Slovakia Slovenia SolomonIslands Somalia SouthAfrica SouthGeorgia&SouthSandwichIslands SouthKorea SouthSudan Spain SriLanka St.Barthélemy St.Helena St.Kitts&Nevis St.Lucia St.Martin St.Pierre&Miquelon St.Vincent&Grenadines Sudan Suriname Svalbard&JanMayen Sweden Switzerland Syria Taiwan Tajikistan Tanzania Thailand Timor-Leste Togo Tokelau Tonga Trinidad&Tobago TristandaCunha Tunisia Turkey Turkmenistan Turks&CaicosIslands Tuvalu U.S.OutlyingIslands U.S.VirginIslands Uganda Ukraine UnitedArabEmirates UnitedKingdom UnitedStates Uruguay Uzbekistan Vanuatu VaticanCity Venezuela Vietnam Wallis&Futuna WesternSahara Yemen Zambia Zimbabwe
+anyCell
+intCell
+typeCell
+ enum company organization standard format
+fileNameCell
+urlCell
+ extends anyCell
+wikipediaPermalinkCell
+ extends anyCell
+abstractPropertyNode
+ abstract
+errorNode
+ baseNodeType errorNode
+nameNode
+ extends abstractPropertyNode
+ crux name
+ cells keywordCell
+ catchAllCellType anyCell
+descriptionNode
+ description A brief description of the project.
+ extends abstractPropertyNode
+ crux description
+ cells keywordCell
+ catchAllCellType anyCell
+websiteNode
+ description The official website of the project.
+ extends abstractPropertyNode
+ crux website
+ cells keywordCell urlCell
+referenceNode
+ description An additional web reference.
+ crux reference
+ extends websiteNode
+exampleFileNode
+ description A link to an example file in this format.
+ crux exampleFile
+ extends websiteNode
+countriesNode
+ description Where is this system used?
+ crux countries
+ catchAllCellType countryIdCell
+ extends abstractPropertyNode
+typeNode
+ description What kind of item is this?
+ crux type
+ cells keywordCell typeCell
+ extends abstractPropertyNode
+ required
+githubNode
+ description The official GitHub repo of the project.
+ extends abstractPropertyNode
+ crux github
+ cells keywordCell urlCell
+healthSystemsNode
+ crux healthSystems
+ extends abstractPropertyNode
+ description How many health systems are using this?
+ cells keywordCell intCell
+createdNode
+ description Year the project was founded.
+ extends abstractPropertyNode
+ crux created
+ cells keywordCell intCell
+wikipediaNode
+ extends abstractPropertyNode
+ crux wikipedia
+ cells keywordCell wikipediaPermalinkCell
