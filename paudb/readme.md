@@ -2,6 +2,8 @@
 
 ## A database of all the Medical Records Systems in the world
 
+[View on GitHub](https://github.com/treenotation/pau/tree/master/paudb)
+
 This is a public domain [TreeBase](https://jtree.treenotation.org/treeBase/) of strongly typed meta data about all of the medical records used in the world.
 
 [View the Database as a CSV File](https://github.com/treenotation/pau/blob/master/paudb/systems.csv)
